@@ -1,0 +1,4 @@
+package com.hackerrank.contest.HackTheInterview.II.Global.QuesIV;
+
+public class MinimumStringCoEfficient {
+}
