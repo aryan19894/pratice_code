@@ -6,6 +6,8 @@
 package com.striver.easy;
 
 import com.common.Obj;
+import com.common.Printer;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,6 +50,6 @@ public class PascalsTriangle_118
     {
         Solution sol = new Solution();
         List ans = sol.generate(8);
-        Obj.print(ans);
+        Printer.print(ans);
     }
 }

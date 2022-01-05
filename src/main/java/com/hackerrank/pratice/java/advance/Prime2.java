@@ -14,7 +14,7 @@ class Prime2
     {
     }
 
-    transient void checkPrime(int numbers[])
+    void checkPrime(int numbers[])
     {
         int ai[] = numbers;
         int i = ai.length;

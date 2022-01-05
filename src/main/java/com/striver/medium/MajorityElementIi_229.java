@@ -6,16 +6,15 @@
 package com.striver.medium;
 
 import com.common.Obj;
+import com.common.Printer;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class MajorityElementIi_229
-{
-    static class Solution
-    {
+public class MajorityElementIi_229 {
+    static class Solution {
 
-        public List majorityElement(int nums[])
-        {
+        public List majorityElement(int nums[]) {
             List ans = new ArrayList();
             int cnt1 = 0;
             int cnt2 = 0;
@@ -23,31 +22,25 @@ public class MajorityElementIi_229
             int ele2 = -1;
             int ai[] = nums;
             int i = ai.length;
-            for(int j = 0; j < i; j++)
-            {
+            for (int j = 0; j < i; j++) {
                 int num = ai[j];
-                if(ele1 == num)
-                {
+                if (ele1 == num) {
                     cnt1++;
                     continue;
                 }
-                if(ele2 == num)
-                {
+                if (ele2 == num) {
                     cnt2++;
                     continue;
                 }
-                if(cnt1 == 0)
-                {
+                if (cnt1 == 0) {
                     ele1 = num;
                     cnt1 = 1;
                     continue;
                 }
-                if(cnt2 == 0)
-                {
+                if (cnt2 == 0) {
                     ele2 = num;
                     cnt2 = 1;
-                } else
-                {
+                } else {
                     cnt1--;
                     cnt2--;
                 }
@@ -56,23 +49,20 @@ public class MajorityElementIi_229
             return ans;
         }
 
-        Solution()
-        {
+        Solution() {
         }
     }
 
 
-    public MajorityElementIi_229()
-    {
+    public MajorityElementIi_229() {
     }
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         Solution sol = new Solution();
         int nums[] = {
-            2, 2, 1, 1, 1, 2, 2
+                2, 2, 1, 1, 1, 2, 2
         };
         List ans = sol.majorityElement(nums);
-        Obj.printArray(ans);
+        Printer.print(ans);
     }
 }

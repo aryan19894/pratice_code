@@ -28,7 +28,7 @@ public class MergeOverlappingInterval
             return (new StringBuilder()).append(st).append(" ").append(en).toString();
         }
 
-        public volatile int compareTo(Object obj)
+        public int compareTo(Object obj)
         {
             return compareTo((Pair)obj);
         }

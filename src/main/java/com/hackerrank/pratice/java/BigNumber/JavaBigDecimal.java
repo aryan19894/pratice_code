@@ -34,7 +34,7 @@ public class JavaBigDecimal
                 return b.compareTo(a);
             }
 
-            public volatile int compare(Object obj, Object obj1)
+            public int compare(Object obj, Object obj1)
             {
                 return compare((String)obj, (String)obj1);
             }

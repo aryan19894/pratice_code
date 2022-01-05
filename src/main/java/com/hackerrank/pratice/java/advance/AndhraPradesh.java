@@ -9,20 +9,9 @@ package com.hackerrank.pratice.java.advance;
 // Referenced classes of package com.hackerrank.pratice.java.advance:
 //            Region, Lily, Flower
 
-class AndhraPradesh extends Region
-{
+class AndhraPradesh extends Region {
 
-    AndhraPradesh()
-    {
-    }
-
-    Lily yourNationalFlower()
-    {
+    Lily yourNationalFlower() {
         return new Lily();
-    }
-
-    volatile Flower yourNationalFlower()
-    {
-        return yourNationalFlower();
     }
 }

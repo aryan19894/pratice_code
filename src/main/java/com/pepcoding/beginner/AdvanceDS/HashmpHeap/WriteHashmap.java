@@ -21,8 +21,8 @@ public class WriteHashmap
 
             HMNode(Object key, Object value)
             {
-                this$0 = HashMap.this;
                 super();
+                this$0 = HashMap.this;
                 this.key = key;
                 this.value = value;
             }

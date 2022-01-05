@@ -14,7 +14,7 @@ class Add
     {
     }
 
-    transient void add(int numbers[])
+    void add(int numbers[])
     {
         StringBuffer sb = new StringBuffer();
         int sum = 0;

@@ -8,40 +8,43 @@ package revise.pepcoding.beginner.RecursionAndBacktracking.RecursionWithArrayLis
 import java.io.PrintStream;
 import java.util.*;
 
-public class GetSubsequence
-{
+public class GetSubsequence {
 
-    public GetSubsequence()
-    {
+    public GetSubsequence() {
     }
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         Scanner scn = new Scanner(System.in);
         String str = scn.nextLine();
         System.out.println(gss(str));
     }
 
-    public static ArrayList gss(String str)
-    {
-        if(str.isEmpty())
-        {
-            ArrayList bres = new ArrayList();
+    public static ArrayList<String> gss(String str) {
+        if (str.length() == 0) {
+            ArrayList<String> bres = new ArrayList();
             bres.add("");
             return bres;
+        } else {
+            char ch = str.charAt(0);
+            String ros = str.substring(1);
+            ArrayList<String> rres = gss(ros);
+            ArrayList<String> mres = new ArrayList();
+            Iterator var5 = rres.iterator();
+
+            String s;
+            while (var5.hasNext()) {
+                s = (String) var5.next();
+                mres.add("" + s);
+            }
+
+            var5 = rres.iterator();
+
+            while (var5.hasNext()) {
+                s = (String) var5.next();
+                mres.add(ch + s);
+            }
+
+            return mres;
         }
-        char ch = str.charAt(0);
-        String substr = str.substring(1);
-        ArrayList res = gss(substr);
-        ArrayList rres = new ArrayList();
-        String r;
-        for(Iterator iterator = res.iterator(); iterator.hasNext(); rres.add((new StringBuilder()).append("").append(r).toString()))
-            r = (String)iterator.next();
-
-        String r;
-        for(Iterator iterator1 = res.iterator(); iterator1.hasNext(); rres.add((new StringBuilder()).append(ch).append(r).toString()))
-            r = (String)iterator1.next();
-
-        return rres;
     }
 }

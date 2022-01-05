@@ -26,7 +26,7 @@ class Checker
             return b.score - a.score;
     }
 
-    public volatile int compare(Object obj, Object obj1)
+    public int compare(Object obj, Object obj1)
     {
         return compare((Player)obj, (Player)obj1);
     }

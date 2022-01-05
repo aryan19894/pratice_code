@@ -21,33 +21,30 @@ class Student extends Person12
     public char calculate()
     {
         int total = 0;
-        int ai[] = testScores;
-        char ch = ai.length;
-        for(int i = 0; i < ch; i++)
-        {
-            Integer t = Integer.valueOf(ai[i]);
-            total += t.intValue();
+        int[] var2 = this.testScores;
+        int var3 = var2.length;
+
+        for(int var4 = 0; var4 < var3; ++var4) {
+            Integer t = var2[var4];
+            total += t;
         }
 
-        int avg = total / testScores.length;
-        ch = ' ';
-        if(avg < 40)
+        int avg = total / this.testScores.length;
+        char ch = ' ';
+        if (avg < 40) {
             ch = 'T';
-        else
-        if(avg < 55)
+        } else if (avg < 55) {
             ch = 'D';
-        else
-        if(avg < 70)
+        } else if (avg < 70) {
             ch = 'P';
-        else
-        if(avg < 80)
+        } else if (avg < 80) {
             ch = 'A';
-        else
-        if(avg < 90)
+        } else if (avg < 90) {
             ch = 'E';
-        else
-        if(avg <= 100)
+        } else if (avg <= 100) {
             ch = 'O';
+        }
+
         return ch;
     }
 

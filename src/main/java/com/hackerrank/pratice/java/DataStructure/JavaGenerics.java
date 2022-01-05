@@ -32,7 +32,7 @@ public class JavaGenerics
         Printer _tmp1 = myPrinter;
         Printer.printArray(stringArray);
         int count = 0;
-        Method amethod[] = com/hackerrank/pratice/java/DataStructure/Printer.getDeclaredMethods();
+        Method amethod[] = Printer.class.getDeclaredMethods();
         int i = amethod.length;
         for(int j = 0; j < i; j++)
         {

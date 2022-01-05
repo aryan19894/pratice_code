@@ -8,41 +8,44 @@ package com.pepcoding.beginner.RecursionAndBacktracking.RecursionWithArrayLists;
 import java.io.PrintStream;
 import java.util.*;
 
-public class GetSubsequence
-{
+public class GetSubsequence {
 
-    public GetSubsequence()
-    {
+    public GetSubsequence() {
     }
 
     public static void main(String args[])
-        throws Exception
-    {
+            throws Exception {
         Scanner scn = new Scanner(System.in);
         String str = scn.next();
         System.out.println(gss(str));
     }
 
-    public static ArrayList gss(String str)
-    {
-        if(str.length() == 0)
-        {
-            ArrayList bres = new ArrayList();
+    public static ArrayList<String> gss(String str) {
+        if (str.length() == 0) {
+            ArrayList<String> bres = new ArrayList();
             bres.add("");
             return bres;
+        } else {
+            char ch = str.charAt(0);
+            String ros = str.substring(1);
+            ArrayList<String> rres = gss(ros);
+            ArrayList<String> mres = new ArrayList();
+            Iterator var5 = rres.iterator();
+
+            String s;
+            while (var5.hasNext()) {
+                s = (String) var5.next();
+                mres.add("" + s);
+            }
+
+            var5 = rres.iterator();
+
+            while (var5.hasNext()) {
+                s = (String) var5.next();
+                mres.add(ch + s);
+            }
+
+            return mres;
         }
-        char ch = str.charAt(0);
-        String ros = str.substring(1);
-        ArrayList rres = gss(ros);
-        ArrayList mres = new ArrayList();
-        String s;
-        for(Iterator iterator = rres.iterator(); iterator.hasNext(); mres.add((new StringBuilder()).append("").append(s).toString()))
-            s = (String)iterator.next();
-
-        String s;
-        for(Iterator iterator1 = rres.iterator(); iterator1.hasNext(); mres.add((new StringBuilder()).append(ch).append(s).toString()))
-            s = (String)iterator1.next();
-
-        return mres;
     }
 }

@@ -24,7 +24,7 @@ public class MedianPriorityQueue
                 return -1 * a.compareTo(b);
             }
 
-            public volatile int compare(Object obj, Object obj1)
+            public int compare(Object obj, Object obj1)
             {
                 return compare((Integer)obj, (Integer)obj1);
             }

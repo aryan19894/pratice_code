@@ -21,7 +21,7 @@ public class JavaReflectionAttributes
 
     public static void main(String args[])
     {
-        Class student = com/hackerrank/pratice/java/advance/Student;
+        Class student = Student.class;
         Method methods[] = student.getDeclaredMethods();
         ArrayList methodNames = new ArrayList();
         Method amethod[] = methods;

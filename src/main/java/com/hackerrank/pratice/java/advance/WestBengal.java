@@ -9,20 +9,9 @@ package com.hackerrank.pratice.java.advance;
 // Referenced classes of package com.hackerrank.pratice.java.advance:
 //            Region, Jasmine, Flower
 
-class WestBengal extends Region
-{
+class WestBengal extends Region {
 
-    WestBengal()
-    {
-    }
-
-    Jasmine yourNationalFlower()
-    {
+    Jasmine yourNationalFlower() {
         return new Jasmine();
-    }
-
-    volatile Flower yourNationalFlower()
-    {
-        return yourNationalFlower();
     }
 }

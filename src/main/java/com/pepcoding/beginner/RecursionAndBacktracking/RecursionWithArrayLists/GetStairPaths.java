@@ -23,32 +23,42 @@ public class GetStairPaths
         System.out.println(getStairPaths(n));
     }
 
-    public static ArrayList getStairPaths(int n)
-    {
-        if(n == 0)
-        {
-            ArrayList bref = new ArrayList();
-            bref.add("");
-            return bref;
-        }
-        if(n < 0)
+    public static ArrayList<String> getStairPaths(int n) {
+        ArrayList p1;
+        if (n == 0) {
+            p1 = new ArrayList();
+            p1.add("");
+            return p1;
+        } else if (n < 0) {
             return new ArrayList();
-        ArrayList p1 = getStairPaths(n - 1);
-        ArrayList p2 = getStairPaths(n - 2);
-        ArrayList p3 = getStairPaths(n - 3);
-        ArrayList mres = new ArrayList();
-        String r;
-        for(Iterator iterator = p1.iterator(); iterator.hasNext(); mres.add((new StringBuilder()).append(1).append(r).toString()))
-            r = (String)iterator.next();
+        } else {
+            p1 = getStairPaths(n - 1);
+            ArrayList<String> p2 = getStairPaths(n - 2);
+            ArrayList<String> p3 = getStairPaths(n - 3);
+            ArrayList<String> mres = new ArrayList();
+            Iterator var5 = p1.iterator();
 
-        String r;
-        for(Iterator iterator1 = p2.iterator(); iterator1.hasNext(); mres.add((new StringBuilder()).append(2).append(r).toString()))
-            r = (String)iterator1.next();
+            String r;
+            while(var5.hasNext()) {
+                r = (String)var5.next();
+                mres.add(1 + r);
+            }
 
-        String r;
-        for(Iterator iterator2 = p3.iterator(); iterator2.hasNext(); mres.add((new StringBuilder()).append(3).append(r).toString()))
-            r = (String)iterator2.next();
+            var5 = p2.iterator();
 
-        return mres;
+            while(var5.hasNext()) {
+                r = (String)var5.next();
+                mres.add(2 + r);
+            }
+
+            var5 = p3.iterator();
+
+            while(var5.hasNext()) {
+                r = (String)var5.next();
+                mres.add(3 + r);
+            }
+
+            return mres;
+        }
     }
 }

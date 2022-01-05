@@ -10,36 +10,33 @@ import java.io.*;
 // Referenced classes of package com.hackerrank.pratice.java.advance:
 //            DoNotTerminate
 
-public class CanYouAccess
-{
-    static class Inner
-    {
-
-        Inner()
-        {
-        }
-    }
-
-
-    public CanYouAccess()
-    {
-    }
-
-    public static void main(String args[])
-        throws Exception
-    {
+public class CanYouAccess {
+    public static void main(String[] args) throws Exception {
         DoNotTerminate.forbidExit();
-        try
-        {
+
+        try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             int num = Integer.parseInt(br.readLine().trim());
-            Object o = new Inner.Private(new Inner());
-            System.out.println((new StringBuilder()).append(num).append(" is ").append(Inner.Private.access._mth100((Inner.Private)o, num)).toString());
-            System.out.println((new StringBuilder()).append("An instance of class: ").append(o.getClass().getCanonicalName()).append(" has been created").toString());
-        }
-        catch(DoNotTerminate.ExitTrappedException e)
-        {
+            Object o = new CanYouAccess.Inner().new Private();
+            System.out.println(num + " is " + ((CanYouAccess.Inner.Private) o).powerof2(num));
+            System.out.println("An instance of class: " + o.getClass().getCanonicalName() + " has been created");
+        } catch (DoNotTerminate.ExitTrappedException var4) {
             System.out.println("Unsuccessful Termination!!");
+        }
+
+    }
+
+    static class Inner {
+        Inner() {
+        }
+
+        private class Private {
+            private Private() {
+            }
+
+            private String powerof2(int num) {
+                return (num & num - 1) == 0 ? "power of 2" : "not a power of 2";
+            }
         }
     }
 }

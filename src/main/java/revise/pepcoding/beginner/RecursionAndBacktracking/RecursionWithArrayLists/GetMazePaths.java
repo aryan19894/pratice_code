@@ -23,29 +23,40 @@ public class GetMazePaths
         System.out.println(getMazePaths(1, 1, n, m));
     }
 
-    public static ArrayList getMazePaths(int sr, int sc, int dr, int dc)
-    {
-        if(sr == dr || sc == dc)
-        {
-            ArrayList bres = new ArrayList();
-            bres.add("");
-            return bres;
+    public static ArrayList<String> getMazePaths(int sr, int sc, int dr, int dc) {
+        ArrayList p1;
+        if (sr == dr && sc == dc) {
+            p1 = new ArrayList();
+            p1.add("");
+            return p1;
+        } else {
+            p1 = new ArrayList();
+            ArrayList<String> p2 = new ArrayList();
+            if (sc < dc) {
+                p1 = getMazePaths(sr, sc + 1, dr, dc);
+            }
+
+            if (sr < dr) {
+                p2 = getMazePaths(sr + 1, sc, dr, dc);
+            }
+
+            ArrayList<String> mres = new ArrayList();
+            Iterator var7 = p1.iterator();
+
+            String r;
+            while (var7.hasNext()) {
+                r = (String) var7.next();
+                mres.add("h" + r);
+            }
+
+            var7 = p2.iterator();
+
+            while (var7.hasNext()) {
+                r = (String) var7.next();
+                mres.add("v" + r);
+            }
+
+            return mres;
         }
-        ArrayList p1 = new ArrayList();
-        ArrayList p2 = new ArrayList();
-        if(sc < dc)
-            p1 = getMazePaths(sr, sc + 1, dr, dc);
-        if(sr < dr)
-            p2 = getMazePaths(sr + 1, sc, dr, dc);
-        ArrayList mres = new ArrayList();
-        String r;
-        for(Iterator iterator = p1.iterator(); iterator.hasNext(); mres.add((new StringBuilder()).append("h").append(r).toString()))
-            r = (String)iterator.next();
-
-        String r;
-        for(Iterator iterator1 = p2.iterator(); iterator1.hasNext(); mres.add((new StringBuilder()).append("v").append(r).toString()))
-            r = (String)iterator1.next();
-
-        return mres;
     }
 }

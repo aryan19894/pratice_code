@@ -14,7 +14,7 @@ class Prime
     {
     }
 
-    public transient void checkPrime(int n1[])
+    public void checkPrime(int n1[])
     {
         int ai[] = n1;
         int i = ai.length;

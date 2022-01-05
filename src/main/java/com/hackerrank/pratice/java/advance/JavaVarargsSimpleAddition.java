@@ -45,7 +45,7 @@ public class JavaVarargsSimpleAddition
             ob.add(new int[] {
                 n1, n2, n3, n4, n5, n6
             });
-            Method methods[] = com/hackerrank/pratice/java/advance/Add.getDeclaredMethods();
+            Method methods[] = Add.class.getDeclaredMethods();
             Set set = new HashSet();
             boolean overload = false;
             int i = 0;

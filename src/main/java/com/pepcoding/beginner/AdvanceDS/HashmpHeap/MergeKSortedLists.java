@@ -19,7 +19,7 @@ public class MergeKSortedLists
             return val - o.val;
         }
 
-        public volatile int compareTo(Object obj)
+        public int compareTo(Object obj)
         {
             return compareTo((Pair)obj);
         }

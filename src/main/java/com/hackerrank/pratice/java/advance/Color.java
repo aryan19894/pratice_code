@@ -6,34 +6,11 @@
 package com.hackerrank.pratice.java.advance;
 
 
-final class Color extends Enum
-{
+enum Color {
 
-    public static Color[] values()
-    {
-        return (Color[])$VALUES.clone();
-    }
+    RED,
+    GREEN;
 
-    public static Color valueOf(String name)
-    {
-        return (Color)Enum.valueOf(com/hackerrank/pratice/java/advance/Color, name);
-    }
-
-    private Color(String s, int i)
-    {
-        super(s, i);
-    }
-
-    public static final Color RED;
-    public static final Color GREEN;
-    private static final Color $VALUES[];
-
-    static 
-    {
-        RED = new Color("RED", 0);
-        GREEN = new Color("GREEN", 1);
-        $VALUES = (new Color[] {
-            RED, GREEN
-        });
+    private Color() {
     }
 }

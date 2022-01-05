@@ -6,123 +6,110 @@
 package com.striver.medium;
 
 import com.common.Obj;
+import com.common.Printer;
+
 import java.util.*;
 
-public class SetMatrixZeroes_73
-{
-    static class Solution
-    {
+public class SetMatrixZeroes_73 {
+    public static void main(String[] args) {
+        SetMatrixZeroes_73.Solution sol = new SetMatrixZeroes_73.Solution();
+        int[][] nums = new int[][]{{1, 2, 3, 4}, {5, 0, 7, 8}, {0, 10, 11, 12}, {13, 14, 15, 0}};
+        sol.setZeroes3(nums);
+        Printer.print(nums);
+    }
 
-        public void setZeroes1(int matrix[][])
-        {
+    static class Solution {
+        Solution() {
+        }
+
+        public void setZeroes1(int[][] matrix) {
             int row = matrix.length;
             int col = matrix[0].length;
-            List zeroes = new ArrayList();
-            for(int i = 0; i < row; i++)
-            {
-                for(int j = 0; j < col; j++)
-                    if(matrix[i][j] == 0)
-                        zeroes.add(new int[] {
-                            i, j
-                        });
+            List<int[]> zeroes = new ArrayList();
 
+            for (int i = 0; i < row; ++i) {
+                for (int j = 0; j < col; ++j) {
+                    if (matrix[i][j] == 0) {
+                        zeroes.add(new int[]{i, j});
+                    }
+                }
             }
 
-            for(Iterator iterator = zeroes.iterator(); iterator.hasNext();)
-            {
-                int z[] = (int[])iterator.next();
-                for(int r = 0; r < col; r++)
-                    matrix[z[0]][r] = 0;
+            Iterator var8 = zeroes.iterator();
 
-                int c = 0;
-                while(c < row) 
-                {
+            while (var8.hasNext()) {
+                int[] z = (int[]) var8.next();
+
+                int c;
+                for (c = 0; c < col; ++c) {
+                    matrix[z[0]][c] = 0;
+                }
+
+                for (c = 0; c < row; ++c) {
                     matrix[c][z[1]] = 0;
-                    c++;
                 }
             }
 
         }
 
-        public void setZeroes2(int matrix[][])
-        {
+        public void setZeroes2(int[][] matrix) {
             int r = matrix.length;
             int c = matrix[0].length;
-            int row[] = new int[r];
-            int col[] = new int[c];
-            for(int i = 0; i < r; i++)
-            {
-                for(int j = 0; j < c; j++)
-                    if(matrix[i][j] == 0)
-                    {
+            int[] row = new int[r];
+            int[] col = new int[c];
+
+            int i;
+            int j;
+            for (i = 0; i < r; ++i) {
+                for (j = 0; j < c; ++j) {
+                    if (matrix[i][j] == 0) {
                         row[i] = -1;
                         col[j] = -1;
                     }
-
+                }
             }
 
-            for(int i = 0; i < matrix.length; i++)
-            {
-                for(int j = 0; j < matrix[0].length; j++)
-                    if(row[i] == -1 || col[j] == -1)
+            for (i = 0; i < matrix.length; ++i) {
+                for (j = 0; j < matrix[0].length; ++j) {
+                    if (row[i] == -1 || col[j] == -1) {
                         matrix[i][j] = 0;
-
+                    }
+                }
             }
 
         }
 
-        public void setZeroes3(int matrix[][])
-        {
+        public void setZeroes3(int[][] matrix) {
             int r = matrix.length;
             int c = matrix[0].length;
-            int col0 = 1;
-            for(int i = 0; i < r; i++)
-            {
-                if(matrix[i][0] == 0)
-                    col0 = 0;
-                for(int j = 1; j < c; j++)
-                    if(matrix[i][j] == 0)
+            boolean col0 = true;
+
+            int i;
+            int j;
+            for (i = 0; i < r; ++i) {
+                if (matrix[i][0] == 0) {
+                    col0 = false;
+                }
+
+                for (j = 1; j < c; ++j) {
+                    if (matrix[i][j] == 0) {
                         matrix[i][0] = matrix[0][j] = 0;
-
+                    }
+                }
             }
 
-            for(int i = r - 1; i >= 0; i--)
-            {
-                for(int j = c - 1; j >= 1; j--)
-                    if(matrix[0][j] == 0 || matrix[i][0] == 0)
+            for (i = r - 1; i >= 0; --i) {
+                for (j = c - 1; j >= 1; --j) {
+                    if (matrix[0][j] == 0 || matrix[i][0] == 0) {
                         matrix[i][j] = 0;
+                    }
+                }
 
-                if(col0 == 0)
+                if (!col0) {
                     matrix[i][0] = 0;
+                }
             }
 
         }
-
-        Solution()
-        {
-        }
-    }
-
-
-    public SetMatrixZeroes_73()
-    {
-    }
-
-    public static void main(String args[])
-    {
-        Solution sol = new Solution();
-        int nums[][] = {
-            {
-                1, 2, 3, 4
-            }, {
-                5, 0, 7, 8
-            }, {
-                0, 10, 11, 12
-            }, {
-                13, 14, 15, 0
-            }
-        };
-        sol.setZeroes3(nums);
-        Obj.printArray(nums);
     }
 }

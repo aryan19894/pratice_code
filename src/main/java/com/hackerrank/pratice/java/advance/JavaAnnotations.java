@@ -15,51 +15,37 @@ import java.util.Scanner;
 public class JavaAnnotations
 {
 
-    public JavaAnnotations()
-    {
-    }
-
-    public static void main(String args[])
-    {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-label0:
-        for(int testCases = Integer.parseInt(in.nextLine()); testCases > 0; testCases--)
-        {
+
+        for(int testCases = Integer.parseInt(in.nextLine()); testCases > 0; --testCases) {
             String role = in.next();
             int spend = in.nextInt();
-            try
-            {
-                Class annotatedClass = com/hackerrank/pratice/java/advance/FamilyMember;
-                Method methods[] = annotatedClass.getMethods();
-                Method amethod[] = methods;
-                int i = amethod.length;
-                int j = 0;
-                do
-                {
-                    if(j >= i)
-                        continue label0;
-                    Method method = amethod[j];
-                    if(method.isAnnotationPresent(com/hackerrank/pratice/java/advance/FamilyBudget))
-                    {
-                        FamilyBudget family = (FamilyBudget)method.getAnnotation(com/hackerrank/pratice/java/advance/FamilyBudget);
+
+            try {
+                Class annotatedClass = FamilyMember.class;
+                Method[] methods = annotatedClass.getMethods();
+                Method[] var7 = methods;
+                int var8 = methods.length;
+
+                for(int var9 = 0; var9 < var8; ++var9) {
+                    Method method = var7[var9];
+                    if (method.isAnnotationPresent(FamilyBudget.class)) {
+                        FamilyBudget family = (FamilyBudget)method.getAnnotation(FamilyBudget.class);
                         String userRole = family.userRole();
                         int budgetLimit = family.budgetLimit();
-                        if(userRole.equals(role))
-                            if(spend <= budgetLimit)
-                                method.invoke(com/hackerrank/pratice/java/advance/FamilyMember.newInstance(), new Object[] {
-                                    Integer.valueOf(budgetLimit), Integer.valueOf(spend)
-                                });
-                            else
+                        if (userRole.equals(role)) {
+                            if (spend <= budgetLimit) {
+                                method.invoke(FamilyMember.class.newInstance(), budgetLimit, spend);
+                            } else {
                                 System.out.println("Budget Limit Over");
+                            }
+                        }
                     }
-                    j++;
-                } while(true);
-            }
-            catch(Exception e)
-            {
-                e.printStackTrace();
+                }
+            } catch (Exception var14) {
+                var14.printStackTrace();
             }
         }
-
     }
 }

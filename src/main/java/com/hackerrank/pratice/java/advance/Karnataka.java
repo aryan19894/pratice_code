@@ -9,20 +9,9 @@ package com.hackerrank.pratice.java.advance;
 // Referenced classes of package com.hackerrank.pratice.java.advance:
 //            Region, Lotus, Flower
 
-class Karnataka extends Region
-{
+class Karnataka extends Region {
 
-    Karnataka()
-    {
-    }
-
-    Lotus yourNationalFlower()
-    {
+    Lotus yourNationalFlower() {
         return new Lotus();
-    }
-
-    volatile Flower yourNationalFlower()
-    {
-        return yourNationalFlower();
     }
 }

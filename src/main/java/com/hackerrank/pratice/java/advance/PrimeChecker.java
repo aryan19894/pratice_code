@@ -43,7 +43,7 @@ public class PrimeChecker
             ob.checkPrime(new int[] {
                 n1, n2, n3, n4, n5
             });
-            Method methods[] = com/hackerrank/pratice/java/advance/Prime.getDeclaredMethods();
+            Method methods[] = Prime.class.getDeclaredMethods();
             Set set = new HashSet();
             boolean overload = false;
             int i = 0;

@@ -5,37 +5,33 @@
 
 package com.hackerrank.pratice.Day30OfCode;
 
-import java.io.PrintStream;
 import java.util.Scanner;
 
 // Referenced classes of package com.hackerrank.pratice.Day30OfCode:
 //            Printer
 
-public class Day21_Generics
-{
+public class Day21_Generics {
 
-    public Day21_Generics()
-    {
+    public Day21_Generics() {
     }
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         Integer intArray[] = new Integer[n];
-        for(int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++)
             intArray[i] = Integer.valueOf(scanner.nextInt());
 
         n = scanner.nextInt();
         String stringArray[] = new String[n];
-        for(int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++)
             stringArray[i] = scanner.next();
 
         Printer intPrinter = new Printer();
         Printer stringPrinter = new Printer();
         intPrinter.printArray(intArray);
         stringPrinter.printArray(stringArray);
-        if(com/hackerrank/pratice/Day30OfCode/Printer.getDeclaredMethods().length > 1)
+        if (Printer.class.getDeclaredMethods().length > 1)
             System.out.println("The Printer class should only have 1 method named printArray.");
     }
 }
