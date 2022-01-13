@@ -1,5 +1,7 @@
 package com.common;
 
+import com.striver.DSAExperience.Day5LinkedList.ListNode;
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -121,6 +123,14 @@ public class Printer {
                 print((List) obj);
                 System.out.println(obj + " ");
             }
+        }
+    }
+
+    public static void print(ListNode node) {
+        System.out.println();
+        while (node != null) {
+            System.out.print(node.val + " ");
+            node = node.next;
         }
     }
 
