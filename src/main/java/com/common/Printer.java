@@ -117,9 +117,10 @@ public class Printer {
 
         while (var1.hasNext()) {
             Object obj = var1.next();
-            if (obj instanceof List)
+            if (obj instanceof List) {
                 print((List) obj);
-            System.out.println(obj);
+                System.out.println(obj + " ");
+            }
         }
     }
 
