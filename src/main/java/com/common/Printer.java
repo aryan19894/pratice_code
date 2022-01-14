@@ -127,6 +127,8 @@ public class Printer {
     }
 
     public static void print(ListNode node) {
+        if (node == null)
+            System.out.println("null");
         System.out.println();
         while (node != null) {
             System.out.print(node.val + " ");
