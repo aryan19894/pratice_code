@@ -3,20 +3,13 @@ package com.striver.DSAExperience.Day5LinkedList;
 public class LinkedList {
     public ListNode head;
     private ListNode tail;
+    public int size = 0;
 
     public LinkedList() {
     }
 
     public LinkedList(int[] ele) {
         this.addElement(ele);
-    }
-
-    // prints content of double linked list
-    void printList(ListNode node) {
-        while (node != null) {
-            System.out.print(node.val + " ");
-            node = node.next;
-        }
     }
 
     public ListNode addElement(int[] ele) {
@@ -26,6 +19,7 @@ public class LinkedList {
             ref.next = new ListNode(ele[i]);
             tail = ref = ref.next;
         }
+        this.size += ele.length;
         return head;
     }
 
@@ -37,6 +31,7 @@ public class LinkedList {
             tail.next = newNode;
             tail = tail.next;
         }
+        this.size++;
     }
 
     public void addLast(LinkedList newList) {
@@ -46,6 +41,7 @@ public class LinkedList {
             tail.next = newList.head;
 
         tail = newList.tail;
+        this.size++;
     }
 
     public void appendElement(int[] ele) {
@@ -53,6 +49,7 @@ public class LinkedList {
             tail.next = new ListNode(e);
             tail = tail.next;
         }
+        this.size += ele.length;
     }
 
     public void makeCycle(int index) {
