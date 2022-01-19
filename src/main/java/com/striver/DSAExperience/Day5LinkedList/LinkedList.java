@@ -54,7 +54,7 @@ public class LinkedList {
 
     public void makeCycle(int index) {
         ListNode dummy = head;
-        for (int i = 0; i <= index; i++)
+        for (int i = 0; i < index; i++)
             dummy = dummy.next;
         tail.next = dummy;
     }
