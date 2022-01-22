@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class NMeetingsInOneRoom_Easy {
+    //[Optimal] O(nlogn), O(n) - sort on basis of end time, check each meeting 1by1.
     public static int maxMeetings(int start[], int end[], int n) {
         ArrayList<Meeting> meetings = new ArrayList<>();
         for (int i = 0; i < n; i++)

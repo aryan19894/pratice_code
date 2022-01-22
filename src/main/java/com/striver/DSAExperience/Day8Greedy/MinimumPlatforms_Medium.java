@@ -7,7 +7,7 @@ import java.util.Comparator;
 
 public class MinimumPlatforms_Medium {
     // [Optimal] O(2nlogn)+O(2n), O(1) - 2nlogn - for sorting both arrays and O(2n)- for 2pointer traversal
-    // will check 1by1 traversal with dept value
+    // will check 1by1 traversal with depature value
     static int findPlatform(int arr[], int dep[], int n) {
         Arrays.sort(arr);
         Arrays.sort(dep);

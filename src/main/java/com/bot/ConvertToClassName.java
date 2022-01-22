@@ -9,7 +9,7 @@ public class ConvertToClassName {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the string: ");
-        String str = in.nextLine();
+        String str = in.nextLine().trim();
         String[] token = str.split(" ");
         String camelCase = "";
         String[] var8 = token;

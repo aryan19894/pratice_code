@@ -1,13 +1,12 @@
 package com.striver.DSAExperience.Day8Greedy;
 
 import com.common.Printer;
-import jdk.nashorn.internal.scripts.JO;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 
 public class JobSequencingProblem {
+    //[Optimal] O(nlogn)+O(n*m), O(m) - m is for check each meeting with last deadline day to its 1st days, traversal.
+    // sort on basis of end time, check and verify to fill on from the last day of its deadline to each meeting 1by1.
     static int[] JobScheduling(Job[] arr, int n) {
         Arrays.sort(arr, (a, b) -> (b.profit - a.profit));
         int[] res = new int[2];
