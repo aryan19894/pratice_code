@@ -115,16 +115,21 @@ public class Printer {
     }
 
     public static void print(List a) {
-        Iterator var1 = a.iterator();
+        Iterator itr = a.iterator();
 
-        while (var1.hasNext()) {
-            Object obj = var1.next();
-            if (obj instanceof List) {
-                print((List) obj);
-                System.out.println(obj + " ");
-            }
+        while (itr.hasNext()) {
+            System.out.println(itr.next() + " ");
         }
+        System.out.println("-------------");
     }
+
+//    public static void print(List<List<Object>> a) {
+//        Iterator itr = a.iterator();
+//
+//        while (itr.hasNext()) {
+//            System.out.print(itr.next() + " ");
+//        }
+//    }
 
     public static void print(ListNode node) {
         if (node == null)
@@ -135,7 +140,6 @@ public class Printer {
             node = node.next;
         }
     }
-
 
 
     private static Integer[][] to2DIntegerArray(int[][] arr) {
