@@ -2,116 +2,24 @@ package com.common;
 
 import com.striver.DSAExperience.Day5LinkedList.ListNode;
 
-import java.util.Arrays;
+import java.lang.reflect.Array;
 import java.util.Iterator;
 import java.util.List;
 
 public class Printer {
-    private static PrinterGen<Integer> defaultPrinter;
 
-    static class PrinterGen<T> {
-        public void print(T[] arr) {
-            for (int i = 0; i < arr.length; ++i) {
-                System.out.println(arr[i]);
+    public static void print(Object obj) {
+        String instance = obj.toString();
+        if (instance.contains("[[")) {
+            for (int i = 0; i < Array.getLength(obj); i++) {
+                print(Array.get(obj, i));
             }
-        }
-
-        public void print(T[][] arr) {
-            for (int i = 0; i < arr.length; ++i) {
-                for (int j = 0; j < arr[i].length; ++j) {
-                    System.out.println(arr[i][j]);
-                }
+        } else if (instance.contains("[")) {
+            for (int i = 0; i < Array.getLength(obj); i++) {
+                System.out.print(Array.get(obj, i) + " ");
             }
-        }
-
-        public void printWithIndex(T[] a, int intialIndex) {
-            System.out.println("-------------------------");
-
-            int i;
-            for (i = intialIndex; i < a.length; ++i) {
-                System.out.print(i + " ");
-            }
-
-            System.out.println();
-
-            for (i = intialIndex; i < a.length; ++i) {
-                System.out.print(a[i] + " ");
-            }
-
             System.out.println();
         }
-
-        public void printWithIndex(T[][] a, boolean ignoreZero) {
-            int i;
-            int j;
-            for (i = 0; i < a.length; ++i) {
-                for (j = 0; j < a[i].length; ++j) {
-                    if (ignoreZero && (Integer) a[i][j] != 0) {
-                        System.out.print("(" + i + "," + j + ")=" + a[i][j] + " ");
-                    }
-                }
-
-                System.out.println();
-            }
-
-            for (i = 0; i < a.length; ++i) {
-                for (j = 0; j < a[i].length; ++j) {
-                    if (ignoreZero && (Integer) a[i][j] != 0) {
-                        System.out.print(a[i][j] + " ");
-                    }
-                }
-
-                System.out.println();
-            }
-
-        }
-
-        public void printWithIndex(T[][] a) {
-            int i;
-            int j;
-            for (i = 0; i < a.length; ++i) {
-                for (j = 0; j < a[i].length; ++j) {
-                    System.out.print("(" + i + "," + j + ")=" + a[i][j] + " ");
-                }
-
-                System.out.println();
-            }
-
-            for (i = 0; i < a.length; ++i) {
-                for (j = 0; j < a[i].length; ++j) {
-                    System.out.print(a[i][j] + " ");
-                }
-
-                System.out.println();
-            }
-
-        }
-
-    }
-
-    static {
-        defaultPrinter = new PrinterGen<Integer>();
-    }
-
-    public static void print(int[] arr) {
-        defaultPrinter.print(toIntegerArray(arr));
-    }
-
-    public static void print(int[][] arr) {
-        defaultPrinter.print(to2DIntegerArray(arr));
-    }
-
-    public static void printWithIndex(int[] arr, int intialIndex) {
-        Integer[] a = Arrays.stream(arr).boxed().toArray(Integer[]::new);
-        defaultPrinter.printWithIndex(toIntegerArray(arr), intialIndex);
-    }
-
-    public static void printWithIndex(int[][] arr, boolean ignoreZero) {
-        defaultPrinter.printWithIndex(to2DIntegerArray(arr), ignoreZero);
-    }
-
-    public static void printWithIndex(int[][] arr) {
-        defaultPrinter.printWithIndex(to2DIntegerArray(arr));
     }
 
     public static void print(List a) {
@@ -123,14 +31,6 @@ public class Printer {
         System.out.println("-------------");
     }
 
-//    public static void print(List<List<Object>> a) {
-//        Iterator itr = a.iterator();
-//
-//        while (itr.hasNext()) {
-//            System.out.print(itr.next() + " ");
-//        }
-//    }
-
     public static void print(ListNode node) {
         if (node == null)
             System.out.println("null");
@@ -141,18 +41,90 @@ public class Printer {
         }
     }
 
-
-    private static Integer[][] to2DIntegerArray(int[][] arr) {
-        Integer[][] a = new Integer[arr.length][arr[0].length];
-        for (int i = 0; i < arr.length; i++) {
-            a[i] = toIntegerArray(arr[i]);
+    public static void printWithIndex(Object obj) {
+        String instance = obj.toString();
+        if (instance.contains("[[")) {
+            for (int i = 0; i < Array.getLength(obj); i++) {
+                printHelper(i, Array.get(obj, i), false);
+            }
+        } else if (instance.contains("[")) {
+            printHelper(-1, obj, false);
+            System.out.println();
         }
-        return a;
     }
 
-    private static Integer[] toIntegerArray(int[] arr) {
-        return Arrays.stream(arr).boxed().toArray(Integer[]::new);
+    public static void printWithIndex(Object obj, boolean ignoreZero) {
+        String instance = obj.toString();
+        if (instance.contains("[[")) {
+            for (int i = 0; i < Array.getLength(obj); i++)
+                printHelper(i, Array.get(obj, i), ignoreZero);
+        } else if (instance.contains("["))
+            printHelper(-1, obj, ignoreZero);
     }
+
+    public static void printHelper(int i, Object obj, boolean ignoreZero) {
+        for (int j = 0; j < Array.getLength(obj); j++) {
+            String ele = Array.get(obj, j).toString();
+            if (i >= 0) {
+                if (ignoreZero) {
+                    if (ele != "0")
+                        System.out.print("(" + i + "," + j + ")=" + ele + " ");
+                } else
+                    System.out.print("(" + i + "," + j + ")=" + ele + " ");
+            } else {
+                if (ignoreZero && ele != "0")
+                    System.out.print("(" + j + ")=" + ele + " ");
+                else if (!ignoreZero)
+                    System.out.print("(" + i + "," + j + ")=" + ele + " ");
+            }
+        }
+        System.out.println();
+    }
+
+
+//    private static GlobalPrinter<Integer> defaultPrinter;
+//
+//    static {
+//        defaultPrinter = new GlobalPrinter<Integer>();
+//    }
+//
+//    public static void print(int[] arr) {
+//        defaultPrinter.print(toIntegerArray(arr));
+//    }
+//
+//    public static void print(int[][] arr) {
+//        defaultPrinter.print(to2DIntegerArray(arr));
+//    }
+//
+//    public static void printWithIndex(int[][] arr, boolean ignoreZero) {
+//        defaultPrinter.printWithIndex(to2DIntegerArray(arr), ignoreZero);
+//    }
+//
+//    public static void printWithIndex(int[][] arr) {
+//        defaultPrinter.printWithIndex(to2DIntegerArray(arr));
+//    }
+
+
+//    public static void print(List<List<Object>> a) {
+//        Iterator itr = a.iterator();
+//
+//        while (itr.hasNext()) {
+//            System.out.print(itr.next() + " ");
+//        }
+//    }
+
+
+//    private static Integer[][] to2DIntegerArray(int[][] arr) {
+//        Integer[][] a = new Integer[arr.length][arr[0].length];
+//        for (int i = 0; i < arr.length; i++) {
+//            a[i] = toIntegerArray(arr[i]);
+//        }
+//        return a;
+//    }
+//
+//    private static Integer[] toIntegerArray(int[] arr) {
+//        return Arrays.stream(arr).boxed().toArray(Integer[]::new);
+//    }
 
 
 //    public static void print(int[] a) {
