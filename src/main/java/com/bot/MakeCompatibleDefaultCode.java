@@ -103,7 +103,7 @@ public class MakeCompatibleDefaultCode {
         List<String> arguments = new ArrayList<>();
         String[] t3 = argumentType.split(",");
         for (int i = 0; i < t3.length; i++) {
-            arguments.add(t3[i]);
+            arguments.add(t3[i].trim());
         }
         return arguments;
     }
