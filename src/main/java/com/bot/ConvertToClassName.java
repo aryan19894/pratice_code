@@ -15,13 +15,13 @@ public class ConvertToClassName {
         String[] var8 = token;
         int var7 = token.length;
 
-        for(int var6 = 0; var6 < var7; ++var6) {
-            String t = var8[var6];
+        for(int i = 0; i < var7; ++i) {
+            String t = var8[i];
             if (t != null && !isNumeric(t)) {
                 camelCase = camelCase + Character.toUpperCase(t.charAt(0)) + t.substring(1);
             }
         }
-
+        camelCase = camelCase.replaceAll("[^A-Za-z0-9]", "");
         System.out.println(camelCase);
     }
 
