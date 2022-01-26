@@ -78,7 +78,7 @@ public class FourSum_medium_18 {
                             //Processing the duplicates of number2
                             while (left < right && nums[left] == ref.get(2)) left++;
                             //Processing the duplicates of number4
-                            while (left < right && nums[right] == ref.get(2)) right--;
+                            while (left < right && nums[right] == ref.get(3)) right--;
                         }
                     }
                     while (j + 1 < n && nums[j] == nums[j + 1])

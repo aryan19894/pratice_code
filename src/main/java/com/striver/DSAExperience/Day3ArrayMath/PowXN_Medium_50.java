@@ -5,50 +5,39 @@
 
 package com.striver.DSAExperience.Day3ArrayMath;
 
-public class PowXN_Medium_50
-{
-    static class Solution
-    {
+public class PowXN_Medium_50 {
+    static class Solution {
 
-        public double myPow1(double x, int n)
-        {
+        public double myPow1(double x, int n) {
             long ln = Math.abs(n);
-            double ans = 1.0D;
-            for(int i = 0; (long)i < ln; i++)
+            double ans = 1;
+            for (int i = 0; i < ln; i++)
                 ans *= x;
-
-            return n <= 0 ? 1.0D / ans : ans;
+            return n > 0 ? ans : 1.0 / ans;
         }
 
-        public double myPow2(double x, int n)
-        {
+        public double myPow2(double x, int n) {
             long ln = n;
-            ln = ln >= 0L ? ln : -1L * ln;
-            double ans = 1.0D;
-            while(ln > 0L) 
-                if(ln % 2L == 0L)
-                {
+            ln = ln < 0 ? -1 * ln : ln;
+            double ans = 1.0;
+            while (ln > 0) {
+                if (ln % 2 == 0) {
                     x *= x;
-                    ln /= 2L;
-                } else
-                {
+                    ln /= 2;
+                } else {
                     ans *= x;
                     ln--;
                 }
-            return n <= 0 ? 1.0D / ans : ans;
-        }
-
-        Solution()
-        {
+            }
+            return n > 0 ? ans : 1.0 / ans;
         }
     }
 
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         Solution sol = new Solution();
-        double x = 2D;
-        int n = 0x80000000;
+        double x = 2;
+        int n = 10;
         System.out.println(sol.myPow2(x, n));
     }
 }
