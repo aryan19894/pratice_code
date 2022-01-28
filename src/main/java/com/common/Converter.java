@@ -5,13 +5,16 @@ import java.util.ArrayList;
 public class Converter {
     public static ArrayList<ArrayList<Integer>> toList(int[][] nums) {
         ArrayList<ArrayList<Integer>> ref = new ArrayList<ArrayList<Integer>>();
-        for (int[] num : nums) {
-            ArrayList<Integer> r = new ArrayList<Integer>();
-            for (int n : num) {
-                r = new ArrayList<Integer>();
-                r.add(n);
-            }
-            ref.add(r);
+        for (int[] num : nums)
+            ref.add(toList(num));
+
+        return ref;
+    }
+
+    public static ArrayList<Integer> toList(int[] nums) {
+        ArrayList<Integer> ref = new ArrayList<>();
+        for (int num : nums) {
+            ref.add(num);
         }
         return ref;
     }
