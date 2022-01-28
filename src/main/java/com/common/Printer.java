@@ -1,6 +1,6 @@
 package com.common;
 
-import com.striver.DSAExperience.Day5LinkedList.ListNode;
+import com.striver.DSAExperience.T3LinkedList.ListNode;
 
 import java.lang.reflect.Array;
 import java.util.Iterator;
