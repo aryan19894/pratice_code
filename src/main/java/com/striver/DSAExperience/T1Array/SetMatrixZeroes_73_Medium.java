@@ -5,7 +5,7 @@
 
 package com.striver.DSAExperience.T1Array;
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.*;
 
@@ -14,7 +14,7 @@ public class SetMatrixZeroes_73_Medium {
         Solution sol = new Solution();
         int[][] nums = new int[][]{{1, 2, 3, 4}, {5, 0, 7, 8}, {0, 10, 11, 12}, {13, 14, 15, 0}};
         sol.setZeroes3(nums);
-        Printer.print(nums);
+        Out.print(nums);
     }
 
     static class Solution {

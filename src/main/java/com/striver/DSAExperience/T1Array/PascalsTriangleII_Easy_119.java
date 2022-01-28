@@ -5,7 +5,7 @@
 
 package com.striver.DSAExperience.T1Array;
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +35,6 @@ public class PascalsTriangleII_Easy_119 {
     public static void main(String args[]) {
         Solution sol = new Solution();
         List ans = sol.getRow(4);
-        Printer.print(ans);
+        Out.print(ans);
     }
 }

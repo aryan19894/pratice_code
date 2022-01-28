@@ -6,7 +6,7 @@ package com.striver.DSAExperience.T2Hashing;/*
 
 // @lc code=start
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -94,9 +94,9 @@ public class FourSum_medium_18 {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] nums = {4, 3, 3, 4, 4, 2, 1, 2, 1, 1};
-        Printer.print(sol.fourSum1(nums, 9));
+        Out.print(sol.fourSum1(nums, 9));
         System.out.println("----");
-        Printer.print(sol.fourSum2(nums, 9));
+        Out.print(sol.fourSum2(nums, 9));
     }
 }
 

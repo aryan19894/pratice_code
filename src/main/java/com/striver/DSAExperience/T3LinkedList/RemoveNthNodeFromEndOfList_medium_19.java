@@ -6,7 +6,7 @@ package com.striver.DSAExperience.T3LinkedList;/*
 
 // @lc code=start
 
-import com.common.Printer;
+import com.common.Out;
 
 /**
  * Definition for singly-linked list.
@@ -47,7 +47,7 @@ public class RemoveNthNodeFromEndOfList_medium_19 {
 
         ListNode head = list.addElement(new int[]{2, 4, 1, 3, 5, 6});
         head = Solution.removeNthFromEnd(head, 6);
-        Printer.print(head);
+        Out.print(head);
 
     }
 }

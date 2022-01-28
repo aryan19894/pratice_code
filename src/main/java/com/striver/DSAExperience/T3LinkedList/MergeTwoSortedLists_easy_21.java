@@ -6,7 +6,7 @@ package com.striver.DSAExperience.T3LinkedList;/*
 
 // @lc code=start
 
-import com.common.Printer;
+import com.common.Out;
 
 /**
  * Definition for singly-linked list.
@@ -100,13 +100,13 @@ public class MergeTwoSortedLists_easy_21 {
         LinkedList list2 = new LinkedList(new int[]{1, 2, 6, 7, 8});
 
         ListNode res = Solution.mergeTwoLists1(list1.head, list2.head);
-        Printer.print(res);
+        Out.print(res);
 
         list1 = new LinkedList(new int[]{5, 7, 8, 9});
         list2 = new LinkedList(new int[]{3, 4, 8, 10});
 
         res = Solution.mergeTwoLists2(list1.head, list2.head);
-        Printer.print(res);
+        Out.print(res);
 
     }
 }

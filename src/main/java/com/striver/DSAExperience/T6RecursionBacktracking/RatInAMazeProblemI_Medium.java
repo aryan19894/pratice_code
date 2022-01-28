@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T6RecursionBacktracking;
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 
@@ -58,6 +58,6 @@ public class RatInAMazeProblemI_Medium {
                 {0, 1, 1, 1}};
 
         ArrayList<String> ans = findPath(m, m.length);
-        Printer.print(ans);
+        Out.print(ans);
     }
 }

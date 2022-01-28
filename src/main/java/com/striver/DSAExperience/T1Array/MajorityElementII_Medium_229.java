@@ -5,8 +5,7 @@
 
 package com.striver.DSAExperience.T1Array;
 
-import com.common.Obj;
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,6 +59,6 @@ public class MajorityElementII_Medium_229 {
                 2, 2, 1, 1, 1, 2, 2
         };
         List ans = sol.majorityElement(nums);
-        Printer.print(ans);
+        Out.print(ans);
     }
 }

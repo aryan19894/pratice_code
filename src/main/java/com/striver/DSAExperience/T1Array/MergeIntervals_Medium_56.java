@@ -5,7 +5,7 @@
 
 package com.striver.DSAExperience.T1Array;
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,7 +16,7 @@ public class MergeIntervals_Medium_56 {
         Solution sol = new Solution();
         int[][] nums = new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}};
         int[][] ans = sol.merge2(nums);
-        Printer.printWithIndex(ans, true);
+        Out.printWithIndex(ans, true);
     }
 
     static class Solution {

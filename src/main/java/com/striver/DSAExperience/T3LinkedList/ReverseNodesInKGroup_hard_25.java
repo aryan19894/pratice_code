@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T3LinkedList;
 
-import com.common.Printer;
+import com.common.Out;
 
 public class ReverseNodesInKGroup_hard_25 {
     static class Solution {
@@ -41,7 +41,7 @@ public class ReverseNodesInKGroup_hard_25 {
         LinkedList l1 = new LinkedList(new int[]{1, 2, 3, 4, 5, 6, 7, 8});
 
         ListNode res = sol.reverseKGroup(l1.head, 3);
-        Printer.print(res);
+        Out.print(res);
 
     }
 }

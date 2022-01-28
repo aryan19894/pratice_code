@@ -5,10 +5,8 @@
 
 package com.hackerrank.pratice.interview.GreedyAlgorithms;
 
-import com.common.Obj;
-import com.common.Printer;
+import com.common.Out;
 
-import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -41,7 +39,7 @@ public class MinimumAbsoluteDifferenceInArray
         for(int i = 0; i < n; i++)
             a[i] = in.nextInt();
 
-        Printer.print(a);
+        Out.print(a);
         int ans = minimumAbsoluteDifference(a);
         System.out.println(ans);
     }

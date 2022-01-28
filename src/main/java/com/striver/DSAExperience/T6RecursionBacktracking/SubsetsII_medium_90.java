@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T6RecursionBacktracking;
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.*;
 
@@ -64,9 +64,9 @@ public class SubsetsII_medium_90 {
         int nums[] = {1, 2, 2};
         Solution sol = new Solution();
         List<List<Integer>> res = sol.subsetsWithDup1(nums);
-        Printer.print(res);
+        Out.print(res);
         res = sol.subsetsWithDup2(nums);
-        Printer.print(res);
+        Out.print(res);
     }
 }
 

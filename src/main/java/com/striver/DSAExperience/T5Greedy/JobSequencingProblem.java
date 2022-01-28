@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T5Greedy;
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.Arrays;
 
@@ -37,7 +37,7 @@ public class JobSequencingProblem {
         int nums[][] = {{1, 4, 20}, {2, 5, 60}, {3, 6, 70}, {4, 6, 65}
                 , {5, 4, 25}, {6, 2, 80}, {7, 2, 10}, {8, 2, 22}};
         int[] ans = JobScheduling(Job.toJob(nums), nums.length);
-        Printer.print(ans);
+        Out.print(ans);
     }
 }
 

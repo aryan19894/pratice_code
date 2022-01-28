@@ -6,7 +6,7 @@ package com.striver.DSAExperience.T3LinkedList;/*
 
 // @lc code=start
 
-import com.common.Printer;
+import com.common.Out;
 
 /**
  * Definition for singly-linked list.
@@ -53,11 +53,11 @@ public class MiddleOfTheLinkedList_easy_876 {
 
         ListNode head = list.addElement(new int[]{1, 2, 3, 4, 5});
         head = Solution.middleNode1(head);
-        Printer.print(head);
+        Out.print(head);
 
         head = list.addElement(new int[]{1, 2, 3, 4, 5});
         head = Solution.middleNode2(head);
-        Printer.print(head);
+        Out.print(head);
 
     }
 }

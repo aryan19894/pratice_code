@@ -4,7 +4,7 @@ package com.striver.DSAExperience.T6RecursionBacktracking;/*
  * [51] N-Queens
  */
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -120,9 +120,9 @@ public class NQueens_hard_51 {
     public static void main(String[] args) {
         Solution sol = new Solution();
         List<List<String>> res = sol.solveNQueens1(4);
-        Printer.print(res);
+        Out.print(res);
         res = sol.solveNQueens2(4);
-        Printer.print(res);
+        Out.print(res);
 
     }
 }

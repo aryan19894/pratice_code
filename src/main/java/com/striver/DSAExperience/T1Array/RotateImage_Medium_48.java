@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T1Array;
 
-import com.common.Printer;
+import com.common.Out;
 
 public class RotateImage_Medium_48
 {
@@ -8,7 +8,7 @@ public class RotateImage_Medium_48
         Solution sol = new Solution();
         int[][] nums = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         sol.rotate(nums);
-        Printer.print(nums);
+        Out.print(nums);
     }
 
     static class Solution {

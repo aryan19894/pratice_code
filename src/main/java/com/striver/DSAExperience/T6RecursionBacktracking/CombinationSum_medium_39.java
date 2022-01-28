@@ -6,7 +6,7 @@ package com.striver.DSAExperience.T6RecursionBacktracking;/*
 
 // @lc code=start
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +48,7 @@ public class CombinationSum_medium_39 {
         int nums[] = {2, 3, 6, 7};
         Solution sol = new Solution();
         List<List<Integer>> res = sol.combinationSum(nums, 7);
-        Printer.print(res);
+        Out.print(res);
     }
 }
 

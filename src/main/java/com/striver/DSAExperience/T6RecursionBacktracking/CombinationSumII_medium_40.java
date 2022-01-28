@@ -4,7 +4,7 @@ package com.striver.DSAExperience.T6RecursionBacktracking;/*
  * [40] Combination Sum II
  */
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.*;
 
@@ -78,10 +78,10 @@ public class CombinationSumII_medium_40 {
         int nums[] = {2, 5, 2, 1, 2};
         Solution sol = new Solution();
         List<List<Integer>> res = sol.combinationSumII1(nums, 5);
-        Printer.print(res);
+        Out.print(res);
         nums = new int[]{2, 5, 2, 1, 2};
         res = sol.combinationSumII2(nums, 5);
-        Printer.print(res);
+        Out.print(res);
     }
 }
 // @lc code=end

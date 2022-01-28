@@ -6,7 +6,7 @@ package com.striver.DSAExperience.T3LinkedList;/*
 
 // @lc code=start
 
-import com.common.Printer;
+import com.common.Out;
 
 /**
  * Definition for singly-linked list.
@@ -32,7 +32,7 @@ public class DeleteNodeInALinkedList_easy_237 {
         list.addLast(toBeDeleted);
         list.appendElement(new int[]{5, 6, 7});
         Solution.deleteNode(toBeDeleted);
-        Printer.print(list.head);
+        Out.print(list.head);
 
     }
 }

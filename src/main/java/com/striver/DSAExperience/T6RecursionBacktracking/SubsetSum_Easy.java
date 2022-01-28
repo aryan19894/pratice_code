@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T6RecursionBacktracking;
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,6 +34,6 @@ public class SubsetSum_Easy {
         //arr.add(6);
 
         arr = subsetSums(arr, arr.size());
-        Printer.print(arr);
+        Out.print(arr);
     }
 }

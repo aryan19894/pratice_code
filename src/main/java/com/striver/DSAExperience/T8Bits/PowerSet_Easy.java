@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T8Bits;
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,6 +27,6 @@ public class PowerSet_Easy {
 
     public static void main(String[] args) {
         List<String> ans = allPossibleStrings("abc");
-        Printer.print(ans);
+        Out.print(ans);
     }
 }

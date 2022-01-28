@@ -4,7 +4,7 @@ package com.striver.DSAExperience.T2Hashing;/*
  * [1] Two Sum
  */
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.HashMap;
 
@@ -41,7 +41,7 @@ public class TwoSum_easy_1 {
         Solution sol = new Solution();
         int[] nums = {2, 7, 11, 15};
 //        Printer.print(sol.twoSum1(nums, 9));
-        Printer.print(sol.twoSum2(nums, 9));
+        Out.print(sol.twoSum2(nums, 9));
     }
 }
 

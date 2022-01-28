@@ -4,7 +4,7 @@ package com.striver.DSAExperience.T6RecursionBacktracking;/*
  * [46] Permutations
  */
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -86,10 +86,10 @@ public class Permutations_medium_46 {
         Solution sol = new Solution();
         int[] nums = {1, 2, 3};
         List<List<Integer>> res = sol.permute1(nums);
-        Printer.print(res);
+        Out.print(res);
         int[] n = {1, 2, 3};
         res = sol.permute2(n);
-        Printer.print(res);
+        Out.print(res);
     }
 }
 // @lc code=end

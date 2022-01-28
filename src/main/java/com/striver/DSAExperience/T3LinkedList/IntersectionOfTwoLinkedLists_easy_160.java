@@ -6,7 +6,7 @@ package com.striver.DSAExperience.T3LinkedList;/*
 
 // @lc code=start
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.HashSet;
 
@@ -127,16 +127,16 @@ public class IntersectionOfTwoLinkedLists_easy_160 {
         l2.addLast(common);
 
         ListNode res = sol.getIntersectionNode1(l1.head, l2.head);
-        Printer.print(res);
+        Out.print(res);
 
         res = sol.getIntersectionNode2(l1.head, l2.head);
-        Printer.print(res);
+        Out.print(res);
 
         res = sol.getIntersectionNode3(l1.head, l2.head);
-        Printer.print(res);
+        Out.print(res);
 
         res = sol.getIntersectionNode4(l1.head, l2.head);
-        Printer.print(res);
+        Out.print(res);
     }
 }
 

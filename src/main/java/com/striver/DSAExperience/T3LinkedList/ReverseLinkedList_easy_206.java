@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T3LinkedList;
 
-import com.common.Printer;
+import com.common.Out;
 
 public class ReverseLinkedList_easy_206 {
     static class Solution {
@@ -35,11 +35,11 @@ public class ReverseLinkedList_easy_206 {
 
         ListNode head = list.addElement(new int[]{1, 2, 3, 4, 5});
         head = Solution.reverseList1(head);
-        Printer.print(head);
+        Out.print(head);
 
         head = list.addElement(new int[]{1, 2, 3, 4, 5});
         head = Solution.reverseList2(head);
-        Printer.print(head);
+        Out.print(head);
     }
 }
 

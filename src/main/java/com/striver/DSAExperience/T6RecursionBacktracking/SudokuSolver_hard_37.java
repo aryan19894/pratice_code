@@ -4,7 +4,7 @@ package com.striver.DSAExperience.T6RecursionBacktracking;/*
  * [37] Sudoku Solver
  */
 
-import com.common.Printer;
+import com.common.Out;
 
 // @lc code=start
 public class SudokuSolver_hard_37 {
@@ -63,7 +63,7 @@ public class SudokuSolver_hard_37 {
                 {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
         Solution sol = new Solution();
         sol.solveSudoku(board);
-        Printer.print(board);
+        Out.print(board);
     }
 }
 

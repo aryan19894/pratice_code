@@ -6,7 +6,7 @@ package com.striver.DSAExperience.T6RecursionBacktracking;/*
 
 // @lc code=start
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,7 +51,7 @@ public class PalindromePartitioning_medium_131 {
     public static void main(String[] args) {
         Solution sol = new Solution();
         List<List<String>> res = sol.partition("abb");
-        Printer.print(res);
+        Out.print(res);
     }
 }
 // @lc code=end

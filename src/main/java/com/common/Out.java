@@ -6,7 +6,7 @@ import java.lang.reflect.Array;
 import java.util.Iterator;
 import java.util.List;
 
-public class Printer {
+public class Out {
 
     public static void print(Object obj) {
         String instance = obj.toString();
@@ -26,8 +26,9 @@ public class Printer {
         Iterator itr = a.iterator();
 
         while (itr.hasNext()) {
-            System.out.println(itr.next() + " ");
+            System.out.print(itr.next() + " ");
         }
+        System.out.println();
         System.out.println("-------------");
     }
 

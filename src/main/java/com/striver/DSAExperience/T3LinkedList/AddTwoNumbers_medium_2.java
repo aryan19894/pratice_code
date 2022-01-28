@@ -6,7 +6,7 @@ package com.striver.DSAExperience.T3LinkedList;/*
 
 // @lc code=start
 
-import com.common.Printer;
+import com.common.Out;
 
 /**
  * Definition for singly-linked list.
@@ -160,13 +160,13 @@ public class AddTwoNumbers_medium_2 {
         LinkedList l2 = new LinkedList(new int[]{5, 6, 7, 9});
 
         ListNode res = Solution.addTwoNumbers1(l1.head, l2.head);
-        Printer.print(res);
+        Out.print(res);
 
         res = Solution.addTwoNumbers2(l1.head, l2.head);
-        Printer.print(res);
+        Out.print(res);
 
         res = Solution.addTwoNumbers3(l1.head, l2.head);
-        Printer.print(res);
+        Out.print(res);
     }
 }
 

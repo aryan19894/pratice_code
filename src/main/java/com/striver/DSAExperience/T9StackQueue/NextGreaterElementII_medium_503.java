@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T9StackQueue;
 
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.Stack;
 
@@ -26,6 +26,6 @@ public class NextGreaterElementII_medium_503 {
         Solution sol = new Solution();
         int[] nums = {4, 12, 5, 3, 1, 2, 5, 3, 1, 2, 4, 6};
         int[] res = sol.nextGreaterElements(nums);
-        Printer.print(res);
+        Out.print(res);
     }
 }

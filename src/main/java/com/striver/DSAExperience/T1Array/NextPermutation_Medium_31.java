@@ -6,7 +6,7 @@
 package com.striver.DSAExperience.T1Array;
 
 import com.common.Obj;
-import com.common.Printer;
+import com.common.Out;
 
 public class NextPermutation_Medium_31
 {
@@ -14,7 +14,7 @@ public class NextPermutation_Medium_31
         Solution sol = new Solution();
         int[] nums = new int[]{1, 3, 5, 4, 2};
         sol.nextPermutation(nums);
-        Printer.print(nums);
+        Out.print(nums);
     }
 
     static class Solution {
