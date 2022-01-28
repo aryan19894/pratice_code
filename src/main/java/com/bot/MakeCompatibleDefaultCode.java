@@ -10,7 +10,7 @@ public class MakeCompatibleDefaultCode {
     private static final String projectPath = "E:\\code\\DSA\\Platform\\src\\main\\java\\";
     private static final String basePkgPath = "com\\striver\\DSAExperience\\";
     private static final String basePkgFullPath = projectPath + basePkgPath;
-    private static final String pkgName = "Day11BinarySearch\\";
+    private static final String pkgName = "Day13StackQueue\\";
     private static String entityName = "DefaultClassName";
 
     public static void main(String[] args) {
@@ -68,10 +68,12 @@ public class MakeCompatibleDefaultCode {
         callingArgument = callingArgument.substring(0, callingArgument.length() - 2);
         String callingMethod = "sol." + clsDetail.get("methodName") + "(" + callingArgument + ")";
         String returnType = clsDetail.get("returnType");
-        if (requireNewKeyword(returnType)) {
-            ref.add("\t\t" + returnType + " res = new " + returnType + "();");
-            ref.add("\t\tres = " + callingMethod + ";");
+        if (requireNewKeyword(returnType) || returnType.contains("[]")) {
+            ref.add("\t\t" + returnType + " res = " + callingMethod + ";");
             ref.add("\t\tPrinter.print(res);");
+
+            ref.add(2, "import com.common.Printer;");
+            ref.add(3, "");
         } else
             ref.add("\t\tSystem.out.println(" + callingMethod + ");");
 
