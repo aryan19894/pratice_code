@@ -1,4 +1,4 @@
-package com.striver.DSAExperience.T9StackQueue;/*
+package com.striver.DSAExperience.T10StackQueue;/*
  * @lc app=leetcode id=146 lang=java
  *
  * [146] LRU Cache

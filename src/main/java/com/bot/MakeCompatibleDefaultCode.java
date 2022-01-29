@@ -3,50 +3,55 @@ package com.bot;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.attribute.BasicFileAttributes;
+import java.time.Instant;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Scanner;
 
 public class MakeCompatibleDefaultCode {
 
     private static final String projectPath = "E:\\code\\DSA\\Platform\\src\\main\\java\\";
     private static final String basePkgPath = "com\\striver\\DSAExperience\\";
     private static final String basePkgFullPath = projectPath + basePkgPath;
-    private static final String pkgName = "T9StackQueue\\";
+    private static final String pkgName = "T10StackQueue\\";
     private static String entityName = "DefaultClassName";
 
     private static final boolean methodCall = true;
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter the entityName: ");
-        entityName = in.nextLine();
-        File file = new File(basePkgFullPath + pkgName + entityName + ".java");
-        ArrayList<String> content = readFile(file);
+//        Scanner in = new Scanner(System.in);
+//        System.out.println("Enter the entityName: ");
+//        entityName = in.nextLine();
+//        File file = new File(basePkgFullPath + pkgName + entityName + ".java");
+        File newlyCreatedFile = newlyCreatedFile(basePkgFullPath + pkgName);
+        entityName = newlyCreatedFile.getName().replace(".java", "");
+
+        ArrayList<String> content = readFile(newlyCreatedFile);
         content = cleanContent(content);
         if (!content.get(0).contains("package")) {
             content = modifyContent(content);
-            appendContent(file, toString(content));
+            appendContent(newlyCreatedFile, toString(content));
         }
         System.out.println("Process Complete");
     }
-
 
 
     private static ArrayList<String> modifyContent(ArrayList<String> content) {
         ArrayList<String> ref = new ArrayList<>();
         ref.add("package " + toPkg(basePkgPath + pkgName) + ";");
         ref.add("");
-        content.remove(0);
-        content.remove(content.size() - 1);
-        ref.addAll(content);
-
-//        int startIdx = Integer.parseInt(clsDetail.get("startIdx"));
-//        int endIdx = Integer.parseInt(clsDetail.get("endIdx"));
-//        for (int i = startIdx; i <= endIdx; i++)
-//            ref.add(content.get(i));
-//        ref.add("");
         ref.add("public class " + entityName + " {");
-        ref.add("\tpublic static void main(String[] args) {");
+        ref.add("\tstatic " + content.get(0));
+        content.remove(0);
+        for (String c : content)
+            ref.add("\t" + c);
+
         ref.add("");
+        ref.add("\tpublic static void main(String[] args) {");
         if (methodCall) {
             ref.add("\t\tSolution sol = new Solution();");
             HashMap<String, String> clsDetail = analyzeClass(content); // class, no of argument, return type
@@ -71,9 +76,9 @@ public class MakeCompatibleDefaultCode {
             String returnType = clsDetail.get("returnType");
             if (requireNewKeyword(returnType) || returnType.contains("[]")) {
                 ref.add("\t\t" + returnType + " res = " + callingMethod + ";");
-                ref.add("\t\tPrinter.print(res);");
+                ref.add("\t\tOut.print(res);");
 
-                ref.add(2, "import com.common.Printer;");
+                ref.add(2, "import com.common.Out;");
                 ref.add(3, "");
             } else
                 ref.add("\t\tSystem.out.println(" + callingMethod + ");");
@@ -114,24 +119,22 @@ public class MakeCompatibleDefaultCode {
 
     private static HashMap<String, String> analyzeClass(ArrayList<String> content) {
         HashMap<String, String> map = new HashMap<>();
-        int clsId = 0;
-        for (int i = 0; i < content.size(); i++) {
-            String cont = content.get(i).toLowerCase();
-            if (cont.contains("class")) {
-                map.put("class", "" + i);
-                clsId = i;
-                break;
-            }
-        }
-        String method = content.get(clsId + 1);
+//        int clsId = 0;
+//        for (int i = 0; i < content.size(); i++) {
+//            String cont = content.get(i).toLowerCase();
+//            if (cont.contains("class")) {
+//                map.put("class", "" + i);
+//                clsId = i;
+//                break;
+//            }
+//        }
+        String method = content.get(0);
         String[] t1 = method.split("\\(");
-
         String[] t2 = t1[0].trim().split(" ");
+
         map.put("returnType", t2[1]);
         map.put("methodName", t2[t2.length - 1]);
-
         map.put("argumentType", t1[1].replace(") {", "").trim());
-
 
         return map;
     }
@@ -170,7 +173,7 @@ public class MakeCompatibleDefaultCode {
             Scanner sc = new Scanner(file);    //file to be scanned
             while (sc.hasNextLine()) {
                 String c = sc.nextLine();
-                if(!c.contains("*"))
+                if (!c.contains("*"))
                     content.add(c);
             }
             sc.close();     //closes the scanner
@@ -182,15 +185,51 @@ public class MakeCompatibleDefaultCode {
 
     private static ArrayList<String> cleanContent(ArrayList<String> content) {
         ArrayList<String> ref = new ArrayList<>();
-        for(String c: content){
-            if(!c.contains("*"))
+        for (String c : content) {
+            if (!c.contains("*"))
                 ref.add(c);
         }
-        if(ref.get(0).isEmpty())
+        if (ref.get(0).isEmpty())
             ref.remove(0);
-        if(ref.get(ref.size()-1).isEmpty())
-            ref.remove(ref.size()-1);
+        if (ref.get(ref.size() - 1).isEmpty())
+            ref.remove(ref.size() - 1);
 
+        //removing first and last index
+        ref.remove(0);
+        ref.remove(ref.size() - 1);
         return ref;
+    }
+
+    private static File newlyCreatedFile(String dirPath) {
+        File dir = new File(dirPath);
+
+        File[] files = dir.listFiles();
+        if (files == null || files.length == 0) {
+            return null;
+        }
+
+        final long MIN_15 = 1800000;
+        long currentTime = Instant.now().toEpochMilli();
+        ArrayList<File> newFile = new ArrayList<>();
+        for (File file : files) {
+            if (file.lastModified() + MIN_15 >= currentTime)
+                newFile.add(file);
+        }
+
+        File newCreatedFile = null;
+        try {
+            long firstFile = Integer.MIN_VALUE;
+            for (File file : newFile) {
+                long curFile = Files.readAttributes(Paths.get(file.getPath()),
+                        BasicFileAttributes.class).creationTime().toMillis();
+                if (firstFile < curFile) {
+                    newCreatedFile = file;
+                }
+            }
+        } catch (IOException e) {
+            System.out.println("oops error! " + e.getMessage());
+        }
+
+        return newCreatedFile;
     }
 }

@@ -1,4 +1,4 @@
-package com.striver.DSAExperience.T9StackQueue;/*
+package com.striver.DSAExperience.T10StackQueue;/*
  * @lc app=leetcode id=232 lang=java
  *
  * [232] Implement Queue using Stacks
