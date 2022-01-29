@@ -5,10 +5,8 @@
 
 package com.hackerrank.pratice.interview.arrays;
 
-import com.common.Obj;
-import com.common.Printer;
+import com.common.Out;
 
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Array2D
@@ -64,7 +62,7 @@ public class Array2D
 
         }
 
-        Printer.print(a);
+        Out.print(a);
         int ans = hourglassSum(a);
         System.out.println(ans);
     }

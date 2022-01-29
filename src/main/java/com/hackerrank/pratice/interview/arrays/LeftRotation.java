@@ -5,8 +5,7 @@
 
 package com.hackerrank.pratice.interview.arrays;
 
-import com.common.Obj;
-import com.common.Printer;
+import com.common.Out;
 
 import java.util.Scanner;
 
@@ -40,8 +39,8 @@ public class LeftRotation
         for(int i = 0; i < n; i++)
             a[i] = in.nextInt();
 
-        Printer.print(a);
+        Out.print(a);
         int ans[] = rotLeft(a, d);
-        Printer.print(ans);
+        Out.print(ans);
     }
 }
