@@ -7,10 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class MakeCompatibleDefaultCode {
 
@@ -20,7 +17,7 @@ public class MakeCompatibleDefaultCode {
     private static final String pkgName = "T10StackQueue\\";
     private static String entityName = "DefaultClassName";
 
-    private static final boolean methodCall = true;
+    private static boolean methodCall = true;
 
     public static void main(String[] args) {
 //        Scanner in = new Scanner(System.in);
@@ -45,12 +42,12 @@ public class MakeCompatibleDefaultCode {
         ref.add("package " + toPkg(basePkgPath + pkgName) + ";");
         ref.add("");
         ref.add("public class " + entityName + " {");
+        methodCall = content.get(0).toLowerCase().contains("solution");
         ref.add("\tstatic " + content.get(0));
         content.remove(0);
         for (String c : content)
             ref.add("\t" + c);
 
-        ref.add("");
         ref.add("\tpublic static void main(String[] args) {");
         if (methodCall) {
             ref.add("\t\tSolution sol = new Solution();");
@@ -224,6 +221,7 @@ public class MakeCompatibleDefaultCode {
                         BasicFileAttributes.class).creationTime().toMillis();
                 if (firstFile < curFile) {
                     newCreatedFile = file;
+                    firstFile = curFile;
                 }
             }
         } catch (IOException e) {
