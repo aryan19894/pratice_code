@@ -14,7 +14,7 @@ public class MakeCompatibleDefaultCode {
     private static final String projectPath = "E:\\code\\DSA\\Platform\\src\\main\\java\\";
     private static final String basePkgPath = "com\\striver\\DSAExperience\\";
     private static final String basePkgFullPath = projectPath + basePkgPath;
-    private static final String pkgName = "T10StackQueue\\";
+    private static final String pkgName = "T12Tree\\";
     private static String entityName = "DefaultClassName";
 
     private static boolean methodCall = true;
@@ -93,7 +93,7 @@ public class MakeCompatibleDefaultCode {
         if (s.contains("double")) return "0.0";
         if (s.contains("char")) return "\'\'";
         if (s.contains("String")) return "\"\"";
-        return "";
+        return "null";
     }
 
     private static boolean requireNewKeyword(String args) {
@@ -183,17 +183,19 @@ public class MakeCompatibleDefaultCode {
     private static ArrayList<String> cleanContent(ArrayList<String> content) {
         ArrayList<String> ref = new ArrayList<>();
         for (String c : content) {
-            if (!c.contains("*"))
+            if (!c.contains("*") &&
+                    !c.contains("import") &&
+                    !c.startsWith("//"))
                 ref.add(c);
         }
-        if (ref.get(0).isEmpty())
+        while (ref.get(0).isEmpty())
             ref.remove(0);
-        if (ref.get(ref.size() - 1).isEmpty())
+        while (ref.get(ref.size() - 1).isEmpty())
             ref.remove(ref.size() - 1);
 
         //removing first and last index
-        ref.remove(0);
-        ref.remove(ref.size() - 1);
+//        ref.remove(0);
+//        ref.remove(ref.size() - 1);
         return ref;
     }
 
