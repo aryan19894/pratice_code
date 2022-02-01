@@ -1,4 +1,4 @@
-package com.striver.DSAExperience.T9StackQueue;
+package com.striver.DSAExperience.T10StackQueue;
 
 import com.common.Out;
 

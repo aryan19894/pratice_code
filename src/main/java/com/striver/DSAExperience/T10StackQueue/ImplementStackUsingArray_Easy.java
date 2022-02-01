@@ -1,4 +1,4 @@
-package com.striver.DSAExperience.T9StackQueue;
+package com.striver.DSAExperience.T10StackQueue;
 
 class Stack {
     int top;
