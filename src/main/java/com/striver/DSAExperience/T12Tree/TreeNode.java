@@ -1,8 +1,8 @@
 package com.striver.DSAExperience.T12Tree;
 
 public class TreeNode {
-    int val;
-    TreeNode left, right;
+    public int val;
+    public TreeNode left, right;
 
     public TreeNode(){}
 

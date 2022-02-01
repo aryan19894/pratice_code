@@ -19,10 +19,14 @@ public class Out {
                 System.out.print(Array.get(obj, i) + " ");
             }
             System.out.println();
-        }
+        } else
+            System.out.println(obj);
     }
 
     public static void print(List a) {
+        if (a == null)
+            System.out.println("null");
+
         Iterator itr = a.iterator();
 
         while (itr.hasNext()) {
@@ -30,6 +34,11 @@ public class Out {
         }
         System.out.println();
         System.out.println("-------------");
+    }
+
+    public static void print(String msg, List a) {
+        System.out.print(msg + ": ");
+        print(a);
     }
 
     public static void print(ListNode node) {
