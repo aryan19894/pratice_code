@@ -4,6 +4,8 @@ import com.striver.DSAExperience.T12Tree.TreeNode;
 
 public class MaximumDepthOfBinaryTree_easy_104 {
     static class Solution {
+        // [Optimal] TC: O(n) - we use left & right children’s maximum depth
+        // SC: O(1) Extra Space + O(H) Recursion Stack space (Where “H”  is the height of binary tree )
         public int maxDepth(TreeNode root) {
             if (root == null) return 0;
             return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
