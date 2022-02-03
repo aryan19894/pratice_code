@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T10StackQueue;
 
-import com.common.Converter;
+import com.common.Arrays;
 import com.common.Out;
 
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ public class NearestSmallerElement_Easy {
 
     public static void main(String[] args) {
         int[] nums = {4, 5, 2, 10, 8};
-        ArrayList<Integer> ans = prevSmaller(Converter.toList(nums));
+        ArrayList<Integer> ans = prevSmaller(Arrays.toList(nums));
         Out.print(ans);
     }
 }

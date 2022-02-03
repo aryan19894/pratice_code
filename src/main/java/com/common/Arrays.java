@@ -1,8 +1,13 @@
 package com.common;
 
-import java.util.ArrayList;
+import com.striver.DSAExperience.T12Tree.Node;
+import com.striver.DSAExperience.T12Tree.TreeNode;
 
-public class Converter {
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Arrays {
     public static ArrayList<ArrayList<Integer>> toList(int[][] nums) {
         ArrayList<ArrayList<Integer>> ref = new ArrayList<ArrayList<Integer>>();
         for (int[] num : nums)
@@ -19,8 +24,4 @@ public class Converter {
         return ref;
     }
 
-//    public static int[] range(int n) {
-//        int[] a = new int[n];
-//        for()
-//    }
 }

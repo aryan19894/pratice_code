@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T7BinarySearch;
 
-import com.common.Converter;
+import com.common.Arrays;
 
 import java.util.ArrayList;
 
@@ -44,6 +44,6 @@ public class MatrixMedian_Medium {
         int[][] nums = {{1, 3, 5},
                 {2, 6, 9},
                 {3, 6, 9}};
-        System.out.println(findMedian(Converter.toList(nums)));
+        System.out.println(findMedian(Arrays.toList(nums)));
     }
 }

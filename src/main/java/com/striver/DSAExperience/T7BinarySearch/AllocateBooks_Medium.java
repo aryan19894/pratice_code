@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T7BinarySearch;
 
-import com.common.Converter;
+import com.common.Arrays;
 
 import java.util.ArrayList;
 
@@ -45,6 +45,6 @@ public class AllocateBooks_Medium {
 
     public static void main(String[] args) {
         int[] nums = {12, 34, 67, 90};
-        System.out.println(books(Converter.toList(nums), 2));
+        System.out.println(books(Arrays.toList(nums), 2));
     }
 }
