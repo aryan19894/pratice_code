@@ -2,27 +2,27 @@ package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.common.Out;
 import com.striver.DSAExperience.T12Tree.TreeNode;
-import com.striver.DSAExperience.T12Tree.Tuple;
+import com.striver.DSAExperience.T12Tree.TreeTuple;
 
 import java.util.*;
 
 
-public class VerticalOrderTraversalOfABinaryTree_hard_987 {
+public class VerticalOrderTraversal_hard_987 {
     static class Solution {
         // [Optimal] TC: O(NlogN) - logN fo priorityQueue - using level order traversal
         // SC: O(N) map
         public List<List<Integer>> verticalTraversal(TreeNode root) {
             List<List<Integer>> result = new ArrayList<>();
             TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
-            Queue<Tuple> q = new LinkedList<Tuple>();
+            Queue<TreeTuple> q = new LinkedList<TreeTuple>();
 
             if (root == null) return result;
 
-            q.offer(new Tuple(root, 0, 0));
+            q.offer(new TreeTuple(root, 0, 0));
             while (!q.isEmpty()) {
                 int size = q.size();
                 for (int i = 0; i < size; i++) {
-                    Tuple ref = q.poll();
+                    TreeTuple ref = q.poll();
                     TreeNode node = ref.node;
                     int x = ref.row;
                     int y = ref.col;
@@ -32,9 +32,9 @@ public class VerticalOrderTraversalOfABinaryTree_hard_987 {
                     map.get(x).get(y).offer(node.val);
 
                     if (node.left != null)
-                        q.offer(new Tuple(node.left, x - 1, y + 1));
+                        q.offer(new TreeTuple(node.left, x - 1, y + 1));
                     if (node.right != null)
-                        q.offer(new Tuple(node.right, x + 1, y + 1));
+                        q.offer(new TreeTuple(node.right, x + 1, y + 1));
                 }
             }
 

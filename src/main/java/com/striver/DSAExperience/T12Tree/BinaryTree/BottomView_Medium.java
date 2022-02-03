@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.TreeMap;
 
-public class BottomViewOfBinaryTree_Medium {
+public class BottomView_Medium {
     static class Solution {
         // [Optimal: Recursive] - NOT ALLOWED - we will get the first node instead of last node of each vertical level.
         // recursive call follow top to bottom approach, so last node is traversed first then its previous node,

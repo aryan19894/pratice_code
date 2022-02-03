@@ -5,7 +5,7 @@ import com.striver.DSAExperience.T12Tree.TreeNode;
 
 import java.util.ArrayList;
 
-public class BoundaryOfBinaryTree_medium_545 {
+public class BoundaryTraversal_medium_545 {
     static class Solution {
         // [Optimal] TC: O(n) - O(H) + O(H) + O(N) - right and left height level transversal
         // SC: O(1) Extra Space + O(H) Recursion Stack space (Where “H”  is the height of binary tree )

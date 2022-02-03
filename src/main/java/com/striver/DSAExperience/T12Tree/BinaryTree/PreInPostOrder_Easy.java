@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class AllTraversalInOne {
+public class PreInPostOrder_Easy {
     static class Solution {
         // [Optimal Iterative] TC: O(n) - all traversal in single stack
         // we can use pattern that extreme left then right and then root is going for all traversal with
