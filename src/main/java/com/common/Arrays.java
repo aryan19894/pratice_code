@@ -1,11 +1,6 @@
 package com.common;
 
-import com.striver.DSAExperience.T12Tree.Node;
-import com.striver.DSAExperience.T12Tree.TreeNode;
-
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class Arrays {
     public static ArrayList<ArrayList<Integer>> toList(int[][] nums) {
@@ -24,4 +19,11 @@ public class Arrays {
         return ref;
     }
 
+    public static Integer[] toInteger(String[] input) {
+        Integer[] ref = new Integer[input.length];
+        int i = 0;
+        for (String ip : input)
+            ref[i++] = ip == null ? null : Integer.parseInt(ip);
+        return ref;
+    }
 }
