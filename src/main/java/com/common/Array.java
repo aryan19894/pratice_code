@@ -2,7 +2,7 @@ package com.common;
 
 import java.util.ArrayList;
 
-public class Arrays {
+public class Array {
     public static ArrayList<ArrayList<Integer>> toList(int[][] nums) {
         ArrayList<ArrayList<Integer>> ref = new ArrayList<ArrayList<Integer>>();
         for (int[] num : nums)
@@ -26,4 +26,13 @@ public class Arrays {
             ref[i++] = ip == null ? null : Integer.parseInt(ip);
         return ref;
     }
+
+    public static String[] toString(Integer[] input) {
+        String[] ref = new String[input.length];
+        int i = 0;
+        for (Integer ip : input)
+            ref[i++] = String.valueOf(ip);
+        return ref;
+    }
+
 }
