@@ -3,7 +3,7 @@ package com.striver.DSAExperience.T12Tree;
 import java.util.LinkedList;
 import java.util.Objects;
 import java.util.Queue;
-import com.common.Arrays;
+import com.common.Array;
 
 public class TreeNode {
     public int val;
@@ -27,7 +27,7 @@ public class TreeNode {
         }
 
         String ip[] = str.split(" ");
-        return toTree(Arrays.toInteger(ip));
+        return toTree(Array.toInteger(ip));
     }
 
     public static TreeNode toTree(Integer[] ip) {

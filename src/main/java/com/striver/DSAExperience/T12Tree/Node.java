@@ -1,5 +1,8 @@
 package com.striver.DSAExperience.T12Tree;
 
+import com.common.Array;
+
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -34,6 +37,10 @@ public class Node {
 
         String ip[] = str.split(" ");
         return toTree(ip);
+    }
+
+    public static Node toTree(Integer[] ip) {
+        return toTree(Array.toString(ip));
     }
 
     public static Node toTree(String[] ip) {
