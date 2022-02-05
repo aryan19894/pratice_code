@@ -2,7 +2,7 @@ package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.striver.DSAExperience.T12Tree.TreeNode;
 
-public class MaximumDepthOfBinaryTree_easy_104 {
+public class MaximumDepth_easy_104 {
     static class Solution {
         // [Optimal] TC: O(n) - we use left & right children’s maximum depth
         // SC: O(1) Extra Space + O(H) Recursion Stack space (Where “H”  is the height of binary tree )

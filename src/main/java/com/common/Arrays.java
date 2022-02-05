@@ -2,7 +2,7 @@ package com.common;
 
 import java.util.ArrayList;
 
-public class Converter {
+public class Arrays {
     public static ArrayList<ArrayList<Integer>> toList(int[][] nums) {
         ArrayList<ArrayList<Integer>> ref = new ArrayList<ArrayList<Integer>>();
         for (int[] num : nums)
@@ -19,8 +19,11 @@ public class Converter {
         return ref;
     }
 
-//    public static int[] range(int n) {
-//        int[] a = new int[n];
-//        for()
-//    }
+    public static Integer[] toInteger(String[] input) {
+        Integer[] ref = new Integer[input.length];
+        int i = 0;
+        for (String ip : input)
+            ref[i++] = ip == null ? null : Integer.parseInt(ip);
+        return ref;
+    }
 }

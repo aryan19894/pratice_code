@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class BinaryTreeZigzagLevelOrderTraversal_medium_103 {
+public class ZigZagLevelOrderTraversal_medium_103 {
     static class Solution {
 		// [Optimal Iterative] TC: O(n) - using queue to keep track from its children w.r.t levels and
 		// updating element to sublist with flag value 0 - left to right, 1- right to left

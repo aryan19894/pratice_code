@@ -1,5 +1,7 @@
 package com.common;
 
+import com.striver.DSAExperience.T12Tree.Node;
+import com.striver.DSAExperience.T12Tree.TreeNode;
 import com.striver.DSAExperience.T3LinkedList.ListNode;
 
 import java.lang.reflect.Array;
@@ -9,6 +11,11 @@ import java.util.List;
 public class Out {
 
     public static void print(Object obj) {
+        if (obj == null) {
+            System.out.println("null");
+            return;
+        }
+
         String instance = obj.toString();
         if (instance.contains("[[")) {
             for (int i = 0; i < Array.getLength(obj); i++) {
@@ -19,7 +26,9 @@ public class Out {
                 System.out.print(Array.get(obj, i) + " ");
             }
             System.out.println();
-        } else
+        } else if (obj instanceof TreeNode || obj instanceof Node)
+            System.out.println(((TreeNode) obj).val);
+        else
             System.out.println(obj);
     }
 
