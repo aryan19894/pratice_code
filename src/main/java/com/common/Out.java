@@ -96,6 +96,10 @@ public class Out {
         }
     }
 
+    public static void guiTree(TreeNode root) {
+        TreePrinter.printNode(root);
+    }
+
     public static void printWithIndex(Object obj) {
         String instance = obj.toString();
         if (instance.contains("[[")) {

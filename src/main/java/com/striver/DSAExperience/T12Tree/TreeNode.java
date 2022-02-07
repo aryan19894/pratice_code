@@ -1,15 +1,18 @@
 package com.striver.DSAExperience.T12Tree;
 
+import com.common.Array;
+import com.common.TreePrinter;
+
 import java.util.LinkedList;
 import java.util.Objects;
 import java.util.Queue;
-import com.common.Array;
 
 public class TreeNode {
     public int val;
     public TreeNode left, right;
 
-    public TreeNode(){}
+    public TreeNode() {
+    }
 
     public TreeNode(int val) {
         this.val = val;
@@ -85,4 +88,5 @@ public class TreeNode {
     public int hashCode() {
         return Objects.hash(val);
     }
+
 }

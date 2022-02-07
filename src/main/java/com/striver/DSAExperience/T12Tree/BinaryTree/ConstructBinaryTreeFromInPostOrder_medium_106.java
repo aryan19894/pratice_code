@@ -8,6 +8,7 @@ import java.util.Map;
 
 public class ConstructBinaryTreeFromInPostOrder_medium_106 {
     static class Solution {
+        // [Optimal] TC: O(n), O(n) - assign index for each node. postorder last element must be its root element
         public TreeNode buildTree(int[] inorder, int[] postorder) {
             if (inorder == null || postorder == null || inorder.length != postorder.length)
                 return null;
