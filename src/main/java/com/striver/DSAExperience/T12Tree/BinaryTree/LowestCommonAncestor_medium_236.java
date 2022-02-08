@@ -1,7 +1,7 @@
 package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.common.Out;
-import com.striver.DSAExperience.T12Tree.TreeNode;
+import com.striver.DSAExperience.T12Tree.common.TreeNode;
 
 public class LowestCommonAncestor_medium_236 {
     static class Solution {

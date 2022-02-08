@@ -1,8 +1,7 @@
 package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.common.Out;
-import com.striver.DSAExperience.T12Tree.Node;
-import com.striver.DSAExperience.T12Tree.TreeNode;
+import com.striver.DSAExperience.T12Tree.common.Node;
 
 public class ChildrenSumProperty_Medium {
     static class Solution {

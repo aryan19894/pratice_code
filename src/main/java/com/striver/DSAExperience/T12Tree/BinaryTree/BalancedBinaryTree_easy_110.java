@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T12Tree.BinaryTree;
 
-import com.striver.DSAExperience.T12Tree.TreeNode;
+import com.striver.DSAExperience.T12Tree.common.TreeNode;
 
 public class BalancedBinaryTree_easy_110 {
     static class Solution {

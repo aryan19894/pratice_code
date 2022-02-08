@@ -1,18 +1,14 @@
-package com.striver.DSAExperience.T12Tree;
+package com.striver.DSAExperience.T12Tree.common;
 
 import com.common.Array;
-import com.common.TreePrinter;
 
 import java.util.LinkedList;
 import java.util.Objects;
 import java.util.Queue;
 
-public class TreeNode {
+public class TreeNode extends GlobalNode{
     public int val;
     public TreeNode left, right;
-
-    public TreeNode() {
-    }
 
     public TreeNode(int val) {
         this.val = val;
@@ -24,12 +20,39 @@ public class TreeNode {
         this.right = right;
     }
 
+    public TreeNode() {
+
+    }
+
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+                "val=" + val +
+                '}';
+    }
+
+    public int getVal() {
+        return val;
+    }
+
+    public TreeNode getLeft() {
+        return left;
+    }
+
+    public TreeNode getRight() {
+        return right;
+    }
+
+    public static TreeNode newInstance() {
+        return new TreeNode();
+    }
+
     public static TreeNode toTree(String str) {
         if (str.length() == 0 || str.charAt(0) == 'N') {
             return null;
         }
 
-        String ip[] = str.split(" ");
+        String[] ip = str.split(" ");
         return toTree(Array.toInteger(ip));
     }
 
@@ -65,15 +88,6 @@ public class TreeNode {
             }
         }
         return root;
-    }
-
-    @Override
-    public String toString() {
-        return "TreeNode{" +
-                "val=" + val +
-                ", left=" + left +
-                ", right=" + right +
-                '}';
     }
 
     @Override

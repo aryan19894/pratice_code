@@ -1,7 +1,7 @@
 package com.striver.DSAExperience.T12Tree.BinarySearchTree;
 
 import com.common.Out;
-import com.striver.DSAExperience.T12Tree.TreeNode;
+import com.striver.DSAExperience.T12Tree.common.TreeNode;
 
 public class FloorInBST_Easy {
     static class Solution {

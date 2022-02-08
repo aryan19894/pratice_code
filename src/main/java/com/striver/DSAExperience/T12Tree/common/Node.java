@@ -1,12 +1,11 @@
-package com.striver.DSAExperience.T12Tree;
+package com.striver.DSAExperience.T12Tree.common;
 
 import com.common.Array;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Node {
+public class Node extends  GlobalNode{
     public int data;
     public int hd;
     public Node left, right;
@@ -28,6 +27,13 @@ public class Node {
         this.left = left;
         this.right = right;
         this.hd = Integer.MAX_VALUE;
+    }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "data=" + data +
+                '}';
     }
 
     public static Node toTree(String str) {
@@ -77,13 +83,4 @@ public class Node {
         return root;
     }
 
-    @Override
-    public String toString() {
-        return "Node{" +
-                "data=" + data +
-                ", hd=" + hd +
-                ", left=" + left +
-                ", right=" + right +
-                '}';
-    }
 }

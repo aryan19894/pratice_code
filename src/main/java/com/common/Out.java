@@ -1,7 +1,8 @@
 package com.common;
 
-import com.striver.DSAExperience.T12Tree.Node;
-import com.striver.DSAExperience.T12Tree.TreeNode;
+import com.common.Tree.GUITreePrinter;
+import com.striver.DSAExperience.T12Tree.common.Node;
+import com.striver.DSAExperience.T12Tree.common.TreeNode;
 import com.striver.DSAExperience.T3LinkedList.ListNode;
 
 import java.lang.reflect.Array;
@@ -62,6 +63,36 @@ public class Out {
         }
     }
 
+    //Tree Printing
+    public static void printNode(Object root) {
+//        if (root == null) {
+//            System.out.println("null");
+//            return;
+//        }
+//
+//        if (root instanceof TreeNode) {
+//            TreePrinter<TreeNode> obj = new TreePrinter<TreeNode>();
+//            obj.printRoot((TreeNode) root);
+//        } else if (root instanceof Node) {
+//            TreePrinter<Node> obj = new TreePrinter<Node>();
+//            obj.printRoot((Node) root);
+//        } else if (root instanceof BinaryTreeNode) {
+//            TreePrinter<BinaryTreeNode> obj = new TreePrinter<BinaryTreeNode>();
+//            obj.printRoot((BinaryTreeNode) root);
+//        }
+    }
+
+    public static void print(TreeNode root) {
+        if (root == null) {
+            System.out.println("null");
+            return;
+        }
+
+//        if (root instanceof TreeNode) {
+//            TreePrinter<TreeNode> obj = new TreePrinter<TreeNode>(new TreeNode());
+//            obj.print();
+//        }
+    }
     //level wise print full binary tree
     public static void printTree(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<>();
@@ -97,7 +128,7 @@ public class Out {
     }
 
     public static void guiTree(TreeNode root) {
-        TreePrinter.printNode(root);
+        GUITreePrinter.printNode(root);
     }
 
     public static void printWithIndex(Object obj) {

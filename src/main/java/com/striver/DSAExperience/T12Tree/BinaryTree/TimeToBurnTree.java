@@ -1,7 +1,7 @@
 package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.common.Out;
-import com.striver.DSAExperience.T12Tree.BinaryTreeNode;
+import com.striver.DSAExperience.T12Tree.common.BinaryTreeNode;
 
 import java.util.*;
 
