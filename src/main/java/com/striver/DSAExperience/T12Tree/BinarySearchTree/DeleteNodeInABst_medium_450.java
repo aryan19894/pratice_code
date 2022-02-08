@@ -50,6 +50,6 @@ public class DeleteNodeInABst_medium_450 {
         TreeNode root = TreeNode.toTree(new Integer[]{8, 5, 12, 2, 7, 10, 13, 1, 3, 6, 8, null, null, null, null,
                 null, null, null, 4});
         int key = 5;
-        Out.printTree(sol.deleteNode(root, key));
+        Out.print(sol.deleteNode(root, key));
     }
 }

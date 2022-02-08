@@ -62,14 +62,14 @@ public class FlattenBinaryTreeToLinkedList_medium_114 {
         Solution sol = new Solution();
         TreeNode root = TreeNode.toTree(new Integer[]{1, 2, 5, 3, 4, null, 6, null, null, null, null, 7});
         sol.flatten(root);
-        Out.printTree(root);
+        Out.print(root);
 
         root = TreeNode.toTree(new Integer[]{1, 2, 5, 3, 4, null, 6, null, null, null, null, 7});
         sol.flatten2(root);
-        Out.printTree(root);
+        Out.print(root);
 
         root = TreeNode.toTree(new Integer[]{1, 2, 5, 3, 4, null, 6, null, null, null, null, 7});
         sol.flatten3(root);
-        Out.printTree(root);
+        Out.print(root);
     }
 }

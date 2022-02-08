@@ -1,11 +1,11 @@
 package com.striver.DSAExperience.T12Tree.common;
 
-import com.common.Array;
+import com.common.Str;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Node extends  GlobalNode{
+public class Node {
     public int data;
     public int hd;
     public Node left, right;
@@ -29,58 +29,58 @@ public class Node extends  GlobalNode{
         this.hd = Integer.MAX_VALUE;
     }
 
+    public static Node toTree(Integer[] ip) {
+        if (ip.length == 0 || ip[0] == -1)
+            return null;
+
+        Node root = new Node(ip[0]);
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+
+        for (int i = 1; i < ip.length && !q.isEmpty(); i++) {
+            Node currNode = q.poll();
+            if (ip[i] != null) {
+                currNode.left = new Node(ip[i]);
+                q.add(currNode.left);
+            }
+            if (ip[++i] != null) {
+                currNode.right = new Node(ip[i]);
+                q.add(currNode.right);
+            }
+        }
+        return root;
+    }
+
+    public static Node toTree(String input) {
+        return toTree(Str.toArray(input));
+    }
+
+    public static Node toTree(String[] input) {
+        return toTree(input);
+    }
+
+    public static void print(Node root) {
+        Queue<Node> q = new LinkedList<>();
+        q.offer(root);
+        while (!q.isEmpty()) {
+            int levelNum = q.size();
+            for (int i = 0; i < levelNum; i++) {
+                Node ref = q.poll();
+                if (ref != null) {
+                    q.offer(ref.left);
+                    q.offer(ref.right);
+                    System.out.print(ref.data + " ");
+                } else
+                    System.out.print("null ");
+            }
+            System.out.println();
+        }
+    }
+
     @Override
     public String toString() {
         return "Node{" +
                 "data=" + data +
                 '}';
     }
-
-    public static Node toTree(String str) {
-        if (str.length() == 0 || str.charAt(0) == 'N') {
-            return null;
-        }
-
-        String ip[] = str.split(" ");
-        return toTree(ip);
-    }
-
-    public static Node toTree(Integer[] ip) {
-        return toTree(Array.toString(ip));
-    }
-
-    public static Node toTree(String[] ip) {
-        if (ip.length == 0 || ip[0] == "N")
-            return null;
-
-        // Create the root of the tree
-        Node root = new Node(Integer.parseInt(ip[0]));
-        // Push the root to the queue
-        Queue<Node> queue = new LinkedList<>();
-        queue.add(root);
-
-        // Starting from the second element
-        int i = 1;
-        while (queue.size() > 0 && i < ip.length) {
-            Node currNode = queue.poll();
-            String currVal = ip[i++];
-
-            // If the left child is not null
-            if (!currVal.equals("N")) {
-                currNode.left = new Node(Integer.parseInt(currVal));
-                queue.add(currNode.left);
-            }
-
-            // For the right child
-            if (i >= ip.length) break;
-
-            currVal = ip[i++];
-            if (!currVal.equals("N")) {
-                currNode.right = new Node(Integer.parseInt(currVal));
-                queue.add(currNode.right);
-            }
-        }
-        return root;
-    }
-
 }

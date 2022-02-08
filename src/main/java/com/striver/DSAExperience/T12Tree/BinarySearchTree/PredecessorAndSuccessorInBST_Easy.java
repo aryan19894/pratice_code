@@ -16,6 +16,7 @@ public class PredecessorAndSuccessorInBST_Easy {
             return res;
         }
 
+        // [Optimal] TC: O(N), SC: O(1) - BST rule, store the node which is just greater than key val
         private static BinaryTreeNode<Integer> predecessor(BinaryTreeNode<Integer> root, int key) {
             BinaryTreeNode<Integer> predecessor = new BinaryTreeNode(-1);
             while (root != null) {
@@ -28,6 +29,7 @@ public class PredecessorAndSuccessorInBST_Easy {
             return predecessor;
         }
 
+        // [Optimal] TC: O(N), SC: O(1) - BST rule, store the node which is just lesser than key val
         private static BinaryTreeNode<Integer> successor(BinaryTreeNode<Integer> root, int key) {
             BinaryTreeNode<Integer> successor = new BinaryTreeNode(-1);
             while (root != null) {
@@ -44,7 +46,7 @@ public class PredecessorAndSuccessorInBST_Easy {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        BinaryTreeNode<Integer> root = BinaryTreeNode.toTree(" ", "15 10 20 8 12 16 25");
+        BinaryTreeNode<Integer> root = BinaryTreeNode.toTree("15 10 20 8 12 16 25");
 
         int key = 10;
         Out.print(sol.predecessorSuccessor(root, key));

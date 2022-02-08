@@ -1,4 +1,4 @@
-package com.common.Tree;
+package com.common;
 
 import com.striver.DSAExperience.T12Tree.common.TreeNode;
 
@@ -7,9 +7,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class GUITreePrinter {
-    public static void printNode(TreeNode root) {
+    public static void print(TreeNode root) {
         int maxLevel = GUITreePrinter.maxLevel(root);
-
         printNodeInternal(Collections.singletonList(root), 1, maxLevel);
     }
 

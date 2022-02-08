@@ -1,9 +1,11 @@
 package com.striver.DSAExperience.T12Tree.common;
 
+import com.common.Str;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BinaryTreeNode<T> extends GlobalNode{
+public class BinaryTreeNode<T> {
     public T data;
     public BinaryTreeNode<T> left;
     public BinaryTreeNode<T> right;
@@ -12,57 +14,58 @@ public class BinaryTreeNode<T> extends GlobalNode{
         this.data = data;
     }
 
-    @Override
-    public String toString() {
-        return "BinaryTreeNode{" +
-                "data=" + data +
-                '}';
+    public static BinaryTreeNode toTree(String input) {
+        return toTree(Str.toArray(input));
     }
 
-    public static BinaryTreeNode toTree(String delimiter, String input) {
-        String ip[] = input.split(delimiter);
-        Integer[] data = new Integer[ip.length];
-        int id = 0;
-        for (String i : ip) {
-            if (!i.trim().toLowerCase().equals("n"))
-                data[id++] = Integer.parseInt(i);
-            else
-                data[id++] = null;
-        }
-        return toTree(data);
+    public static BinaryTreeNode toTree(String[] input) {
+        return toTree(input);
     }
 
     public static BinaryTreeNode toTree(Integer[] ip) {
         if (ip.length == 0 || ip[0] == -1)
             return null;
 
-        // Create the root of the tree
         BinaryTreeNode<Integer> root = new BinaryTreeNode(ip[0]);
-        // Push the root to the queue
-        Queue<BinaryTreeNode> queue = new LinkedList<>();
-        queue.add(root);
+        Queue<BinaryTreeNode> q = new LinkedList<>();
+        q.add(root);
 
-        // Starting from the second element
-        int i = 1;
-        while (queue.size() > 0 && i < ip.length) {
-            BinaryTreeNode currNode = queue.poll();
-            Integer currVal = ip[i++];
-
-            // If the left child is not null
-            if (currVal != null) {
-                currNode.left = new BinaryTreeNode(currVal);
-                queue.add(currNode.left);
+        for (int i = 1; i < ip.length && !q.isEmpty(); i++) {
+            BinaryTreeNode currNode = q.poll();
+            if (ip[i] != null) {
+                currNode.left = new BinaryTreeNode(ip[i]);
+                q.add(currNode.left);
             }
-
-            // For the right child
-            if (i >= ip.length) break;
-
-            currVal = ip[i++];
-            if (currVal != null) {
-                currNode.right = new BinaryTreeNode(currVal);
-                queue.add(currNode.right);
+            if (ip[++i] != null) {
+                currNode.right = new BinaryTreeNode(ip[i]);
+                q.add(currNode.right);
             }
         }
         return root;
+    }
+
+    public static void print(BinaryTreeNode root) {
+        Queue<BinaryTreeNode> q = new LinkedList<>();
+        q.offer(root);
+        while (!q.isEmpty()) {
+            int levelNum = q.size();
+            for (int i = 0; i < levelNum; i++) {
+                BinaryTreeNode ref = q.poll();
+                if (ref != null) {
+                    q.offer(ref.left);
+                    q.offer(ref.right);
+                    System.out.print(ref.data + " ");
+                } else
+                    System.out.print("null ");
+            }
+            System.out.println();
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "BinaryTreeNode{" +
+                "data=" + data +
+                '}';
     }
 }

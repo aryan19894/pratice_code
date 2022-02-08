@@ -40,6 +40,6 @@ public class ConstructBinaryTreeFromPreInOrder_medium_105 {
         Solution sol = new Solution();
         int[] inorder = {40, 20, 50, 10, 60, 30};
         int[] preorder = {10, 20, 40, 50, 30, 60};
-        Out.printTree(sol.buildTree(preorder, inorder));
+        Out.print(sol.buildTree(preorder, inorder));
     }
 }

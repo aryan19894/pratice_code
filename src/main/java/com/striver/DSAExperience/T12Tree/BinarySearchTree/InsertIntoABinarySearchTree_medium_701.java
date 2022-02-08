@@ -34,6 +34,6 @@ public class InsertIntoABinarySearchTree_medium_701 {
         Solution sol = new Solution();
         TreeNode root = TreeNode.toTree(new Integer[]{4, 2, 7, 1, 3, 4});
         int val = 5;
-        Out.printTree(sol.insertIntoBST(root, val));
+        Out.print(sol.insertIntoBST(root, val));
     }
 }

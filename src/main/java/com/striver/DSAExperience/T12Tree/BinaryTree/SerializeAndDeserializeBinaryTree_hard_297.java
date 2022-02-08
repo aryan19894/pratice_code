@@ -69,6 +69,6 @@ public class SerializeAndDeserializeBinaryTree_hard_297 {
         String out = c.serialize(root);
         System.out.println(out);
 
-        Out.printTree(c.deserialize(out));
+        Out.print(c.deserialize(out));
     }
 }

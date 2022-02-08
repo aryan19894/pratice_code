@@ -1,18 +1,15 @@
 package com.common;
 
-import com.common.Tree.GUITreePrinter;
+import com.striver.DSAExperience.T12Tree.common.BinaryTreeNode;
 import com.striver.DSAExperience.T12Tree.common.Node;
 import com.striver.DSAExperience.T12Tree.common.TreeNode;
 import com.striver.DSAExperience.T3LinkedList.ListNode;
 
 import java.lang.reflect.Array;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
 public class Out {
-
     public static void print(Object obj) {
         if (obj == null) {
             System.out.println("null");
@@ -29,9 +26,7 @@ public class Out {
                 System.out.print(Array.get(obj, i) + " ");
             }
             System.out.println();
-        } else if (obj instanceof TreeNode || obj instanceof Node)
-            System.out.println(((TreeNode) obj).val);
-        else
+        } else
             System.out.println(obj);
     }
 
@@ -64,71 +59,20 @@ public class Out {
     }
 
     //Tree Printing
-    public static void printNode(Object root) {
-//        if (root == null) {
-//            System.out.println("null");
-//            return;
-//        }
-//
-//        if (root instanceof TreeNode) {
-//            TreePrinter<TreeNode> obj = new TreePrinter<TreeNode>();
-//            obj.printRoot((TreeNode) root);
-//        } else if (root instanceof Node) {
-//            TreePrinter<Node> obj = new TreePrinter<Node>();
-//            obj.printRoot((Node) root);
-//        } else if (root instanceof BinaryTreeNode) {
-//            TreePrinter<BinaryTreeNode> obj = new TreePrinter<BinaryTreeNode>();
-//            obj.printRoot((BinaryTreeNode) root);
-//        }
-    }
-
-    public static void print(TreeNode root) {
-        if (root == null) {
-            System.out.println("null");
-            return;
-        }
-
-//        if (root instanceof TreeNode) {
-//            TreePrinter<TreeNode> obj = new TreePrinter<TreeNode>(new TreeNode());
-//            obj.print();
-//        }
-    }
     //level wise print full binary tree
-    public static void printTree(TreeNode root) {
-        Queue<TreeNode> q = new LinkedList<>();
-        q.offer(root);
-        while (!q.isEmpty()) {
-            int levelNum = q.size();
-            for (int i = 0; i < levelNum; i++) {
-                TreeNode ref = q.poll();
-                if (ref != null) {
-                    q.offer(ref.left);
-                    q.offer(ref.right);
-                    System.out.print(ref.val + " ");
-                } else
-                    System.out.print("null ");
-            }
-            System.out.println();
-        }
-    }
+    public static void printTree(Object root) {
+        if(root instanceof TreeNode)
+            TreeNode.print((TreeNode) root);
+        else if(root instanceof Node)
+            TreeNode.print((TreeNode) root);
+        else if(root instanceof BinaryTreeNode)
+            TreeNode.print((TreeNode) root);
 
-    public static void printTree(Node root) {
-        Queue<Node> q = new LinkedList<>();
-        q.offer(root);
-        while (!q.isEmpty()) {
-            int levelNum = q.size();
-            for (int i = 0; i < levelNum; i++) {
-                Node ref = q.poll();
-                if (ref.left != null) q.offer(ref.left);
-                if (ref.right != null) q.offer(ref.right);
-                System.out.print(ref.data + " ");
-            }
-            System.out.println();
-        }
+        System.out.println("------------------------");
     }
 
     public static void guiTree(TreeNode root) {
-        GUITreePrinter.printNode(root);
+        GUITreePrinter.print(root);
     }
 
     public static void printWithIndex(Object obj) {

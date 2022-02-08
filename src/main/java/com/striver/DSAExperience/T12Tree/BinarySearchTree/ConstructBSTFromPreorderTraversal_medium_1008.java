@@ -62,6 +62,6 @@ public class ConstructBSTFromPreorderTraversal_medium_1008 {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] preorder = {8, 5, 1, 7, 10, 12};
-        Out.printTree(sol.bstFromPreorder2(preorder));
+        Out.print(sol.bstFromPreorder2(preorder));
     }
 }

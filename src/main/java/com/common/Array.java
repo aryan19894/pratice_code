@@ -22,8 +22,14 @@ public class Array {
     public static Integer[] toInteger(String[] input) {
         Integer[] ref = new Integer[input.length];
         int i = 0;
-        for (String ip : input)
-            ref[i++] = ip == null ? null : Integer.parseInt(ip);
+        for (String ip : input) {
+            if (ip == null || ip.equals("null") ||
+                    ip.toLowerCase().equals("n") ||
+                    ip.equals("-1"))
+                ref[i++] = null;
+            else
+                ref[i++] = Integer.parseInt(ip);
+        }
         return ref;
     }
 
