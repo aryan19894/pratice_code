@@ -6,33 +6,38 @@ import com.striver.DSAExperience.T12Tree.common.TreeNode;
 public class MaximumSumBSTInBinaryTree_hard_1373 {
     static class Solution {
         static class NodeVal {
-            int max, min, size;
+            int max, min, sum;
 
-            public NodeVal(int max, int min, int size) {
+            public NodeVal(int min, int max, int sum) {
                 this.max = max;
                 this.min = min;
-                this.size = size;
+                this.sum = sum;
             }
         }
 
         public int maxSumBST(TreeNode root) {
-            return maxSumBSTHelper(root).size;
+            NodeVal nodeVal = new NodeVal(0, 0, 0);
+            maxSumBSTHelper(root, nodeVal);
+            return nodeVal.sum < 0 ? 0 : nodeVal.sum;
         }
 
-        private NodeVal maxSumBSTHelper(TreeNode root) {
+        private NodeVal maxSumBSTHelper(TreeNode root, NodeVal ans) {
             if (root == null)
                 return new NodeVal(Integer.MAX_VALUE, Integer.MIN_VALUE, 0);
 
-            NodeVal left = maxSumBSTHelper(root.left);
-            NodeVal right = maxSumBSTHelper(root.right);
+            NodeVal left = maxSumBSTHelper(root.left, ans);
+            NodeVal right = maxSumBSTHelper(root.right, ans);
 
-            if (root.val < left.min && root.val > right.max)
+            if (left.max < root.val && root.val < right.min) {
+                int currentSum = root.val + left.sum + right.sum;
+                ans.sum = Math.max(ans.sum, currentSum);
+
                 return new NodeVal(Math.min(root.val, left.min),
                         Math.max(root.val, right.max),
-                        1 + left.size + right.size);
-
+                        currentSum);
+            }
             return new NodeVal(Integer.MIN_VALUE, Integer.MAX_VALUE,
-                    Math.max(left.size, right.size));
+                    Math.max(left.sum, right.sum));
         }
     }
 

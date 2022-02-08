@@ -70,8 +70,10 @@ public class TreeNode<T> {
 
     @Override
     public String toString() {
-        return "TreeNode{" +
+        return "{" +
                 "val=" + val +
+                ", left=" + left +
+                ", right=" + right +
                 '}';
     }
 
