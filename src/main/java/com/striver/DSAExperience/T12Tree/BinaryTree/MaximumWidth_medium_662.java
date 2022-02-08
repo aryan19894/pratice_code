@@ -1,8 +1,8 @@
 package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.common.Out;
-import com.striver.DSAExperience.T12Tree.TreeNode;
-import com.striver.DSAExperience.T12Tree.TreePair;
+import com.striver.DSAExperience.T12Tree.common.TreeNode;
+import com.striver.DSAExperience.T12Tree.common.TreePair;
 
 import java.util.LinkedList;
 import java.util.Queue;

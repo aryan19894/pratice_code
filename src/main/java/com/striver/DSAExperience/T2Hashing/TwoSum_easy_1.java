@@ -40,7 +40,6 @@ public class TwoSum_easy_1 {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] nums = {2, 7, 11, 15};
-//        Printer.print(sol.twoSum1(nums, 9));
         Out.print(sol.twoSum2(nums, 9));
     }
 }

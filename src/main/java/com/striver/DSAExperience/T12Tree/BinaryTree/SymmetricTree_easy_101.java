@@ -1,10 +1,7 @@
 package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.common.Out;
-import com.striver.DSAExperience.T12Tree.TreeNode;
-import jdk.nashorn.internal.objects.annotations.Where;
-
-import java.sql.Time;
+import com.striver.DSAExperience.T12Tree.common.TreeNode;
 
 public class SymmetricTree_easy_101 {
     static class Solution {

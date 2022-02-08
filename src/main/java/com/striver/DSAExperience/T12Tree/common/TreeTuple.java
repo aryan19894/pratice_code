@@ -1,4 +1,4 @@
-package com.striver.DSAExperience.T12Tree;
+package com.striver.DSAExperience.T12Tree.common;
 
 public
 class TreeTuple {

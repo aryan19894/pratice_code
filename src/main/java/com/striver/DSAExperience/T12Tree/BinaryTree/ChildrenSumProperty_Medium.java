@@ -1,8 +1,7 @@
 package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.common.Out;
-import com.striver.DSAExperience.T12Tree.Node;
-import com.striver.DSAExperience.T12Tree.TreeNode;
+import com.striver.DSAExperience.T12Tree.common.Node;
 
 public class ChildrenSumProperty_Medium {
     static class Solution {
@@ -36,6 +35,6 @@ public class ChildrenSumProperty_Medium {
         //TreeNode root = TreeNode.toTree(new Integer[]{40, 10, 20, 2, 5, 30, 40});
         Node root = Node.toTree(new Integer[]{50, 7, 2, 3, 5, 1, 30});
         sol.changeTree(root);
-        Out.printTree(root);
+        Out.print(root);
     }
 }

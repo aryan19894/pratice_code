@@ -1,13 +1,14 @@
 package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.common.Out;
-import com.striver.DSAExperience.T12Tree.TreeNode;
+import com.striver.DSAExperience.T12Tree.common.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class ConstructBinaryTreeFromInPostOrder_medium_106 {
     static class Solution {
+        // [Optimal] TC: O(n), O(n) - assign index for each node. postorder last element must be its root element
         public TreeNode buildTree(int[] inorder, int[] postorder) {
             if (inorder == null || postorder == null || inorder.length != postorder.length)
                 return null;
@@ -43,6 +44,6 @@ public class ConstructBinaryTreeFromInPostOrder_medium_106 {
 //        int[] postorder = {9, 15, 7, 20, 3};
         int[] inorder = {40, 20, 50, 10, 60, 30};
         int[] postorder = {40, 50, 20, 60, 30, 10};
-        Out.printTree(sol.buildTree(inorder, postorder));
+        Out.print(sol.buildTree(inorder, postorder));
     }
 }
