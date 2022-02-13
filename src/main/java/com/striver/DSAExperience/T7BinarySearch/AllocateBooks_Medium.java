@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T7BinarySearch;
 
-import com.common.Array;
+import com.common.converter.Array;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T10StackQueue;
 
-import com.common.Array;
+import com.common.converter.Array;
 import com.common.Out;
 
 import java.util.ArrayList;

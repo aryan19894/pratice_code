@@ -58,6 +58,12 @@ public class MaximumXORWithAnElementFromArray_hard_1707 {
     }
 
     static class Solution {
+        // [Better Trie] TC: O(2NlogN) + O(N*32) + O(Q*32) -2NlogN - sorting queries array and nums.
+        // For inserting all the elements of arr1 into the trie take O(N*32) [32 Bit]
+        // and O(Q*32) find max from the trie w.r.t queries
+        // SC: O(Q) + O(N*32) - Firstly storing the offlineQueries and
+        // then inserting all the elements of arr1 into trie where every element is of size 32 bit
+        // but the space complexity will be less than O(N*32) because they might have overlapped.
         public int[] maximizeXor(int[] nums, int[][] queries) {
             int[] result = new int[queries.length];
             Arrays.fill(result, -1);
