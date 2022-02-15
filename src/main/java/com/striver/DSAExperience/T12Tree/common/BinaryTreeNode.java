@@ -1,6 +1,6 @@
 package com.striver.DSAExperience.T12Tree.common;
 
-import com.common.Str;
+import com.common.converter.Str;
 
 import java.util.LinkedList;
 import java.util.Queue;
