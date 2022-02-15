@@ -38,6 +38,14 @@ public class Array {
         return ref;
     }
 
+    public static ArrayList<ArrayList<ArrayList<Integer>>> toList(int[][][] nums) {
+        ArrayList<ArrayList<ArrayList<Integer>>> ref = new ArrayList<>();
+        for (int[][] num : nums)
+            ref.add(toList(num));
+
+        return ref;
+    }
+
     public static ArrayList<Integer> toList(int[] nums) {
         ArrayList<Integer> ref = new ArrayList<>();
         for (int num : nums) {
