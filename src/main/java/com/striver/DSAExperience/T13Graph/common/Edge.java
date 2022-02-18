@@ -81,7 +81,7 @@ public class Edge implements Comparator<Edge> {
 
     public static int[] toArray(int V, ArrayList<Edge> edges) {
         int[] graph = new int[V];
-        for(Edge e: edges){
+        for (Edge e : edges) {
             graph[e.v] = e.u;
         }
         return graph;

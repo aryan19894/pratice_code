@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class ShortestPathDijkstraAlgorithm_Medium {
+public class ShortestPathDijkstraAlgo_Medium {
     // [Optimal] TC: O((N+E)*logN). Going through N nodes and E edges and log N for priority queue
     // SC:  O(N). Distance array and priority queue
     static int[] dijkstra(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj, int S) {

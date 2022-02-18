@@ -1,6 +1,7 @@
 package com.common.converter;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -77,4 +78,20 @@ public class Array {
     }
 
 
+    public static void fill(int[][] graph, int inf) {
+        for (int[] g : graph)
+            Arrays.fill(g, inf);
+    }
+
+    public static int[][] toArray(String[] input) {
+        int[][] arr = new int[input.length][input.length];
+        int i = 0, j = 0;
+        for (String ip : input) {
+            String[] token = ip.split(" ");
+            for (String t : token)
+                arr[i++][j++] = Integer.parseInt(t);
+        }
+
+        return arr;
+    }
 }
