@@ -8,6 +8,7 @@ import com.striver.DSAExperience.T3LinkedList.ListNode;
 import java.lang.reflect.Array;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 public class Out {
     public static void print(Object obj) {
@@ -28,6 +29,22 @@ public class Out {
             System.out.println();
         } else
             System.out.println(obj);
+    }
+
+    public static void print(Map a) {
+        if (a == null)
+            System.out.println("null");
+
+        Map<Object, Object> mapObj = (Map<Object, Object>) a;
+        for (Map.Entry<Object, Object> e : mapObj.entrySet()) {
+            String res = "[";
+            for (Object val : (List) e.getValue())
+                res += val.toString() + (mapObj.containsKey(val) ? " -> " + mapObj.get(val) : "") + ", ";
+
+            res = res.substring(0, res.length() - 2) + "]";
+            System.out.println(e.getKey() + " -> " + res);
+        }
+        System.out.println("-------------");
     }
 
     public static void print(List a) {
@@ -61,11 +78,11 @@ public class Out {
     //Tree Printing
     //level wise print full binary tree
     public static void printTree(Object root) {
-        if(root instanceof TreeNode)
+        if (root instanceof TreeNode)
             TreeNode.print((TreeNode) root);
-        else if(root instanceof Node)
+        else if (root instanceof Node)
             TreeNode.print((TreeNode) root);
-        else if(root instanceof BinaryTreeNode)
+        else if (root instanceof BinaryTreeNode)
             TreeNode.print((TreeNode) root);
 
         System.out.println("------------------------");
