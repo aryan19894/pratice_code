@@ -6,6 +6,7 @@ import java.util.HashMap;
 
 public class CountSubarraySumEqualsK_medium_560 {
     static class Solution {
+        // [Optimal] O(n) - we storing the target-sum as key to map with its frequency - how many times it is calculated
         public int subarraySum(int[] arr, int k) {
             int result = 0;
             HashMap<Integer, Integer> map = new HashMap<>();

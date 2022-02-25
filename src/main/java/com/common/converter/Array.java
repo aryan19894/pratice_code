@@ -94,4 +94,12 @@ public class Array {
 
         return arr;
     }
+
+    public static void reverseSort(long[] b) {
+        for (int i = 0; i < b.length; i++)
+            b[i] = -1 * b[i];
+        Arrays.sort(b);
+        for (int i = 0; i < b.length; i++)
+            b[i] = -1 * b[i];
+    }
 }
