@@ -6,8 +6,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class FrogJumpWithKDistance {
-    // [Better DP: Memo] TC: O(N*K).
-    // SC: O(N). dp array and stack space
+    // [Better DP: Memo] TC: O(N*K). The overlapping subproblems will return the answer in constant time.
+    // Therefore, the total number of new subproblems we solve is ‘n’. At every new subproblem, we are running another
+    // loop for K times.
+    // SC: O(N). using a recursion stack space(O(N)) and an array (again O(N)).
+    // Therefore, total space complexity will be O(N) + O(N) ≈ O(N)
     public static int frogJump(int n, int heights[], int k) {
         int[] dp = new int[heights.length + 1];
         Arrays.fill(dp, -1);
@@ -25,8 +28,9 @@ public class FrogJumpWithKDistance {
         return dp[n] = jump;
     }
 
-    // [Better DP: Tab] TC: O(N*K).
-    // SC: O(N). dp array
+    // [Better DP: Tab] TC: O(N*K): running two nested loops, where outer loops run from 1 to n-1 and
+    // the inner loop runs from 1 to K
+    // SC: O(N). using an external array of size ‘n’’.
     public static int frogJump2(int n, int heights[], int k) {
         int[] dp = new int[heights.length + 1];
         for (int i = 1; i < n; i++) {

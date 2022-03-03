@@ -2,6 +2,8 @@
   <dictionary name="aryan">
     <words>
       <w>fibo</w>
+      <w>subproblem</w>
+      <w>subproblems</w>
     </words>
   </dictionary>
 </component>

@@ -8,8 +8,11 @@ import java.util.Arrays;
 
 public class MaximumSumOfNonAdjacentElements {
     // [Recursive] O(2n) - each n element has 2 option - pick or not pick
-    // [Better DP: Tab] TC: O(N).
-    // SC: O(N). dp array
+
+    // [Better DP: Tab] TC: O(N): The overlapping subproblems will return the answer in constant time O(1).
+    // Therefore the total number of new subproblems we solve is ‘n’. Hence total time complexity is O(N).
+    // SC: O(N). using a recursion stack space(O(N)) and an array (again O(N)).
+    // Therefore, total space complexity will be O(N) + O(N) ≈ O(N)
     public static int maximumNonAdjacentSum(ArrayList<Integer> nums) {
         int n = nums.size();
         int[] dp = new int[n];
@@ -27,8 +30,8 @@ public class MaximumSumOfNonAdjacentElements {
         return dp[i] = Math.max(pick, nPick);
     }
 
-    // [Better DP: Tab] TC: O(N).
-    // SC: O(N). dp array
+    // [Better DP: Tab] TC: O(N), O(N): running a simple iterative loop
+    // using an external array of size ‘n+1’.
     public static int maximumNonAdjacentSum2(ArrayList<Integer> nums) {
         int n = nums.size();
         if (n == 0) return 0;
@@ -44,8 +47,7 @@ public class MaximumSumOfNonAdjacentElements {
         return dp[n - 1];
     }
 
-    // [Better DP: Tab] TC: O(N).
-    // SC: O(1).
+    // [Better DP: Tab] TC: O(N), O(1): running a simple iterative loop
     public static int maximumNonAdjacentSum3(ArrayList<Integer> nums) {
         int n = nums.size();
         if (n == 0) return 0;
