@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c54227b-e568-4ee8-8469-c22e6a16fe89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/NumberOfSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/NumberOfSubsetsZeroIncluded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01-03-2022_01_30_AM_[Changes]/PlatformCodeGenerator.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01-03-2022_01_30_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01-03-2022_01_30_AM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bot/bug.todo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/CoinChangeMinimumElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/Knapsack01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TargetSumWithSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/WaysToMakeCoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01-03-2022_01_40_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01-03-2022_01_40_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/MinimalSubsetSumsDifference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/MinimalSubsetSumsDifference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/PartitionEqualSubsetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/PartitionEqualSubsetSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/SubsetSumEqualToK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/SubsetSumEqualToK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/NumberOfSubsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/NumberOfSubsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/PartitionsWithGivenDifference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/PartitionsWithGivenDifference.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +51,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/bot" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\DSA\Platform\src\main\java\com\bot" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PartitionsWithGivenDifference">
-    <configuration name="MinimalSubsetSumsDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.MinimalSubsetSumsDifference" />
+  <component name="RunManager" selected="Application.UnboundedKnapsack">
+    <configuration name="CoinChangeMinimumElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.CoinChangeMinimumElements" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.NumberOfSubsets" />
+    <configuration name="Knapsack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.Knapsack01" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfSubsetsZeroIncluded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.NumberOfSubsetsZeroIncluded" />
+    <configuration name="TargetSumWithSymbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.TargetSumWithSymbol" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionEqualSubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.PartitionEqualSubsetSum" />
+    <configuration name="UnboundedKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.UnboundedKnapsack" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionsWithGivenDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.PartitionsWithGivenDifference" />
+    <configuration name="WaysToMakeCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.WaysToMakeCoinChange" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PartitionsWithGivenDifference" />
-        <item itemvalue="Application.NumberOfSubsetsZeroIncluded" />
-        <item itemvalue="Application.NumberOfSubsets" />
-        <item itemvalue="Application.MinimalSubsetSumsDifference" />
-        <item itemvalue="Application.PartitionEqualSubsetSum" />
+        <item itemvalue="Application.UnboundedKnapsack" />
+        <item itemvalue="Application.WaysToMakeCoinChange" />
+        <item itemvalue="Application.TargetSumWithSymbol" />
+        <item itemvalue="Application.CoinChangeMinimumElements" />
+        <item itemvalue="Application.Knapsack01" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +238,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/PartitionsWithGivenDifference.java</url>
           <line>27</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/UnboundedKnapsack.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
