@@ -1,0 +1,5 @@
+Implement this feature: to add one more line if there arraylist is in method calling argument
+ArrayList<Integer> nums = new ArrayList<Integer>();
+        nums = Array.toList(new int[] {});
+        Out.print(maximumNonAdjacentSum(nums));
+ Knapsack 0 1 - input | output is only Knapsack

@@ -1,9 +1,0 @@
-<changelist name="Uncommitted_changes_before_Checkout_at_01-03-2022_01_30_AM_[Changes]" date="1646078440689" recycled="true" deleted="true">
-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01-03-2022_01_30_AM_[Changes]/shelved.patch" />
-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 01-03-2022 01:30 AM [Changes]" />
-  <binary>
-    <option name="BEFORE_PATH" value="src/main/java/com/bot/PlatformCodeGenerator.jar" />
-    <option name="AFTER_PATH" value="src/main/java/com/bot/PlatformCodeGenerator.jar" />
-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01-03-2022_01_30_AM_[Changes]/PlatformCodeGenerator.jar" />
-  </binary>
-</changelist>

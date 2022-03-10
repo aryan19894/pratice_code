@@ -5,26 +5,304 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c54227b-e568-4ee8-8469-c22e6a16fe89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/PlatformCodeGenerator.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bot/PlatformCodeGenerator.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/CoinChange1_MinimumElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/CoinChange2_WaysToMakeCoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/RodCuttingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/TargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/UnboundedKnapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/CoinChangeMinimumElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/CountWaysToReachTheNthStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_Basic/ClimbingStairs_CountWaysToReachTheNthStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_Basic/FrogJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/FrogJumpWithKDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_Basic/FrogJumpWithKDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/HouseRobber2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/Knapsack01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/MaximumFallingPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/MaxMinFallingPathSum_MaxPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/MaximumSumOfNonAdjacentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/MaximumSumOfNonAdjacentElements_HouseRobber1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/MazeObstacles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/UniquePaths2_MazeObstacles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/MinimalSubsetSumsDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/PartitionSetMinAbsoluteSumDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/MinimumPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/NinjaAndHisFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/CherryPickupII_NinjaAndHisFriends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/NinjaTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/NinjaTraining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/NumberOfSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/CountSubsetsWithSumK_NumberOfSubsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/NumberOfSubsetsZeroIncluded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/CountSubsetsWithSumK_NumberOfSubsetsZeroIncluded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/PartitionEqualSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/PartitionEqualSubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/PartitionsWithGivenDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/CountPartitionsWithGivenDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/SubsetSumEqualToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/SubsetSumEqualToTargetK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TargetSumWithSymbol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TotalUniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/GridUniquePaths_TotalUniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TriangleMinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/TriangleMinimumPathSum_FixedStartingPointVariableEndingPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/UnboundedKnapsack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/WaysToMakeCoinChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/CoinChangeMinimumElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/CountWaysToReachTheNthStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/FrogJump.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/FrogJumpWithKDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/HouseRobber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/Knapsack01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/MaximumFallingPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/MaximumSumOfNonAdjacentElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/MazeObstacles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/MinimalSubsetSumsDifference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/MinimumPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/NinjaAndHisFriends.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/NinjaTraining.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/NumberOfSubsets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/NumberOfSubsetsZeroIncluded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/PartitionEqualSubsetSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/PartitionsWithGivenDifference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/SubsetSumEqualToK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/TargetSumWithSymbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/TotalUniquePaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/TriangleMinimumPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/UnboundedKnapsack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/WaysToMakeCoinChange.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="26Az1yBDy477ni6zf1InpkQbhaU" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/bot" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\DSA\Platform\src\main\java\com\bot" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.striver.DSAExperience.T14DP" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConvertToClassName">
+    <configuration name="CoinChange1_MinimumElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.OneD_OnSubsequence.CoinChange1_MinimumElements" />
+      <module name="Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.OneD_Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinChange2_WaysToMakeCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.OneD_OnSubsequence.CoinChange2_WaysToMakeCoinChange" />
+      <module name="Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.OneD_Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertToClassName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bot.ConvertToClassName" />
+      <module name="Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RodCuttingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.OneD_OnSubsequence.RodCuttingProblem" />
+      <module name="Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.OneD_Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnboundedKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.OneD_OnSubsequence.UnboundedKnapsack" />
+      <module name="Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.OneD_Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConvertToClassName" />
+        <item itemvalue="Application.RodCuttingProblem" />
+        <item itemvalue="Application.CoinChange1_MinimumElements" />
+        <item itemvalue="Application.CoinChange2_WaysToMakeCoinChange" />
+        <item itemvalue="Application.UnboundedKnapsack" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c54227b-e568-4ee8-8469-c22e6a16fe89" name="Changes" comment="" />
+      <created>1646880974950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646880974950</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_Basic/FrogJumpWithKDistance.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/HouseRobber2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/NinjaTraining.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/NinjaTraining.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/NinjaTraining.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/NinjaTraining.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_Basic/ClimbingStairs_CountWaysToReachTheNthStairs.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/GridUniquePaths_TotalUniquePaths.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/MinimumPathSum.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/TriangleMinimumPathSum_FixedStartingPointVariableEndingPoint.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/MaxMinFallingPathSum_MaxPathSum.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnGrid/MaxMinFallingPathSum_MaxPathSum.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/PartitionSetMinAbsoluteSumDiff.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/CountSubsetsWithSumK_NumberOfSubsetsZeroIncluded.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/CountSubsetsWithSumK_NumberOfSubsetsZeroIncluded.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/CountPartitionsWithGivenDifference.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/OneD_OnSubsequence/UnboundedKnapsack.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
