@@ -4,7 +4,8 @@ import com.common.Out;
 
 import java.util.Arrays;
 
-public class LongestCommonSubsequence_SubsequenceCounting2 {
+public class DistinctSubsequencesCount {
+    private static final int MOD = (int) (1e9+7);
     // [Better DP: Recur] TC: O(2powN) + O(2powM):  each character has option with match or not match
 
     // [Better DP: Memo] TC: O(N*M) + O(N):  N*M character combination

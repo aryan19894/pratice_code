@@ -1,4 +1,4 @@
-package com.striver.DSAExperience.T14DP;
+package com.striver.DSAExperience.T14DP.OneD_OnString.LCS;
 
 import com.common.Out;
 
@@ -35,8 +35,8 @@ public class PrintLongestCommonSubsequence {
     }
 
     public static void main(String[] args) {
-        String s = "abcde";
-        String t = "bdgek";
+        String s = "brute";
+        String t = "groot";
         int n = 0;
         int m = 0;
         Out.print(lcs(s, t));

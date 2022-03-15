@@ -1,4 +1,4 @@
-package com.striver.DSAExperience.T14DP;
+package com.striver.DSAExperience.T14DP.OneD_OnString.LCS;
 
 import com.common.Out;
 
