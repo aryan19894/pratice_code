@@ -1,11 +1,6 @@
-package com.striver.DSAExperience.T14DP.OneD_OnString.LCS;
+package com.striver.DSAExperience.T14DP.TwoD_OnString.LCS;
 
 import com.common.Out;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class MakeStringPalindrome {
     public static String minInsertion(String str) {

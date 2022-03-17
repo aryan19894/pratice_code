@@ -1,8 +1,8 @@
-package com.striver.DSAExperience.T14DP.OneD_OnString.LCS;
+package com.striver.DSAExperience.T14DP.TwoD_OnString.LCS;
 
 import com.common.Out;
 
-public class MinimumInsertionsDeletionsToConvertStringAToStringBCanYouMake {
+public class MinimumInsertionsDeletionsToConvertStringAToStringB_CanYouMake {
     public static int canYouMake(String str, String ptr) {
         int n = str.length();
         int m = ptr.length();
