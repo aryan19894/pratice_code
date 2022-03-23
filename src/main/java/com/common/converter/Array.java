@@ -55,6 +55,14 @@ public class Array {
         return ref;
     }
 
+    public static ArrayList<String> toList(String[] nums) {
+        ArrayList<String> ref = new ArrayList<>();
+        for (String num : nums) {
+            ref.add(num);
+        }
+        return ref;
+    }
+
     public static Integer[] toInteger(String[] input) {
         Integer[] ref = new Integer[input.length];
         int i = 0;
