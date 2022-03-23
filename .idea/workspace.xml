@@ -5,16 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/PlatformCodeGenerator.jar" beforeDir="false" />
+r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/DuplicateSubtreeInBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/EggDroppingPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/FindLargestWordInDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/FindLargestWordInDictionaryTrie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/NumberOfSubsetsAndMean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/PrintWordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnStock/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/revise/striver/DSAExperience/T1Array/SortColors_medium_75.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-03-2022_08_10_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-03-2022_08_10_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/converter/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/converter/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/InterleavedStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/InterleavedStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/PrintLongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/PrintLongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/common/converter/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/common/converter/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/InterleavedStrings$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/InterleavedStrings$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/InterleavedStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/InterleavedStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/DistinctSubsequencesCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/DistinctSubsequences_hard_115$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/DistinctSubsequences_hard_115.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/EditDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/LongestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/LongestCommonSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/LongestPalindromicSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/MakeStringPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/MinimumInsertionsDeletionsToConvertStringAToStringB_CanYouMake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/MinimumInsertionsToMakeStringPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/PrintLongestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/ShortestCommonSupersequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/WildcardPatternMatching.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -24,21 +59,53 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="26Dm6UBfHxfbw0uBEW771Ow63Gm" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ConvertToClassName">
-    <configuration name="CoinChange1_MinimumElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.OneD_OnSubsequence.CoinChange1_MinimumElements" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testcase" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\DSA\Platform\testcase" />
+      <recent name="E:\code\DSA\Platform" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gfg.companywise.google" />
+      <recent name="com.striver.DSAExperience.T14DP" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NumberOfSubsetsAndMean">
+    <configuration name="DuplicateSubtreeInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.google.DuplicateSubtreeInBinaryTree" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.OneD_Basic.*" />
+          <option name="PATTERN" value="com.gfg.companywise.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -46,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange2_WaysToMakeCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.OneD_OnSubsequence.CoinChange2_WaysToMakeCoinChange" />
+    <configuration name="FindLargestWordInDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.google.FindLargestWordInDictionary" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.OneD_Basic.*" />
+          <option name="PATTERN" value="com.gfg.companywise.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertToClassName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bot.ConvertToClassName" />
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS.LongestCommonSubsequence" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bot.*" />
+          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RodCuttingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.OneD_OnSubsequence.RodCuttingProblem" />
+    <configuration name="NumberOfSubsetsAndMean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.google.NumberOfSubsetsAndMean" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.OneD_Basic.*" />
+          <option name="PATTERN" value="com.gfg.companywise.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnboundedKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.OneD_OnSubsequence.UnboundedKnapsack" />
+    <configuration name="PrintLongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS.PrintLongestCommonSubsequence" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.OneD_Basic.*" />
+          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,15 +167,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UnboundedKnapsack" />
-        <item itemvalue="Application.RodCuttingProblem" />
-        <item itemvalue="Application.ConvertToClassName" />
-        <item itemvalue="Application.CoinChange2_WaysToMakeCoinChange" />
-        <item itemvalue="Application.CoinChange1_MinimumElements" />
+        <item itemvalue="Application.NumberOfSubsetsAndMean" />
+        <item itemvalue="Application.FindLargestWordInDictionary" />
+        <item itemvalue="Application.LongestCommonSubsequence" />
+        <item itemvalue="Application.PrintLongestCommonSubsequence" />
+        <item itemvalue="Application.DuplicateSubtreeInBinaryTree" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="" />
+      <created>1646966361321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646966361321</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +197,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -211,7 +289,67 @@
           <line>38</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/LongestCommonSubsequence.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/oa/mithun/Solution.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/MinimumInsertionsDeletionsToConvertStringAToStringB_CanYouMake.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/ShortestCommonSupersequence.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/MakeStringPalindrome.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/MakeStringPalindrome.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/StringMatching/EditDistance.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnStock/BestTimeToBuyAndSellStock.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/revise/striver/DSAExperience/T1Array/SortColors_medium_75.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/EggDroppingPuzzle.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/PrintLongestCommonSubsequence.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="larger.compareTo(lcs)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
