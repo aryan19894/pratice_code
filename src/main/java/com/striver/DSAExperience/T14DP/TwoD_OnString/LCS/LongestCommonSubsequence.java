@@ -70,8 +70,8 @@ public class LongestCommonSubsequence {
     }
 
     public static void main(String[] args) {
-        String s = "abcdb";
-        String t = "bcacdhb";
+        String s = "abpcplea";
+        String t = "ale";
         int n = 0;
         int m = 0;
         Out.print(lcs(s, t));

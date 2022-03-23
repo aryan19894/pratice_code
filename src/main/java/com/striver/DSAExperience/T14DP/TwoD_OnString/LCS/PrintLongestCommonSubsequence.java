@@ -35,8 +35,8 @@ public class PrintLongestCommonSubsequence {
     }
 
     public static void main(String[] args) {
-        String s = "brute";
-        String t = "groot";
+        String s = "abpcplea";
+        String t = "ale";
         int n = 0;
         int m = 0;
         Out.print(lcs(s, t));
