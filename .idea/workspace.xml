@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/DuplicateSubtreeInBinaryTree.java" afterDir="false" />
+r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/DuplicateSubtreeInBinaryTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/EggDroppingPuzzle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/FindLargestWordInDictionary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/FindLargestWordInDictionaryTrie.java" afterDir="false" />
