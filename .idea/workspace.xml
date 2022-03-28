@@ -5,39 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/DuplicateSubtreeInBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/EggDroppingPuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/FindLargestWordInDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/FindLargestWordInDictionaryTrie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/NumberOfSubsetsAndMean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/PrintWordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/WordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnStock/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/revise/striver/DSAExperience/T1Array/SortColors_medium_75.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-03-2022_08_10_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-03-2022_08_10_AM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/AddTwoNumbersByLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/ConvertBinaryTreeToDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/KLargestElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/ReverseALinkedListInGroupsOfGivenSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/SpecialStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/StockSpanProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/converter/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/converter/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/InterleavedStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/google/InterleavedStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/PrintLongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/PrintLongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/converter/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/common/converter/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/InterleavedStrings$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/InterleavedStrings$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/InterleavedStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/InterleavedStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/DistinctSubsequencesCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/DistinctSubsequences_hard_115$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/DistinctSubsequences_hard_115.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/EditDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/LongestCommonSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/LongestCommonSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/LongestPalindromicSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/MakeStringPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/MinimumInsertionsDeletionsToConvertStringAToStringB_CanYouMake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/MinimumInsertionsToMakeStringPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/PrintLongestCommonSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/OneD_OnString/LCS/ShortestCommonSupersequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/WildcardPatternMatching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T9StackQueue/NextGreaterElementII_medium_503.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T9StackQueue/NextGreaterElementII_medium_503.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/NumberOfSubsetsAndMean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfg/companywise/google/NumberOfSubsetsAndMean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T14DP/BestTimeToBuyAndSellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T9StackQueue/NextGreaterElementII_medium_503$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T9StackQueue/NextGreaterElementII_medium_503$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T9StackQueue/NextGreaterElementII_medium_503.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T9StackQueue/NextGreaterElementII_medium_503.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,13 +80,13 @@ r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/googl
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfSubsetsAndMean">
-    <configuration name="DuplicateSubtreeInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.google.DuplicateSubtreeInBinaryTree" />
+  <component name="RunManager" selected="Application.ReverseALinkedListInGroupsOfGivenSize">
+    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.amazon.EditDistance" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gfg.companywise.google.*" />
+          <option name="PATTERN" value="com.gfg.companywise.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +94,12 @@ r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/googl
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLargestWordInDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.google.FindLargestWordInDictionary" />
+    <configuration name="MaximumOfAllSubarraysOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.amazon.MaximumOfAllSubarraysOfSizeK" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gfg.companywise.google.*" />
+          <option name="PATTERN" value="com.gfg.companywise.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +107,12 @@ r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/googl
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS.LongestCommonSubsequence" />
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.amazon.NextGreaterElement" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS.*" />
+          <option name="PATTERN" value="com.gfg.companywise.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +120,12 @@ r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/googl
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfSubsetsAndMean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.google.NumberOfSubsetsAndMean" />
+    <configuration name="NextGreaterElementII_medium_503" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T9StackQueue.NextGreaterElementII_medium_503" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gfg.companywise.google.*" />
+          <option name="PATTERN" value="com.striver.DSAExperience.T9StackQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +133,12 @@ r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/googl
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintLongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS.PrintLongestCommonSubsequence" />
+    <configuration name="ReverseALinkedListInGroupsOfGivenSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.amazon.ReverseALinkedListInGroupsOfGivenSize" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS.*" />
+          <option name="PATTERN" value="com.gfg.companywise.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +148,11 @@ r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/googl
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberOfSubsetsAndMean" />
-        <item itemvalue="Application.FindLargestWordInDictionary" />
-        <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.PrintLongestCommonSubsequence" />
-        <item itemvalue="Application.DuplicateSubtreeInBinaryTree" />
+        <item itemvalue="Application.ReverseALinkedListInGroupsOfGivenSize" />
+        <item itemvalue="Application.MaximumOfAllSubarraysOfSizeK" />
+        <item itemvalue="Application.EditDistance" />
+        <item itemvalue="Application.NextGreaterElementII_medium_503" />
+        <item itemvalue="Application.NextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
@@ -343,6 +324,36 @@ r       <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/googl
           <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T14DP/TwoD_OnString/LCS/PrintLongestCommonSubsequence.java</url>
           <line>25</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/AddTwoNumbersByLinkedLists.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/AddTwoNumbersByLinkedLists.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/StockSpanProblem.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/NextGreaterElement.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/MaximumOfAllSubarraysOfSizeK.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/ReverseALinkedListInGroupsOfGivenSize.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
