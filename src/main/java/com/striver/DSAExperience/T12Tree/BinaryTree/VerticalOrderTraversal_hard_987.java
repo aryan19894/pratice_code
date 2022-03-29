@@ -1,9 +1,15 @@
 package com.striver.DSAExperience.T12Tree.BinaryTree;
 
 import com.common.Out;
+import com.gfg.companywise.amazon.VerticalTraversalOfBinaryTree;
+import com.striver.DSAExperience.T12Tree.common.Node;
 import com.striver.DSAExperience.T12Tree.common.TreeNode;
 import com.striver.DSAExperience.T12Tree.common.TreeTuple;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 
 
@@ -48,17 +54,32 @@ public class VerticalOrderTraversal_hard_987 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Solution sol = new Solution();
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.left.left = new TreeNode(4);
-        root.left.right = new TreeNode(10);
-        root.left.left.right = new TreeNode(5);
-        root.left.left.right.right = new TreeNode(6);
-        root.right = new TreeNode(3);
-        root.right.left = new TreeNode(9);
-        root.right.right = new TreeNode(10);
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.left.left = new TreeNode(4);
+//        root.left.right = new TreeNode(10);
+//        root.left.left.right = new TreeNode(5);
+//        root.left.left.right.right = new TreeNode(6);
+//        root.right = new TreeNode(3);
+//        root.right.left = new TreeNode(9);
+//        root.right.right = new TreeNode(10);
+
+        TreeNode root = TreeNode.toTree(readFile());
         Out.print(sol.verticalTraversal(root));
+    }
+
+    private static String readFile() throws IOException {
+        File file = new File(
+                "E:\\code\\DSA\\Platform\\testcase\\fileInput.txt");
+
+        BufferedReader br
+                = new BufferedReader(new FileReader(file));
+
+        String res = "", line = "";
+        while ((line = br.readLine()) != null)
+            res += line;
+        return res;
     }
 }
