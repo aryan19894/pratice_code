@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/BooleanParenthesization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/CheckForBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/FindTheNumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/LargestNumberFormedFromAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/RemoveLoopInLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/BestTimeToBuyAndSellStock_easy_121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ContainerWithMostWater_medium_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ContainsDuplicate_easy_217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/FindMinimumInRotatedSortedArray_medium_153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/MaximumSubarray_easy_53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ProductOfArrayExceptSelf_medium_238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/SearchInRotatedSortedArray_medium_33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ThreeSum_medium_15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/TwoSum_easy_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T2Binary/NumberOf1Bits_easy_191.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T2Binary/SumOfTwoIntegers_medium_371.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gfg/companywise/amazon/SmallestWindowContainingAnotherStringAllCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gfg/companywise/amazon/SmallestWindowContainingAnotherStringAllCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T4TwoPointer/Sum3_medium_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T4TwoPointer/Sum3_medium_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T4TwoPointer/Sum3_medium_15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T4TwoPointer/Sum3_medium_15.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +81,13 @@
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumDifferenceBetweenNodeAndItsAncestor">
-    <configuration name="FindTheNumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.amazon.FindTheNumberOfIslands" />
+  <component name="RunManager" selected="JAR Application.PlatformCodeGenerator.jar">
+    <configuration name="ContainerWithMostWater_medium_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T1Array.ContainerWithMostWater_medium_11" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gfg.companywise.amazon.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T1Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestNumberFormedFromAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.amazon.LargestNumberFormedFromAnArray" />
+    <configuration name="Sum3_medium_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T4TwoPointer.Sum3_medium_15" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gfg.companywise.amazon.*" />
+          <option name="PATTERN" value="com.striver.DSAExperience.T4TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumDifferenceBetweenNodeAndItsAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.amazon.MaximumDifferenceBetweenNodeAndItsAncestor" />
+    <configuration name="SumOfTwoIntegers_medium_371" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T2Binary.SumOfTwoIntegers_medium_371" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gfg.companywise.amazon.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T2Binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveLoopInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.amazon.RemoveLoopInLinkedList" />
+    <configuration name="ThreeSum_medium_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T1Array.ThreeSum_medium_15" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gfg.companywise.amazon.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T1Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,26 +134,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestWindowContainingAnotherStringAllCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.amazon.SmallestWindowContainingAnotherStringAllCharacters" />
-      <module name="Platform" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gfg.companywise.amazon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PlatformCodeGenerator.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/main/java/com/bot/PlatformCodeGenerator.jar" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaximumDifferenceBetweenNodeAndItsAncestor" />
-        <item itemvalue="Application.LargestNumberFormedFromAnArray" />
-        <item itemvalue="Application.RemoveLoopInLinkedList" />
-        <item itemvalue="Application.FindTheNumberOfIslands" />
-        <item itemvalue="Application.SmallestWindowContainingAnotherStringAllCharacters" />
+        <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
+        <item itemvalue="Application.SumOfTwoIntegers_medium_371" />
+        <item itemvalue="Application.ContainerWithMostWater_medium_11" />
+        <item itemvalue="Application.ThreeSum_medium_15" />
+        <item itemvalue="Application.Sum3_medium_15" />
       </list>
     </recent_temporary>
   </component>
@@ -372,6 +371,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/gfg/companywise/amazon/RemoveLoopInLinkedList.java</url>
           <line>24</line>
           <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/TwoSum_easy_1.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/BestTimeToBuyAndSellStock_easy_121.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ProductOfArrayExceptSelf_medium_238.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/MaximumSubarray_easy_53.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/FindMinimumInRotatedSortedArray_medium_153.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/SearchInRotatedSortedArray_medium_33.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T4TwoPointer/Sum3_medium_15.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ContainerWithMostWater_medium_11.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T2Binary/SumOfTwoIntegers_medium_371.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
