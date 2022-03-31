@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/BestTimeToBuyAndSellStock_easy_121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ContainerWithMostWater_medium_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ContainsDuplicate_easy_217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/FindMinimumInRotatedSortedArray_medium_153.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/MaximumSubarray_easy_53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ProductOfArrayExceptSelf_medium_238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/SearchInRotatedSortedArray_medium_33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/ThreeSum_medium_15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/TwoSum_easy_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T2Binary/NumberOf1Bits_easy_191.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T2Binary/SumOfTwoIntegers_medium_371.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/MaximumProductSubarray_medium_152.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T4TwoPointer/Sum3_medium_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/striver/DSAExperience/T4TwoPointer/Sum3_medium_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T4TwoPointer/Sum3_medium_15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/striver/DSAExperience/T4TwoPointer/Sum3_medium_15.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +68,7 @@
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.PlatformCodeGenerator.jar">
+  <component name="RunManager" selected="Application.MaximumProductSubarray_medium_152">
     <configuration name="ContainerWithMostWater_medium_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T1Array.ContainerWithMostWater_medium_11" />
       <module name="Platform" />
@@ -95,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum3_medium_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.striver.DSAExperience.T4TwoPointer.Sum3_medium_15" />
+    <configuration name="MaximumProductSubarray_medium_152" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T1Array.MaximumProductSubarray_medium_152" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.striver.DSAExperience.T4TwoPointer.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T1Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +100,7 @@
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.blind75.T2Binary.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T1Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumProductSubarray_medium_152" />
         <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
         <item itemvalue="Application.SumOfTwoIntegers_medium_371" />
         <item itemvalue="Application.ContainerWithMostWater_medium_11" />
         <item itemvalue="Application.ThreeSum_medium_15" />
-        <item itemvalue="Application.Sum3_medium_15" />
       </list>
     </recent_temporary>
   </component>
@@ -416,6 +403,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T2Binary/SumOfTwoIntegers_medium_371.java</url>
           <line>8</line>
           <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T1Array/MaximumProductSubarray_medium_152.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="182" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
