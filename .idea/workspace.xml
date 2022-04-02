@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/ClimbingStairs_easy_70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/CoinChange_medium_322.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/CombinationSumIv_medium_377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/LongestCommonSubsequence_medium_1143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/LongestIncreasingSubsequence_medium_300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/WordBreak_medium_139.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T2Binary/NumberOf1Bits_easy_191.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T2Binary/NumberOf1Bits_easy_191.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +74,13 @@
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseBits_easy_190">
-    <configuration name="CountingBits_easy_338" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T2Binary.CountingBits_easy_338" />
+  <component name="RunManager" selected="Application.CombinationSumIv_medium_377">
+    <configuration name="CombinationSumIv_medium_377" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.CombinationSumIv_medium_377" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.blind75.T2Binary.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T3DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumProductSubarray_medium_152" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T1Array.MaximumProductSubarray_medium_152" />
+    <configuration name="LongestCommonSubsequence_medium_1143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.LongestCommonSubsequence_medium_1143" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.blind75.T1Array.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T3DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber_easy_268" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T2Binary.MissingNumber_easy_268" />
+    <configuration name="LongestIncreasingSubsequence_medium_300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.LongestIncreasingSubsequence_medium_300" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.blind75.T2Binary.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T3DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOf1Bits_easy_191" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T2Binary.NumberOf1Bits_easy_191" />
+    <configuration name="PrintWordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.google.PrintWordBreak" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.blind75.T2Binary.*" />
+          <option name="PATTERN" value="com.gfg.companywise.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseBits_easy_190" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T2Binary.ReverseBits_easy_190" />
+    <configuration name="WordBreak_medium_139" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.WordBreak_medium_139" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.blind75.T2Binary.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T3DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseBits_easy_190" />
-        <item itemvalue="Application.MissingNumber_easy_268" />
-        <item itemvalue="Application.CountingBits_easy_338" />
-        <item itemvalue="Application.NumberOf1Bits_easy_191" />
-        <item itemvalue="Application.MaximumProductSubarray_medium_152" />
+        <item itemvalue="Application.CombinationSumIv_medium_377" />
+        <item itemvalue="Application.WordBreak_medium_139" />
+        <item itemvalue="Application.PrintWordBreak" />
+        <item itemvalue="Application.LongestCommonSubsequence_medium_1143" />
+        <item itemvalue="Application.LongestIncreasingSubsequence_medium_300" />
       </list>
     </recent_temporary>
   </component>
