@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/ClimbingStairs_easy_70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/CoinChange_medium_322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/CombinationSumIv_medium_377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/LongestCommonSubsequence_medium_1143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/LongestIncreasingSubsequence_medium_300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/WordBreak_medium_139.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/HouseRobberIi_medium_213.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/HouseRobber_medium_198.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/HouseRobber_medium_198.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/blind75/T3DP/CombinationSumIv_medium_377$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/blind75/T3DP/CombinationSumIv_medium_377$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/blind75/T3DP/CombinationSumIv_medium_377.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/blind75/T3DP/CombinationSumIv_medium_377.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,7 @@
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CombinationSumIv_medium_377">
+  <component name="RunManager" selected="Application.UniquePaths_medium_62">
     <configuration name="CombinationSumIv_medium_377" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.CombinationSumIv_medium_377" />
       <module name="Platform" />
@@ -88,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequence_medium_1143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.LongestCommonSubsequence_medium_1143" />
+    <configuration name="DecodeWays_medium_91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.DecodeWays_medium_91" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequence_medium_300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.LongestIncreasingSubsequence_medium_300" />
+    <configuration name="HouseRobberIi_medium_213" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.HouseRobberIi_medium_213" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -114,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintWordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gfg.companywise.google.PrintWordBreak" />
+    <configuration name="HouseRobber_medium_198" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.HouseRobber_medium_198" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gfg.companywise.google.*" />
+          <option name="PATTERN" value="com.leetcode.blind75.T3DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordBreak_medium_139" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.WordBreak_medium_139" />
+    <configuration name="UniquePaths_medium_62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.blind75.T3DP.UniquePaths_medium_62" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePaths_medium_62" />
+        <item itemvalue="Application.DecodeWays_medium_91" />
+        <item itemvalue="Application.HouseRobberIi_medium_213" />
+        <item itemvalue="Application.HouseRobber_medium_198" />
         <item itemvalue="Application.CombinationSumIv_medium_377" />
-        <item itemvalue="Application.WordBreak_medium_139" />
-        <item itemvalue="Application.PrintWordBreak" />
-        <item itemvalue="Application.LongestCommonSubsequence_medium_1143" />
-        <item itemvalue="Application.LongestIncreasingSubsequence_medium_300" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +421,37 @@
           <line>10</line>
           <option name="timeStamp" value="182" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/HouseRobber_medium_198.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/HouseRobberIi_medium_213.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/HouseRobberIi_medium_213.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/DecodeWays_medium_91.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/blind75/T3DP/UniquePaths_medium_62.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="(N - i + 1)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
