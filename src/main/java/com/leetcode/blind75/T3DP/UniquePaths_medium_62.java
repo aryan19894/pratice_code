@@ -31,14 +31,14 @@ public class UniquePaths_medium_62 {
             double ans = 1;
             for (int i = 1; i <= r; i++)
                 ans = ans * (N - r + i) / i;
-            return (int) ans;
+            return (int) Math.round(ans);
         }
     }
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int m = 23;
-        int n = 12;
+        int m = 53;
+        int n = 4;
         Out.print(sol.uniquePaths(m, n));
         Out.print(sol.uniquePaths2(m, n));
     }
