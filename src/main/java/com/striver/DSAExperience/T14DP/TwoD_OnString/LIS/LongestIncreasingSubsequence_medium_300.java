@@ -115,7 +115,8 @@ public class LongestIncreasingSubsequence_medium_300 {
         Solution sol = new Solution();
         //int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
         //int[] nums = {5, 4, 11, 1, 16, 8};
-        int[] nums = {1, 7, 8, 4, 5, 6, -1, 9};
+//        int[] nums = {1,1, 7, 8, 4, 5, 6, -1, 9};
+        int[] nums = {2, 2, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 7, 7, 7, 8, 9, 10};
         Out.print(sol.lengthOfLIS(nums));
         Out.print(sol.lengthOfLIS2(nums));
         Out.print(sol.lengthOfLIS3(nums));

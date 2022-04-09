@@ -42,7 +42,7 @@ public class PrintLongestIncreasingSubsequence_medium_300 {
     public static void main(String[] args) {
         Solution sol = new Solution();
         //int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
-        int[] nums = {5, 4, 11, 1, 16, 8};
+        int[] nums = {17, 3};
         sol.printLIS(nums);
     }
 }
