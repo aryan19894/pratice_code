@@ -11,6 +11,7 @@ public class toArrayOut {
             if(str.length() != 0){
                 str = str.replaceAll("\\[", "{");
                 str = str.replaceAll("]", "}");
+                str = str.replaceAll("\"", "\'");
                 System.out.println(str);
             }
         }
