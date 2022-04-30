@@ -3,7 +3,7 @@
 // Decompiler options: packimports(3) 
 // Source File Name:   Sum3_15.java
 
-package com.leetcode.facebook.medium;
+package com.leetcode.prev.facebook.medium;
 
 import java.util.*;
 

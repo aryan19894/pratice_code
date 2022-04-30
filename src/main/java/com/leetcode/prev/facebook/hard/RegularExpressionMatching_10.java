@@ -3,7 +3,7 @@
 // Decompiler options: packimports(3) 
 // Source File Name:   RegularExpressionMatching_10.java
 
-package com.leetcode.facebook.hard;
+package com.leetcode.prev.facebook.hard;
 
 
 class RegularExpressionMatching_10

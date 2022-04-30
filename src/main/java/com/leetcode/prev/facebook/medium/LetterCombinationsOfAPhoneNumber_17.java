@@ -1,27 +1,21 @@
 // Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
-// Source File Name:   PhoneNumber.java
+// Source File Name:   LetterCombinationsOfAPhoneNumber_17.java
 
-package com.leetcode.facebook.medium;
+package com.leetcode.prev.facebook.medium;
 
-import java.io.PrintStream;
 import java.util.LinkedList;
 import java.util.List;
 
-public class PhoneNumber
+class LetterCombinationsOfAPhoneNumber_17
 {
 
-    public PhoneNumber()
+    LetterCombinationsOfAPhoneNumber_17()
     {
     }
 
-    public static void main(String arg[])
-    {
-        System.out.println(letterCombinations("32"));
-    }
-
-    public static List letterCombinations(String digits)
+    public List letterCombinations(String digits)
     {
         LinkedList ans = new LinkedList();
         if(digits.isEmpty())

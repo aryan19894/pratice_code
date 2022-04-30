@@ -3,7 +3,7 @@
 // Decompiler options: packimports(3) 
 // Source File Name:   SortColors_75.java
 
-package com.leetcode.facebook.medium;
+package com.leetcode.prev.facebook.medium;
 
 
 class SortColors_75

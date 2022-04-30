@@ -3,7 +3,7 @@
 // Decompiler options: packimports(3) 
 // Source File Name:   RomanToInteger_13.java
 
-package com.leetcode.facebook.easy;
+package com.leetcode.prev.facebook.easy;
 
 
 class RomanToInteger_13

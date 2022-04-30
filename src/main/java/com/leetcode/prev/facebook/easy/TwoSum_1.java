@@ -3,7 +3,7 @@
 // Decompiler options: packimports(3) 
 // Source File Name:   TwoSum_1.java
 
-package com.leetcode.facebook.easy;
+package com.leetcode.prev.facebook.easy;
 
 
 class TwoSum_1
