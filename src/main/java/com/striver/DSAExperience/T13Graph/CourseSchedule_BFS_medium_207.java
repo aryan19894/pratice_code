@@ -49,9 +49,9 @@ public class CourseSchedule_BFS_medium_207 {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int numCourses = 5;
+        int numCourses = 2;
         //int[][] prerequisites = {{1, 4}, {2, 4}, {3, 1}, {3, 2}};
-        int[][] prerequisites = {{1, 0}, {0, 1}};
+        int[][] prerequisites = {{1, 0}};
         Out.print(sol.canFinish(numCourses, prerequisites));
     }
 }

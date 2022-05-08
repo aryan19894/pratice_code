@@ -6,6 +6,7 @@ import java.util.Stack;
 
 public class NextGreaterElementII_medium_503 {
     static class Solution {
+        // array work as circular linkedlist
         // [Optimal] TC: O(2n*K) or O(n), SC: O(n) - 2n is for looping the twice of n and
         // K is deletion from stack until greater element found
         public int[] nextGreaterElements(int[] nums) {

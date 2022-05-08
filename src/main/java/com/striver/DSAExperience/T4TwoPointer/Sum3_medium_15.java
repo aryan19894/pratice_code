@@ -110,9 +110,9 @@ public class Sum3_medium_15 {
                         Triplet t = new Triplet(nums[i], nums[left], nums[right]);
                         result.add(t);
 
-                        //Processing the duplicates of number2
+                        //Processing the duplicates of left number
                         while (left < right && nums[left] == t.at(1)) left++;
-                        //Processing the duplicates of number4
+                        //Processing the duplicates of right number
                         while (left < right && nums[right] == t.at(2)) right--;
                     }
                 }
@@ -126,7 +126,7 @@ public class Sum3_medium_15 {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int[] nums = {-1, 0, 1, 2, -1, -4};
+        int[] nums = {-1, 0, 1,1,1, 2, -1, -4};
         System.out.println(sol.threeSum1(nums));
         System.out.println(sol.threeSum2(nums));
     }

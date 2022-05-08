@@ -34,7 +34,8 @@ public class TreeNode<T> {
                 currNode.left = new TreeNode(ip[i]);
                 q.add(currNode.left);
             }
-            if (ip[++i] != null) {
+            ++i;
+            if (i < ip.length && ip[i] != null) {
                 currNode.right = new TreeNode(ip[i]);
                 q.add(currNode.right);
             }
