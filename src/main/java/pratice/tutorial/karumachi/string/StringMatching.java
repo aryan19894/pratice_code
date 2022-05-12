@@ -1,4 +1,4 @@
-package book.karumachi.string;
+package pratice.tutorial.karumachi.string;
 
 public class StringMatching {
     public static int bruteForce(String str, int n, String substr, int m) {
