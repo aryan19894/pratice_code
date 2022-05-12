@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="TestCaseRunner">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/main/java/com/bot/TestCaseRunner.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/java/bot/TestCaseRunner.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
