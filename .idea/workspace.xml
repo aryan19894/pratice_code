@@ -101,6 +101,8 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/pratice/tutorial/naveensir/Lec2Stack/exception/StackFullException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/pratice/tutorial/ravindraravula/l8/MergeSort.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/pratice/tutorial/ravindraravula/l9/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/PlatformCodeGenerator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/PlatformCodeGenerator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/TestCaseRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/TestCaseRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bot/ConvertToClassName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot/ConvertToClassName.java" afterDir="false" />
@@ -2322,7 +2324,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bot/TestCaseRunner.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
