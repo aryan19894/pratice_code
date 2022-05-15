@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/MaximumDepthOfBinaryTree_easy_104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/common/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/SerializeAndDeserializeBinaryTree_hard_297.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/SubtreeOfAnotherTree_easy_572.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/common/converter/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/common/converter/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/common/converter/Str.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/common/converter/Str.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pratice/common/converter/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/common/converter/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pratice/common/converter/Str.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/common/converter/Str.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/BinaryTreeLevelOrderTraversal_medium_102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/BinaryTreeLevelOrderTraversal_medium_102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T9Tree/BinaryTreeMaximumPathSum_hard_124$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T9Tree/BinaryTreeMaximumPathSum_hard_124$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T9Tree/BinaryTreeMaximumPathSum_hard_124.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T9Tree/BinaryTreeMaximumPathSum_hard_124.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +79,9 @@
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeMaximumPathSum_hard_124">
-    <configuration name="BinaryTreeMaximumPathSum_hard_124" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.BinaryTreeMaximumPathSum_hard_124" />
+  <component name="RunManager" selected="Application.KthSmallestElementInABst_medium_230">
+    <configuration name="ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvertBinaryTree_easy_226" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.InvertBinaryTree_easy_226" />
+    <configuration name="KthSmallestElementInABst_medium_230" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.KthSmallestElementInABst_medium_230" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumDepthOfBinaryTree_easy_104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.MaximumDepthOfBinaryTree_easy_104" />
+    <configuration name="SubtreeOfAnotherTree_easy_572" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.SubtreeOfAnotherTree_easy_572" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameTree_easy_100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.SameTree_easy_100" />
+    <configuration name="ValidateBinarySearchTree_medium_98" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.ValidateBinarySearchTree_medium_98" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -139,18 +138,18 @@
     </configuration>
     <list>
       <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
-      <item itemvalue="Application.MaximumDepthOfBinaryTree_easy_104" />
-      <item itemvalue="Application.SameTree_easy_100" />
-      <item itemvalue="Application.InvertBinaryTree_easy_226" />
-      <item itemvalue="Application.BinaryTreeMaximumPathSum_hard_124" />
+      <item itemvalue="Application.SubtreeOfAnotherTree_easy_572" />
+      <item itemvalue="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105" />
+      <item itemvalue="Application.ValidateBinarySearchTree_medium_98" />
+      <item itemvalue="Application.KthSmallestElementInABst_medium_230" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthSmallestElementInABst_medium_230" />
         <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
-        <item itemvalue="Application.BinaryTreeMaximumPathSum_hard_124" />
-        <item itemvalue="Application.InvertBinaryTree_easy_226" />
-        <item itemvalue="Application.SameTree_easy_100" />
-        <item itemvalue="Application.MaximumDepthOfBinaryTree_easy_104" />
+        <item itemvalue="Application.ValidateBinarySearchTree_medium_98" />
+        <item itemvalue="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105" />
+        <item itemvalue="Application.SubtreeOfAnotherTree_easy_572" />
       </list>
     </recent_temporary>
   </component>
@@ -629,9 +628,29 @@
           <option name="timeStamp" value="343" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pratice/common/converter/Str.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="344" />
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/BinaryTreeLevelOrderTraversal_medium_102.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/SerializeAndDeserializeBinaryTree_hard_297.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/SubtreeOfAnotherTree_easy_572.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/KthSmallestElementInABst_medium_230.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="350" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
