@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/MaximumDepthOfBinaryTree_easy_104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/common/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T8String/LongestPalindromicSubstring_medium_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T8String/LongestPalindromicSubstring_medium_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T8String/LongestPalindromicSubstring_medium_5$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T8String/LongestPalindromicSubstring_medium_5$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T8String/LongestPalindromicSubstring_medium_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T8String/LongestPalindromicSubstring_medium_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T8String/ValidAnagram_easy_242$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T8String/ValidAnagram_easy_242$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T8String/ValidAnagram_easy_242.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T8String/ValidAnagram_easy_242.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/common/converter/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/common/converter/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/common/converter/Str.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/common/converter/Str.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pratice/common/converter/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/common/converter/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pratice/common/converter/Str.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/common/converter/Str.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +80,13 @@
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromicSubstrings_medium_647">
-    <configuration name="FilterJSONApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="companyOA.hackerrank.arcessium.FilterJSONApp" />
+  <component name="RunManager" selected="Application.BinaryTreeMaximumPathSum_hard_124">
+    <configuration name="BinaryTreeMaximumPathSum_hard_124" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.BinaryTreeMaximumPathSum_hard_124" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="companyOA.hackerrank.arcessium.*" />
+          <option name="PATTERN" value="pratice.leetcode.blind75.T9Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring_medium_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T8String.LongestPalindromicSubstring_medium_5" />
+    <configuration name="InvertBinaryTree_easy_226" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.InvertBinaryTree_easy_226" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.leetcode.blind75.T8String.*" />
+          <option name="PATTERN" value="pratice.leetcode.blind75.T9Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstring_hard_76" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T8String.MinimumWindowSubstring_hard_76" />
+    <configuration name="MaximumDepthOfBinaryTree_easy_104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.MaximumDepthOfBinaryTree_easy_104" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.leetcode.blind75.T8String.*" />
+          <option name="PATTERN" value="pratice.leetcode.blind75.T9Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromicSubstrings_medium_647" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T8String.PalindromicSubstrings_medium_647" />
+    <configuration name="SameTree_easy_100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.SameTree_easy_100" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.leetcode.blind75.T8String.*" />
+          <option name="PATTERN" value="pratice.leetcode.blind75.T9Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,33 +133,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram_easy_242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T8String.ValidAnagram_easy_242" />
-      <module name="Platform" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pratice.leetcode.blind75.T8String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PlatformCodeGenerator.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/main/java/bot/PlatformCodeGenerator.jar" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.FilterJSONApp" />
-      <item itemvalue="Application.MinimumWindowSubstring_hard_76" />
-      <item itemvalue="Application.ValidAnagram_easy_242" />
-      <item itemvalue="Application.LongestPalindromicSubstring_medium_5" />
-      <item itemvalue="Application.PalindromicSubstrings_medium_647" />
+      <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
+      <item itemvalue="Application.MaximumDepthOfBinaryTree_easy_104" />
+      <item itemvalue="Application.SameTree_easy_100" />
+      <item itemvalue="Application.InvertBinaryTree_easy_226" />
+      <item itemvalue="Application.BinaryTreeMaximumPathSum_hard_124" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PalindromicSubstrings_medium_647" />
-        <item itemvalue="Application.LongestPalindromicSubstring_medium_5" />
-        <item itemvalue="Application.ValidAnagram_easy_242" />
-        <item itemvalue="Application.MinimumWindowSubstring_hard_76" />
-        <item itemvalue="Application.FilterJSONApp" />
+        <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
+        <item itemvalue="Application.BinaryTreeMaximumPathSum_hard_124" />
+        <item itemvalue="Application.InvertBinaryTree_easy_226" />
+        <item itemvalue="Application.SameTree_easy_100" />
+        <item itemvalue="Application.MaximumDepthOfBinaryTree_easy_104" />
       </list>
     </recent_temporary>
   </component>
@@ -635,6 +627,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T8String/PalindromicSubstrings_medium_647.java</url>
           <line>12</line>
           <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/common/converter/Str.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="344" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

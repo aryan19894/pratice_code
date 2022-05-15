@@ -72,7 +72,7 @@ public class Array {
                     ip.equals("-1"))
                 ref[i++] = null;
             else
-                ref[i++] = Integer.parseInt(ip);
+                ref[i++] = Integer.parseInt(ip.trim());
         }
         return ref;
     }
