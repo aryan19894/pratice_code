@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/SerializeAndDeserializeBinaryTree_hard_297.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/SubtreeOfAnotherTree_easy_572.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/BinaryTreeLevelOrderTraversal_medium_102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/BinaryTreeLevelOrderTraversal_medium_102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T9Tree/BinaryTreeMaximumPathSum_hard_124$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T9Tree/BinaryTreeMaximumPathSum_hard_124$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T9Tree/BinaryTreeMaximumPathSum_hard_124.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/blind75/T9Tree/BinaryTreeMaximumPathSum_hard_124.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/striver/DSAExperience/T12Tree/BinarySearchTree/LCAOfABinarySearchTree_easy_235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/striver/DSAExperience/T12Tree/BinarySearchTree/LCAOfABinarySearchTree_easy_235.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pratice/striver/DSAExperience/T12Tree/BinarySearchTree/LCAOfABinarySearchTree_easy_235.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pratice/striver/DSAExperience/T12Tree/BinarySearchTree/LCAOfABinarySearchTree_easy_235.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +75,9 @@
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KthSmallestElementInABst_medium_230">
-    <configuration name="ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105" />
+  <component name="RunManager" selected="Application.DesignAddAndSearchWordsDataStructure_medium_211">
+    <configuration name="DesignAddAndSearchWordsDataStructure_medium_211" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.DesignAddAndSearchWordsDataStructure_medium_211" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSmallestElementInABst_medium_230" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.KthSmallestElementInABst_medium_230" />
+    <configuration name="ImplementTriePrefixTree_medium_208" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.ImplementTriePrefixTree_medium_208" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -106,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubtreeOfAnotherTree_easy_572" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.SubtreeOfAnotherTree_easy_572" />
+    <configuration name="LCAOfABinarySearchTree_easy_235" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.striver.DSAExperience.T12Tree.BinarySearchTree.LCAOfABinarySearchTree_easy_235" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.leetcode.blind75.T9Tree.*" />
+          <option name="PATTERN" value="pratice.striver.DSAExperience.T12Tree.BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateBinarySearchTree_medium_98" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.ValidateBinarySearchTree_medium_98" />
+    <configuration name="LowestCommonAncestorOfABinarySearchTree_easy_235" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.LowestCommonAncestorOfABinarySearchTree_easy_235" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -138,18 +134,18 @@
     </configuration>
     <list>
       <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
-      <item itemvalue="Application.SubtreeOfAnotherTree_easy_572" />
-      <item itemvalue="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105" />
-      <item itemvalue="Application.ValidateBinarySearchTree_medium_98" />
-      <item itemvalue="Application.KthSmallestElementInABst_medium_230" />
+      <item itemvalue="Application.LCAOfABinarySearchTree_easy_235" />
+      <item itemvalue="Application.LowestCommonAncestorOfABinarySearchTree_easy_235" />
+      <item itemvalue="Application.ImplementTriePrefixTree_medium_208" />
+      <item itemvalue="Application.DesignAddAndSearchWordsDataStructure_medium_211" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KthSmallestElementInABst_medium_230" />
         <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
-        <item itemvalue="Application.ValidateBinarySearchTree_medium_98" />
-        <item itemvalue="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105" />
-        <item itemvalue="Application.SubtreeOfAnotherTree_easy_572" />
+        <item itemvalue="Application.DesignAddAndSearchWordsDataStructure_medium_211" />
+        <item itemvalue="Application.ImplementTriePrefixTree_medium_208" />
+        <item itemvalue="Application.LowestCommonAncestorOfABinarySearchTree_easy_235" />
+        <item itemvalue="Application.LCAOfABinarySearchTree_easy_235" />
       </list>
     </recent_temporary>
   </component>
@@ -651,6 +647,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/KthSmallestElementInABst_medium_230.java</url>
           <line>18</line>
           <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/LowestCommonAncestorOfABinarySearchTree_easy_235.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/ImplementTriePrefixTree_medium_208.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/DesignAddAndSearchWordsDataStructure_medium_211.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="354" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -35,8 +35,9 @@ public class LCAOfABinarySearchTree_easy_235 {
     public static void main(String[] args) {
         Solution sol = new Solution();
         TreeNode root = TreeNode.toTree(new Integer[]{6, 2, 8, 0, 4, 7, 9, null, null, 3, 5});
-        TreeNode p = new TreeNode(3);
-        TreeNode q = new TreeNode(11);
+        TreeNode p = new TreeNode(2);
+        TreeNode q = new TreeNode(4);
         Out.print(sol.lowestCommonAncestor(root, p, q));
+        Out.print(sol.lowestCommonAncestor2(root, p, q));
     }
 }
