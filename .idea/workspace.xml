@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T10Heap/TopKFrequentElements_medium_347.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bot/toArrayOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot/ArrayConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/WordSearchIi_hard_212.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/WordSearchIi_hard_212.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bot/toArrayOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T10Heap/MergeKSortedLists_hard_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T10Heap/MergeKSortedLists_hard_23.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.PlatformCodeGenerator.jar">
+  <component name="RunManager" selected="Application.FindMedianFromDataStream_hard_295">
     <configuration name="ArrayConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bot.ArrayConversion" />
       <module name="Platform" />
@@ -91,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesignAddAndSearchWordsDataStructure_medium_211" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.DesignAddAndSearchWordsDataStructure_medium_211" />
+    <configuration name="FindMedianFromDataStream_hard_295" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T10Heap.FindMedianFromDataStream_hard_295" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.leetcode.blind75.T9Tree.*" />
+          <option name="PATTERN" value="pratice.leetcode.blind75.T10Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementTriePrefixTree_medium_208" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.ImplementTriePrefixTree_medium_208" />
+    <configuration name="TopKFrequentElements_medium_347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T10Heap.TopKFrequentElements_medium_347" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.leetcode.blind75.T9Tree.*" />
+          <option name="PATTERN" value="pratice.leetcode.blind75.T10Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +133,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ImplementTriePrefixTree_medium_208" />
-      <item itemvalue="Application.DesignAddAndSearchWordsDataStructure_medium_211" />
-      <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
       <item itemvalue="Application.ArrayConversion" />
       <item itemvalue="Application.WordSearchIi_hard_212" />
+      <item itemvalue="Application.TopKFrequentElements_medium_347" />
+      <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
+      <item itemvalue="Application.FindMedianFromDataStream_hard_295" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMedianFromDataStream_hard_295" />
         <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
+        <item itemvalue="Application.TopKFrequentElements_medium_347" />
         <item itemvalue="Application.WordSearchIi_hard_212" />
         <item itemvalue="Application.ArrayConversion" />
-        <item itemvalue="Application.DesignAddAndSearchWordsDataStructure_medium_211" />
-        <item itemvalue="Application.ImplementTriePrefixTree_medium_208" />
       </list>
     </recent_temporary>
   </component>
@@ -674,6 +672,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/WordSearchIi_hard_212.java</url>
           <line>79</line>
           <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T10Heap/TopKFrequentElements_medium_347.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="358" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
