@@ -2,7 +2,7 @@ package bot;
 
 import java.util.Scanner;
 
-public class toArrayOut {
+public class ArrayConversion {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while (true){

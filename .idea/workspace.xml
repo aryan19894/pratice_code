@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="" />
+    <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/other/pratice/Operate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/other/pratice/Operate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/patterns/slidingWindow/MaximumSubarray_easy_53$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pratice/leetcode/patterns/slidingWindow/MaximumSubarray_easy_53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,8 +56,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bot/TestCaseRunner.jar" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/companyOA/hackerrank/arcessium" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../app/SmartFileOperation/VideoMover" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -71,13 +78,13 @@
       <recent name="com.striver.DSAExperience.T14DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumWindowSubstring_76">
-    <configuration name="ConvertToClassName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bot.ConvertToClassName" />
+  <component name="RunManager" selected="Application.Operate">
+    <configuration name="FindMedianFromDataStream_hard_295" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T10Heap.FindMedianFromDataStream_hard_295" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bot.*" />
+          <option name="PATTERN" value="pratice.leetcode.blind75.T10Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstring_76" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.prev.facebook.hard.MinimumWindowSubstring_76" />
+    <configuration name="Operate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.pratice.Operate" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.leetcode.prev.facebook.hard.*" />
+          <option name="PATTERN" value="other.pratice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextJustification_68 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.prev.facebook.hard.TextJustification_68" />
+    <configuration name="TopKFrequentElements_medium_347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T10Heap.TopKFrequentElements_medium_347" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.leetcode.prev.facebook.hard.*" />
+          <option name="PATTERN" value="pratice.leetcode.blind75.T10Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,28 +118,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlatformCodeGenerator.jar (1)" type="JarApplication" temporary="true">
+    <configuration name="WordSearchIi_hard_212" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.leetcode.blind75.T9Tree.WordSearchIi_hard_212" />
+      <module name="Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pratice.leetcode.blind75.T9Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformCodeGenerator.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/src/main/java/bot/PlatformCodeGenerator.jar" />
       <method v="2" />
     </configuration>
-    <configuration name="PlatformCodeGenerator.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/src/main/java/com/bot/PlatformCodeGenerator.jar" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Application.TextJustification_68 (1)" />
-      <item itemvalue="Application.ConvertToClassName" />
-      <item itemvalue="Application.MinimumWindowSubstring_76" />
+      <item itemvalue="Application.WordSearchIi_hard_212" />
+      <item itemvalue="Application.TopKFrequentElements_medium_347" />
+      <item itemvalue="Application.FindMedianFromDataStream_hard_295" />
+      <item itemvalue="Application.Operate" />
       <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
-      <item itemvalue="JAR Application.PlatformCodeGenerator.jar (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumWindowSubstring_76" />
-        <item itemvalue="JAR Application.PlatformCodeGenerator.jar (1)" />
-        <item itemvalue="Application.ConvertToClassName" />
-        <item itemvalue="Application.TextJustification_68 (1)" />
+        <item itemvalue="Application.Operate" />
         <item itemvalue="JAR Application.PlatformCodeGenerator.jar" />
+        <item itemvalue="Application.FindMedianFromDataStream_hard_295" />
+        <item itemvalue="Application.TopKFrequentElements_medium_347" />
+        <item itemvalue="Application.WordSearchIi_hard_212" />
       </list>
     </recent_temporary>
   </component>
@@ -601,18 +617,71 @@
           <option name="timeStamp" value="329" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/companyOA/hackerrank/arcessium/JSONUtil.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T8String/LongestPalindromicSubstring_medium_5.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T8String/PalindromicSubstrings_medium_647.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/BinaryTreeLevelOrderTraversal_medium_102.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/SerializeAndDeserializeBinaryTree_hard_297.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/SubtreeOfAnotherTree_easy_572.java</url>
           <line>25</line>
-          <option name="timeStamp" value="337" />
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/ConstructBinaryTreeFromPreorderAndInorderTraversal_medium_105.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/KthSmallestElementInABst_medium_230.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/LowestCommonAncestorOfABinarySearchTree_easy_235.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/ImplementTriePrefixTree_medium_208.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/DesignAddAndSearchWordsDataStructure_medium_211.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/WordSearchIi_hard_212.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T9Tree/WordSearchIi_hard_212.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/leetcode/blind75/T10Heap/TopKFrequentElements_medium_347.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="358" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="map.toString()" language="JAVA" />
-        <watch expression="field.getType().toString()" language="JAVA" />
-        <watch expression="type.toString()" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
