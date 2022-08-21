@@ -22,12 +22,12 @@ public class CoutingSort
         int min = Arrays.stream(a).min().getAsInt();
         int k = (max - min) + 1;
         int n = a.length;
-        int count[] = new int[k];
+        int count[] = new int[k+1];
         int sort[] = new int[n];
         for(int i = 0; i < n; i++)
             count[a[i]]++;
 
-        for(int i = 1; i < k; i++)
+        for(int i = 1; i <= k; i++)
             count[i] += count[i - 1];
 
         for(int i = n - 1; i > 0; i--)
@@ -43,10 +43,12 @@ public class CoutingSort
     public static void main(String args[])
     {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        int arr[] = new int[n];
-        for(int i = 0; i < n; i++)
-            arr[i] = in.nextInt();
+//        int n = in.nextInt();
+        int n = 9;
+//        int arr[] = new int[n];
+//        for(int i = 0; i < n; i++)
+//            arr[i] = in.nextInt();
+        int[] arr = {5, 1, 1, 2, 2, 2, 3, 5, 5} ;
 
         int ans[] = countingSort(arr);
         System.out.println(Arrays.toString(ans));
