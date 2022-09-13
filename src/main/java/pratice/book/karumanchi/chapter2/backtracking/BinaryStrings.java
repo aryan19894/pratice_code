@@ -1,7 +1,5 @@
 package pratice.book.karumanchi.chapter2.backtracking;
 
-import java.util.Arrays;
-
 public class BinaryStrings {
     int[] a;
 
