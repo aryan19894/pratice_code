@@ -24,10 +24,13 @@ public class ListNode {
         System.out.println();
     }
 
-    public static ListNode copy(ListNode node) {
-        if (node == null) return null;
-        ListNode newNode = new ListNode(node.val);
-        newNode.next = copy(node.next);
-        return newNode;
+    public static ListNode get(int... data) {
+        ListNode head = new ListNode(-1);
+        ListNode ref = head;
+        for (int d : data) {
+            ref.next = new ListNode(d);
+            ref = ref.next;
+        }
+        return head.next;
     }
 }
