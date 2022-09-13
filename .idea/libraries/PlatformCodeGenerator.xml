@@ -4,6 +4,8 @@
       <root url="jar://$PROJECT_DIR$/src/main/java/bot/PlatformCodeGenerator.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../app/SmartFileOperation/PlatformCodeGenerator/src" />
+    </SOURCES>
   </library>
 </component>
