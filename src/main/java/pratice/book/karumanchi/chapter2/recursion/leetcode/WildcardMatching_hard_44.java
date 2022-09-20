@@ -47,8 +47,8 @@ public class WildcardMatching_hard_44 {
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        String s = "aa";
-        String p = "*";
+        String s = "aaaa";
+        String p = "xaaa";
         Out.print(sol.isMatch(s, p));
     }
 }

@@ -18,9 +18,7 @@ public class ReverseLinkedList_easy_206 {
         Solution sol = new Solution();
         ListNode head = new ListNode(1,
                 new ListNode(2,
-                        new ListNode(3,
-                                new ListNode(4,
-                                        new ListNode(5)))));
+                        new ListNode(3)));
 
         ListNode.print(sol.reverseList(head));
     }
