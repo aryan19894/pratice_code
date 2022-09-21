@@ -70,12 +70,32 @@ public class LetterCombinationsOfAPhoneNumber_medium_17 {
             return output;
         }
 
+        public List<String> letterCombinations4(String digits) {
+            if (digits.length() == 0) return new ArrayList<>();
+            if (digits.length() == 1) return getString(digits.charAt(0));
 
+            List<String> output = new ArrayList<>();
+            find(digits, 0, new StringBuffer(), output);
+            return output;
+        }
+
+        private void find(String str, int idx, StringBuffer sb, List<String> out) {
+            if (idx == str.length()) {
+                out.add(new String(sb));
+                return;
+            }
+
+            for (String ch : getString(str.charAt(idx))) {
+                sb.append(ch);
+                find(str, idx + 1, sb, out);
+                sb.deleteCharAt(sb.length() - 1);
+            }
+        }
     }
 
     public static void main(String[] args) {
         Solution sol = new Solution();
-        String digits = "232";
-        Out.print(sol.letterCombinations(digits));
+        String digits = "23";
+        Out.print(sol.letterCombinations4(digits));
     }
 }

@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/CountSubsequenceWithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/PalindromeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/PrintName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/PrintNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/PrintOneSubsequenceWithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/PrintSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/PrintSubsequenceWithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/ReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/SumOfNNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/CombinationSumIi_medium_40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/CombinationSum_medium_39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/SubsetSums_Easy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/GenerateParentheses_medium_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/GenerateParentheses_medium_22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/LetterCombinationsOfAPhoneNumber_medium_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/LetterCombinationsOfAPhoneNumber_medium_17.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +86,13 @@
       <recent name="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountSubsequenceWithSumK">
-    <configuration name="CountSubsequenceWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.basic.CountSubsequenceWithSumK" />
+  <component name="RunManager" selected="Application.GenerateParentheses_medium_22">
+    <configuration name="GenerateParentheses_medium_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.backtracking.leetcode.GenerateParentheses_medium_22" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.basic.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.backtracking.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.basic.PalindromeString" />
+    <configuration name="LetterCombinationsOfAPhoneNumber_medium_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.backtracking.leetcode.LetterCombinationsOfAPhoneNumber_medium_17" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.basic.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.backtracking.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintOneSubsequenceWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.basic.PrintOneSubsequenceWithSumK" />
+    <configuration name="NQueens_hard_51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.NQueens_hard_51" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.basic.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.basic.PrintSubsequence" />
+    <configuration name="Permutations_medium_46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.Permutations_medium_46" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.basic.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintSubsequenceWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.basic.PrintSubsequenceWithSumK" />
+    <configuration name="SubsetsIi_medium_90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.SubsetsIi_medium_90" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.basic.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PalindromeString" />
-      <item itemvalue="Application.PrintSubsequence" />
-      <item itemvalue="Application.PrintSubsequenceWithSumK" />
-      <item itemvalue="Application.PrintOneSubsequenceWithSumK" />
-      <item itemvalue="Application.CountSubsequenceWithSumK" />
+      <item itemvalue="Application.SubsetsIi_medium_90" />
+      <item itemvalue="Application.Permutations_medium_46" />
+      <item itemvalue="Application.NQueens_hard_51" />
+      <item itemvalue="Application.LetterCombinationsOfAPhoneNumber_medium_17" />
+      <item itemvalue="Application.GenerateParentheses_medium_22" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountSubsequenceWithSumK" />
-        <item itemvalue="Application.PrintSubsequenceWithSumK" />
-        <item itemvalue="Application.PrintOneSubsequenceWithSumK" />
-        <item itemvalue="Application.PalindromeString" />
-        <item itemvalue="Application.PrintSubsequence" />
+        <item itemvalue="Application.GenerateParentheses_medium_22" />
+        <item itemvalue="Application.LetterCombinationsOfAPhoneNumber_medium_17" />
+        <item itemvalue="Application.NQueens_hard_51" />
+        <item itemvalue="Application.Permutations_medium_46" />
+        <item itemvalue="Application.SubsetsIi_medium_90" />
       </list>
     </recent_temporary>
   </component>
@@ -792,6 +787,56 @@
           <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/basic/CountSubsequenceWithSumK.java</url>
           <line>9</line>
           <option name="timeStamp" value="479" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/CombinationSum_medium_39.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/CombinationSumIi_medium_40.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="481" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/CombinationSumIi_medium_40.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="482" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/SubsetSums_Easy.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/Permutations_medium_46.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/Permutations_medium_46.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="485" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/NQueens_hard_51.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/NQueens_hard_51.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="492" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/LetterCombinationsOfAPhoneNumber_medium_17.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="493" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/GenerateParentheses_medium_22.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="494" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

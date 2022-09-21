@@ -7,28 +7,28 @@ import java.util.List;
 
 public class GenerateParentheses_medium_22 {
     static class Solution {
-        public List<String> generateParenthesis(int n) {
-            if (n == 1) {
-                List<String> output = new ArrayList<>();
-                output.add("()");
-                return output;
-            }
-            List<String> result = new ArrayList<>();
-            generate(n, n, "", result);
-            return result;
-        }
-
-        private void generate(int left, int right, String curr, List<String> result) {
-            if (left == 0 && right == 0) {
-                result.add(curr);
-                return;
-            }
-
-            if (left > 0)
-                generate(left - 1, right, curr + "(", result);
-            if (right > left)
-                generate(left, right - 1, curr + ")", result);
-        }
+//        public List<String> generateParenthesis(int n) {
+//            if (n == 1) {
+//                List<String> output = new ArrayList<>();
+//                output.add("()");
+//                return output;
+//            }
+//            List<String> result = new ArrayList<>();
+//            generate(n, n, "", result);
+//            return result;
+//        }
+//
+//        private void generate(int left, int right, String curr, List<String> result) {
+//            if (left == 0 && right == 0) {
+//                result.add(curr);
+//                return;
+//            }
+//
+//            if (left > 0)
+//                generate(left - 1, right, curr + "(", result);
+//            if (right > left)
+//                generate(left, right - 1, curr + ")", result);
+//        }
 
 //        public List<String> generateParenthesis(int n) {
 //            if (n == 1) {
@@ -45,6 +45,32 @@ public class GenerateParentheses_medium_22 {
 //            }
 //            return new ArrayList<>(result);
 //        }
+
+        public List<String> generateParenthesis(int n) {
+            List<String> output = new ArrayList<>();
+            if (n == 0) return output;
+            if (n == 1) {
+                output.add("()");
+                return output;
+            }
+            List<String> result = new ArrayList<>();
+            generate(0, 0, n, "", result);
+            return result;
+        }
+
+        private void generate(int open, int close, int n, String curr, List<String> result) {
+            if (open == n && close == n) {
+                result.add(curr);
+                return;
+            }
+
+            if (open < n)
+                generate(open + 1, close, n, curr + "(", result);
+
+            if (close < open)
+                generate(open, close + 1, n, curr + ")", result);
+        }
+
     }
 
     public static void main(String[] args) {
