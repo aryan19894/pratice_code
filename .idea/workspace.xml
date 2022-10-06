@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/CombinationSumIi_medium_40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/CombinationSum_medium_39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/SubsetSums_Easy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/SudokuSolver_hard_37.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/GenerateParentheses_medium_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/GenerateParentheses_medium_22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/LetterCombinationsOfAPhoneNumber_medium_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/LetterCombinationsOfAPhoneNumber_medium_17.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,7 @@
       <recent name="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenerateParentheses_medium_22">
+  <component name="RunManager" selected="Application.SudokuSolver_hard_37">
     <configuration name="GenerateParentheses_medium_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.backtracking.leetcode.GenerateParentheses_medium_22" />
       <module name="Platform" />
@@ -139,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsetsIi_medium_90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.SubsetsIi_medium_90" />
+    <configuration name="SudokuSolver_hard_37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.SudokuSolver_hard_37" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
@@ -153,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SubsetsIi_medium_90" />
       <item itemvalue="Application.Permutations_medium_46" />
       <item itemvalue="Application.NQueens_hard_51" />
       <item itemvalue="Application.LetterCombinationsOfAPhoneNumber_medium_17" />
       <item itemvalue="Application.GenerateParentheses_medium_22" />
+      <item itemvalue="Application.SudokuSolver_hard_37" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SudokuSolver_hard_37" />
         <item itemvalue="Application.GenerateParentheses_medium_22" />
         <item itemvalue="Application.LetterCombinationsOfAPhoneNumber_medium_17" />
         <item itemvalue="Application.NQueens_hard_51" />
         <item itemvalue="Application.Permutations_medium_46" />
-        <item itemvalue="Application.SubsetsIi_medium_90" />
       </list>
     </recent_temporary>
   </component>
