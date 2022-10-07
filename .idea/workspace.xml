@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a208dfb9-81cf-4aa2-b930-ff519ec6cd82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/striver/SudokuSolver_hard_37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/CountFullNode_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/CountHalfNode_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/CountLeafNode_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/DeletingElement_15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/FindDeepestNode_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/FindDiameter_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/FindHeight_10_11_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/FindMaxElement_1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/FindMinDepth_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/FindSize_6_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/InsertElement_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/IsTreeIdentical_19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/PrintReverseLevelOrder_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/SearchElement_3_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,23 +85,24 @@
       <recent name="E:\code\DSA\Platform" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pratice.book.karumanchi.chapter6Tree.binaryTree" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pratice.book.karumanchi.chapter6Tree.binaryTree" />
+      <recent name="pratice.book.karumanchi.chapter6Tree" />
+      <recent name="pratice.book.karumanchi.chapter6" />
       <recent name="pratice.book.karumanchi.chapter2.striver.basic" />
       <recent name="pratice.book.karumanchi.chapter2.backtracking" />
-      <recent name="pratice.tutorial.ravindraravula.sorting" />
-      <recent name="com.leetcode.blind75.T6LinkedList" />
-      <recent name="com.striver.DSAExperience.T14DP.TwoD_OnString.LCS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SudokuSolver_hard_37">
-    <configuration name="GenerateParentheses_medium_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.backtracking.leetcode.GenerateParentheses_medium_22" />
+  <component name="RunManager" selected="Application.FindDiameter_20">
+    <configuration name="CountFullNode_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter6Tree.binaryTree.CountFullNode_17" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.backtracking.leetcode.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter6Tree.binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCombinationsOfAPhoneNumber_medium_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.backtracking.leetcode.LetterCombinationsOfAPhoneNumber_medium_17" />
+    <configuration name="CountHalfNode_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter6Tree.binaryTree.CountHalfNode_18" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.backtracking.leetcode.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter6Tree.binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueens_hard_51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.NQueens_hard_51" />
+    <configuration name="CountLeafNode_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter6Tree.binaryTree.CountLeafNode_16" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter6Tree.binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutations_medium_46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.Permutations_medium_46" />
+    <configuration name="FindDiameter_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter6Tree.binaryTree.FindDiameter_20" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter6Tree.binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver_hard_37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter2.striver.SudokuSolver_hard_37" />
+    <configuration name="IsTreeIdentical_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratice.book.karumanchi.chapter6Tree.binaryTree.IsTreeIdentical_19" />
       <module name="Platform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratice.book.karumanchi.chapter2.striver.*" />
+          <option name="PATTERN" value="pratice.book.karumanchi.chapter6Tree.binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Permutations_medium_46" />
-      <item itemvalue="Application.NQueens_hard_51" />
-      <item itemvalue="Application.LetterCombinationsOfAPhoneNumber_medium_17" />
-      <item itemvalue="Application.GenerateParentheses_medium_22" />
-      <item itemvalue="Application.SudokuSolver_hard_37" />
+      <item itemvalue="Application.CountLeafNode_16" />
+      <item itemvalue="Application.CountFullNode_17" />
+      <item itemvalue="Application.CountHalfNode_18" />
+      <item itemvalue="Application.IsTreeIdentical_19" />
+      <item itemvalue="Application.FindDiameter_20" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SudokuSolver_hard_37" />
-        <item itemvalue="Application.GenerateParentheses_medium_22" />
-        <item itemvalue="Application.LetterCombinationsOfAPhoneNumber_medium_17" />
-        <item itemvalue="Application.NQueens_hard_51" />
-        <item itemvalue="Application.Permutations_medium_46" />
+        <item itemvalue="Application.FindDiameter_20" />
+        <item itemvalue="Application.IsTreeIdentical_19" />
+        <item itemvalue="Application.CountHalfNode_18" />
+        <item itemvalue="Application.CountFullNode_17" />
+        <item itemvalue="Application.CountLeafNode_16" />
       </list>
     </recent_temporary>
   </component>
@@ -832,6 +847,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter2/backtracking/leetcode/GenerateParentheses_medium_22.java</url>
           <line>61</line>
           <option name="timeStamp" value="494" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/FindMaxElement_1_2.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/FindMaxElement_1_2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/InsertElement_5.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/FindHeight_10_11_12.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pratice/book/karumanchi/chapter6Tree/binaryTree/DeletingElement_15.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="511" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
