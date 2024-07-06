@@ -1,7 +1,8 @@
 /testcase/
-/.idea/shelf/
-/.idea/shelf/
 /.idea/
 /target/
 /.idea/
+/test/
 *.class
+*.ico
+desktop.ini
