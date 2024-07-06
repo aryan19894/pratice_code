@@ -1,3 +1,7 @@
 /testcase/
 /.idea/shelf/
 /.idea/shelf/
+/.idea/
+/target/
+/.idea/
+*.class
