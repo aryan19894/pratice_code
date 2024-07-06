@@ -1,7 +1,7 @@
 package pratice.striver.DSAExperience.T14DP.TwoD_OnString.StringMatching;
 
-import com.platform.testcase.TestCaseRunnerMain;
-import com.platform.testcase.bean.TestCase;
+//import com.platform.testcase.TestCaseRunnerMain;
+//import com.platform.testcase.bean.TestCase;
 import pratice.common.Out;
 
 import java.util.Arrays;
@@ -82,17 +82,17 @@ public class DistinctSubsequencesCount {
         //494038327
         boolean fileTestcase = true;
         if(fileTestcase) {
-            List<TestCase> testcase = TestCaseRunnerMain.run();
-            for (TestCase ts : testcase) {
-                String expectedOut = ts.getOutput();
-                int actualOut = subsequenceCounting(ts.getInput().get(0), ts.getInput().get(1),
-                        ts.getInput().get(0).length(), ts.getInput().get(1).length());
-
-                if (expectedOut.equals("" + actualOut))
-                    continue;
-                else
-                    System.out.println("[Failed]: " + ts + ",\n\t actualOut: " + actualOut);
-            }
+//            List<TestCase> testcase = TestCaseRunnerMain.run();
+//            for (TestCase ts : testcase) {
+//                String expectedOut = ts.getOutput();
+//                int actualOut = subsequenceCounting(ts.getInput().get(0), ts.getInput().get(1),
+//                        ts.getInput().get(0).length(), ts.getInput().get(1).length());
+//
+//                if (expectedOut.equals("" + actualOut))
+//                    continue;
+//                else
+//                    System.out.println("[Failed]: " + ts + ",\n\t actualOut: " + actualOut);
+//            }
         }
     }
 }

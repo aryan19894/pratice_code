@@ -10,8 +10,5 @@
         <module name="Platform" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Platform" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
