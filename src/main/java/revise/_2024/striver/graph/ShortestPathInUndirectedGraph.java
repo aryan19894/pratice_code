@@ -1,6 +1,6 @@
 package revise._2024.striver.graph;
 
-import pratice.common.Out;
+import common.Out;
 
 import java.util.*;
 

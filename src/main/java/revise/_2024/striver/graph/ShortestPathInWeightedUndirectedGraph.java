@@ -1,7 +1,7 @@
 package revise._2024.striver.graph;
 
 import org.jetbrains.annotations.NotNull;
-import pratice.common.Out;
+import common.Out;
 
 import java.util.*;
 
