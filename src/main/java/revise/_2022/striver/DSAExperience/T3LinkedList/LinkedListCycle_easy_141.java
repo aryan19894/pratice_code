@@ -1,6 +1,6 @@
 package revise._2022.striver.DSAExperience.T3LinkedList;
 
-import pratice.common.Out;
+import common.Out;
 
 import java.util.HashSet;
 import java.util.Set;
