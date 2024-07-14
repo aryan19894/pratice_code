@@ -4,3 +4,5 @@
 /test/
 *.ico
 *.ini
+*.class
+/desktop.ini
