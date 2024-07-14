@@ -7,8 +7,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class CourseSchedule_207Medium {
-    static boolean canFinish(int N, int[][] prerequisites) {
+public class PrerequisiteTasks {
+    static boolean isPossible(int N, int P, int[][] prerequisites) {
         List<List<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < N; i++)
             adj.add(new ArrayList<>());
@@ -45,6 +45,6 @@ public class CourseSchedule_207Medium {
 
     public static void main(String[] args) {
         int[][] arr = {{1, 0}, {0, 1}};
-        Out.print(canFinish(2, arr));
+        Out.print(isPossible(2, 2, arr));
     }
 }

@@ -2,6 +2,5 @@
 /.idea/
 /target/
 /test/
-*.class
 *.ico
-/desktop.ini
+*.ini
