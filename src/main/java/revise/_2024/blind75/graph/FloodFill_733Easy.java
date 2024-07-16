@@ -1,4 +1,4 @@
-package revise._2024.blind75;
+package revise._2024.blind75.graph;
 
 import common.Out;
 
