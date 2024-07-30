@@ -1,2 +1,48 @@
 int[] DIR = {0, 1, 0, -1, 0};
 int[] DIR = {-1, 0, 1, 1, -1, 1, 0, -1, -1};
+int[][] edges = {{0, 1},
+                {0, 2},
+                {0, 3},
+                {1, 2},
+                {2, 3},
+                {4, 5},
+                {5, 6},
+                {7, 8},
+        };
+
+List<List<Integer>> adj = new ArrayList<>(
+        Arrays.asList(
+                new ArrayList<>(Arrays.asList(1)),
+                new ArrayList<>(Arrays.asList(2)),
+                new ArrayList<>(Arrays.asList(3)),
+                new ArrayList<>(Arrays.asList(4, 5)),
+                new ArrayList<>(Arrays.asList(6)),
+                new ArrayList<>(Arrays.asList(6)),
+                new ArrayList<>(Arrays.asList(7)),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList(1, 9)),
+                new ArrayList<>(Arrays.asList(10)),
+                new ArrayList<>(Arrays.asList(8)),
+                new ArrayList<>(Arrays.asList(9))
+        )
+);
+
+for (String[] t : temp)
+            accounts.add(Arrays.asList(t));
+
+List<List<int[]>> adj = new ArrayList<>();
+        adj.add(new ArrayList<>(
+                Arrays.asList(new int[]{1, 2}, new int[]{2, 1})
+        ));
+        adj.add(new ArrayList<>());
+        adj.add(new ArrayList<>(
+                Arrays.asList(new int[]{1, 1}, new int[]{4, 2}, new int[]{3, 2})
+        ));
+        adj.add(new ArrayList<>());
+        adj.add(new ArrayList<>(
+                Arrays.asList(new int[]{3, 1})
+        ));
+
+PriorityQueue<Map.Entry<Integer, Integer>> pq = new PriorityQueue<>(
+                (a, b) -> a.getValue() == b.getValue() ? b.getKey().compareTo(a.getKey()) : a.getValue() - b.getValue()
+        );

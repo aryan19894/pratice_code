@@ -42,23 +42,6 @@ public class EventualSafeStates {
     }
 
     public static void main(String[] args) {
-//        List<List<Integer>> adj = new ArrayList<>(
-//                Arrays.asList(
-//                        new ArrayList<>(Arrays.asList(1)),
-//                        new ArrayList<>(Arrays.asList(2)),
-//                        new ArrayList<>(Arrays.asList(3)),
-//                        new ArrayList<>(Arrays.asList(4, 5)),
-//                        new ArrayList<>(Arrays.asList(6)),
-//                        new ArrayList<>(Arrays.asList(6)),
-//                        new ArrayList<>(Arrays.asList(7)),
-//                        new ArrayList<>(Arrays.asList()),
-//                        new ArrayList<>(Arrays.asList(1, 9)),
-//                        new ArrayList<>(Arrays.asList(10)),
-//                        new ArrayList<>(Arrays.asList(8)),
-//                        new ArrayList<>(Arrays.asList(9))
-//                )
-//        );
-
         List<List<Integer>> adj = new ArrayList<>(
                 Arrays.asList(
                         new ArrayList<>(Arrays.asList(1, 2)),
