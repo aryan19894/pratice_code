@@ -1,0 +1,39 @@
+SLL:
+import revise._2024.striver.linkedlist._nodes.SLL.Node;
+import revise._2024.striver.linkedlist._nodes.SLL.LinkedListNode;
+genericType <Integer>
+import revise._2024.striver.linkedlist._nodes.SLL.generic.LinkedListNode;
+
+Node head = new Node(3, 1, 1, 1);
+
+Node result = sortLL(head);
+if (result != null)
+    result.print();
+else
+    System.out.println("null");
+
+ArrayList<Node> nodeList = new ArrayList<>(
+                Arrays.asList(
+                        new Node(12, 19, 20, 29),
+                        new Node(7, 26, 31, 33),
+                        new Node(15),
+                        new Node(9, 16, 18),
+                        new Node(5, 8, 21, 42),
+                        new Node(50),
+                        new Node(13, 17, 23, 37)
+                )
+        );
+
+DLL:
+import revise._2024.striver.linkedlist._nodes.DLL.Node;
+child node:
+import revise._2024.striver.linkedlist._nodes.DLL.child.Node;
+random
+import revise._2024.striver.linkedlist._nodes.DLL.random.Node;
+
+
+Node result = mergeKSortedLists(nodeList);
+        if (result != null)
+            result.print();
+        else
+            System.out.println("null");
