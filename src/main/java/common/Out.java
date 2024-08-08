@@ -49,7 +49,7 @@ public class Out {
         Iterator itr = a.iterator();
 
         while (itr.hasNext()) {
-            System.out.print(itr.next() + " ");
+            print(itr.next());
         }
         System.out.println();
         System.out.println("-------------");

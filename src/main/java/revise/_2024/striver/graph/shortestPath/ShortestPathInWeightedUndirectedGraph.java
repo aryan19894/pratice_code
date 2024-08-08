@@ -85,7 +85,7 @@ public class ShortestPathInWeightedUndirectedGraph {
         return result;
     }
 
-    private static List<Integer> shortestPath2(int n, int m, int[][] edges) {
+    private static List<Integer> shortestPathDijkstra(int n, int m, int[][] edges) {
         //Adjacency List of graph
         List<Pair>[] graph = new List[n + 1];
         for (int i = 1; i <= n; i++)
@@ -168,7 +168,7 @@ public class ShortestPathInWeightedUndirectedGraph {
         /* Normal Queue: Time Taken: 1.73 */
         Out.print(shortestPath(n, m, edges));
         /* Priority Queue: Time Taken: 1.42 */
-        Out.print(shortestPath2(n, m, edges));
+        Out.print(shortestPathDijkstra(n, m, edges));
     }
 
 
