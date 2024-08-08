@@ -9,69 +9,69 @@ import java.util.List;
 //E->A
 
 class Graph {
-	private final int v;
-	private final List<List<String>> adj;
+    private final int v;
+    private final List<List<String>> adj;
 
-	public Graph(int v) {
-		this.v = v;
-		adj = new ArrayList<>(v);
+    public Graph(int v) {
+        this.v = v;
+        adj = new ArrayList<>(v);
 
-		for (int i = 0; i < v; i++) {
-			adj.add(new LinkedList<>());
-		}
-	}
+        for (int i = 0; i < v; i++) {
+            adj.add(new LinkedList<>());
+        }
+    }
 
-	private void addEdge(String source, String desc) {
-		int idx = source.toCharArray()[0] - 'A';
-		adj.get(idx).add(desc);
-	}
+    public static void main(String[] args) {
+        Graph g = new Graph(7);
+        g.addEdge("A", "B");
+        g.addEdge("A", "C");
+        g.addEdge("A", "D");
+        g.addEdge("C", "E");
+        g.addEdge("C", "F");
+        g.addEdge("C", "G");
+        g.addEdge("C", "D");
+        //g.addEdge("E", "A");
 
-	private boolean isCyclic() {
-		boolean[] visited = new boolean[v];
-		boolean[] recStack = new boolean[v];
+        boolean res = g.isCyclic();
+        System.out.println(res);
+    }
 
-		for (int i = 0; i < v; i++) {
-			if (isCyclicUtil(i, visited, recStack))
-				return true;
-		}
+    private void addEdge(String source, String desc) {
+        int idx = source.toCharArray()[0] - 'A';
+        adj.get(idx).add(desc);
+    }
 
-		return false;
-	}
+    private boolean isCyclic() {
+        boolean[] visited = new boolean[v];
+        boolean[] recStack = new boolean[v];
 
-	private boolean isCyclicUtil(int i, boolean[] visited, boolean[] recStack) {
-		if (recStack[i])
-			return true;
-		if (visited[i])
-			return true;
+        for (int i = 0; i < v; i++) {
+            if (isCyclicUtil(i, visited, recStack))
+                return true;
+        }
 
-		visited[i] = true;
-		recStack[i] = true;
+        return false;
+    }
 
-		List<String> child = adj.get(i); // [B C D] -> [E F G D]
-		for (String c : child) {
-			int idx = c.toCharArray()[0] - 'A';
-			if (isCyclicUtil(idx, visited, recStack)) {
-				return true;
-			}
-		}
+    private boolean isCyclicUtil(int i, boolean[] visited, boolean[] recStack) {
+        if (recStack[i])
+            return true;
+        if (visited[i])
+            return true;
 
-		recStack[i] = false;
+        visited[i] = true;
+        recStack[i] = true;
 
-		return false;
-	}
+        List<String> child = adj.get(i); // [B C D] -> [E F G D]
+        for (String c : child) {
+            int idx = c.toCharArray()[0] - 'A';
+            if (isCyclicUtil(idx, visited, recStack)) {
+                return true;
+            }
+        }
 
-	public static void main(String[] args) {
-		Graph g = new Graph(7);
-		g.addEdge("A", "B");
-		g.addEdge("A", "C");
-		g.addEdge("A", "D");
-		g.addEdge("C", "E");
-		g.addEdge("C", "F");
-		g.addEdge("C", "G");
-		g.addEdge("C", "D");
-		//g.addEdge("E", "A");
+        recStack[i] = false;
 
-		boolean res = g.isCyclic();
-		System.out.println(res);
-	}
+        return false;
+    }
 }

@@ -2,7 +2,7 @@ package companyOA.hackerrank.servicenow.Q1DSA;
 
 import org.jetbrains.annotations.NotNull;
 
-public class Pair implements Comparable<Pair>{
+public class Pair implements Comparable<Pair> {
     int node;
     int stress;
 

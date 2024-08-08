@@ -16,7 +16,7 @@ class CustomDSOperation {
     List<Integer> n = new ArrayList<>(); // will store element 
     // keep track of index of element 
     // which is stored in list
-    Map<Integer, Integer> map = new HashMap<>(); 
+    Map<Integer, Integer> map = new HashMap<>();
     //keep tracking of visitor
     //boolean[] generated = new boolean[n.length];
 
@@ -30,10 +30,10 @@ class CustomDSOperation {
     }
 
     private boolean remove(int x) {
-        if(map.get(x) == null) 
+        if (map.get(x) == null)
             return false;
         else {
-            
+
             map.remove(x);
             n.remove(x);
 
@@ -42,7 +42,7 @@ class CustomDSOperation {
     }
 
     private int search(int x) {
-        if(map.get(x) == null) 
+        if (map.get(x) == null)
             return -1;
         else {
             return n.get(map.get(x));

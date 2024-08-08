@@ -1,17 +1,11 @@
 package companyOA.hackerrank.BNY.Mellon;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class GetAuthorArticles {
 
-	public static List<String> getArticleTitles(String author) {
-		return null;
+    public static List<String> getArticleTitles(String author) {
+        return null;
 //		String response;
 //        int startPage = 1;
 //        int totalPages = Integer.MAX_VALUE;
@@ -46,13 +40,12 @@ public class GetAuthorArticles {
 //
 //        }
 //        return titles;
-	}
+    }
 
-	
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
 
-	}
+    }
 
 }

@@ -2,8 +2,8 @@ package companyOA.hackerrank.Vitech;
 
 public class StudentsDepartmentsQuery {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
 //		SELECT
 //		    d.NAME,
 //		    COUNT(s.ID)
@@ -15,6 +15,6 @@ public class StudentsDepartmentsQuery {
 //		ORDER by
 //		    COUNT(s.ID) DESC, 
 //		    d.NAME ASC;
-	}
+    }
 
 }

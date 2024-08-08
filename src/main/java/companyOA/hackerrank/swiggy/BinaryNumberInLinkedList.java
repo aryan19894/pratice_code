@@ -1,9 +1,6 @@
 package companyOA.hackerrank.swiggy;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
+
+import java.io.*;
 import java.util.stream.IntStream;
 
 class SinglyLinkedListNode {
@@ -53,7 +50,6 @@ class SinglyLinkedListPrintHelper {
 }
 
 
-
 class Result {
 
     /*
@@ -76,11 +72,11 @@ class Result {
     public static long getNumber(SinglyLinkedListNode binary) {
         // Write your code here
         long res = 0;
-        while(binary != null) {
+        while (binary != null) {
             res = (res << 1) + binary.data;
             binary = binary.next;
         }
-        
+
         return res;
     }
 

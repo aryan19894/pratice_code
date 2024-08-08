@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class MovieTitlesJS {
 
-	static String[] getMovieTitles(String substr) {
-		return null;
+    static String[] getMovieTitles(String substr) {
+        return null;
 //		pageNum = 1;
 //	    let url = 'https://jsonmock.hackerrank.com/api/movies/search/?Title=' + substr + "&page=" + pageNum;
 //	     https.get(url, (res) => {
@@ -43,28 +43,28 @@ public class MovieTitlesJS {
 //	            }
 //	        })
 //	    })
-	}
-	
-	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-		Scanner in = new Scanner(System.in);
-	    final String fileName = System.getenv("OUTPUT_PATH");
-	    BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
-	    String[] res;
-	    String _substr;
-	    try {
-	        _substr = in.nextLine();
-	    } catch (Exception e) {
-	        _substr = null;
-	    }
+    }
 
-	    res = getMovieTitles(_substr);
-	    for (int res_i = 0; res_i < res.length; res_i++) {
-	        bw.write(String.valueOf(res[res_i]));
-	        bw.newLine();
-	    }
+    public static void main(String[] args) throws IOException {
+        // TODO Auto-generated method stub
+        Scanner in = new Scanner(System.in);
+        final String fileName = System.getenv("OUTPUT_PATH");
+        BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
+        String[] res;
+        String _substr;
+        try {
+            _substr = in.nextLine();
+        } catch (Exception e) {
+            _substr = null;
+        }
 
-	    bw.close();
-	}
+        res = getMovieTitles(_substr);
+        for (int res_i = 0; res_i < res.length; res_i++) {
+            bw.write(String.valueOf(res[res_i]));
+            bw.newLine();
+        }
+
+        bw.close();
+    }
 
 }

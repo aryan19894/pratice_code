@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import companyOA.hackerrank.arcessium.model.Person;
 import companyOA.hackerrank.arcessium.wrapper.HybridMap;
-import pratice.tutorial.durgasir.class2.P;
 
 import java.beans.PropertyDescriptor;
 import java.io.BufferedReader;
@@ -54,12 +53,12 @@ public class JSONUtil {
         GsonBuilder builder = new GsonBuilder();
         builder.setPrettyPrinting();
         Gson gson = builder.create();
-        return (Person[]) gson.fromJson(jsonResponse, Person[].class);
+        return gson.fromJson(jsonResponse, Person[].class);
     }
 
     public static HybridMap toModelMap(Person[] persons) throws Exception {
         HybridMap map = new HybridMap();
-        for(Person p: persons){
+        for (Person p : persons) {
             Class personClass = p.getClass();
             populateAttr(map, personClass, "", p, p.getId());
         }

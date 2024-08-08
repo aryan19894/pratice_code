@@ -8,7 +8,7 @@ public class HybridMap extends LinkedHashMap<String, Map<String, Integer>> {
     public void put(String key, Object subKey, int val) {
         this.putIfAbsent(key, new HashMap());
         if (subKey != null) {
-            ((Map)this.get(key)).put(subKey.toString(), val);
+            ((Map) this.get(key)).put(subKey.toString(), val);
         }
 
     }

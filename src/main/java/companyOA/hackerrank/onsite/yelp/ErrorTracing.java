@@ -43,6 +43,34 @@ class TraceNode {
 
 public class ErrorTracing {
 
+    private static final String data = "[\n" +
+            "  {\n" +
+            "    \"trace_id\": \"count.dark.allows\",\n" +
+            "    \"parent_trace_id\": null,\n" +
+            "    \"status_code\": 500\n" +
+            "  },\n" +
+            "  {\n" +
+            "    \"trace_id\": \"native.vest.funded\",\n" +
+            "    \"parent_trace_id\": \"count.dark.allows\",\n" +
+            "    \"status_code\": 500\n" +
+            "  },\n" +
+            "  {\n" +
+            "    \"trace_id\": \"makes.boss.hint\",\n" +
+            "    \"parent_trace_id\": null,\n" +
+            "    \"status_code\": 200\n" +
+            "  },\n" +
+            "  {\n" +
+            "    \"trace_id\": \"plans.itself.pine\",\n" +
+            "    \"parent_trace_id\": \"makes.boss.hint\",\n" +
+            "    \"status_code\": 200\n" +
+            "  },\n" +
+            "  {\n" +
+            "    \"trace_id\": \"plus.orange.hammer\",\n" +
+            "    \"parent_trace_id\": null,\n" +
+            "    \"status_code\": 500\n" +
+            "  }\n" +
+            "]";
+
     private static List<String> getListOfFinalTraceIds(List<Trace> traces) {
         HashMap<String, TraceNode> traceMap = new HashMap<>();
 
@@ -87,32 +115,4 @@ public class ErrorTracing {
         List<String> finalTraces = getListOfFinalTraceIds(traces);
         Out.print(finalTraces);
     }
-
-    private static final String data = "[\n" +
-            "  {\n" +
-            "    \"trace_id\": \"count.dark.allows\",\n" +
-            "    \"parent_trace_id\": null,\n" +
-            "    \"status_code\": 500\n" +
-            "  },\n" +
-            "  {\n" +
-            "    \"trace_id\": \"native.vest.funded\",\n" +
-            "    \"parent_trace_id\": \"count.dark.allows\",\n" +
-            "    \"status_code\": 500\n" +
-            "  },\n" +
-            "  {\n" +
-            "    \"trace_id\": \"makes.boss.hint\",\n" +
-            "    \"parent_trace_id\": null,\n" +
-            "    \"status_code\": 200\n" +
-            "  },\n" +
-            "  {\n" +
-            "    \"trace_id\": \"plans.itself.pine\",\n" +
-            "    \"parent_trace_id\": \"makes.boss.hint\",\n" +
-            "    \"status_code\": 200\n" +
-            "  },\n" +
-            "  {\n" +
-            "    \"trace_id\": \"plus.orange.hammer\",\n" +
-            "    \"parent_trace_id\": null,\n" +
-            "    \"status_code\": 500\n" +
-            "  }\n" +
-            "]";
 }

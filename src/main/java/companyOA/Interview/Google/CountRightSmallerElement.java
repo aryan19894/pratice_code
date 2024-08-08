@@ -3,88 +3,88 @@ package companyOA.Interview.Google;
 import java.util.ArrayList;
 
 public class CountRightSmallerElement {
-	static class Item {
+    public static ArrayList<Integer> countSmall(int[] A) {
 
-		int val;
-		int index;
+        int len = A.length;
+        Item[] items = new Item[len];
 
-		public Item(int val, int index) {
-			this.val = val;
-			this.index = index;
-		}
-	}
+        for (int i = 0; i < len; i++) {
+            items[i] = new Item(A[i], i);
+        }
 
-	public static ArrayList<Integer> countSmall(int[] A) {
+        int[] count = new int[len];
+        mergeSort(items, 0, len - 1, count);
+        ArrayList<Integer> res = new ArrayList<>();
 
-		int len = A.length;
-		Item[] items = new Item[len];
+        for (int i : count) {
+            res.add(i);
+        }
+        return res;
+    }
 
-		for (int i = 0; i < len; i++) {
-			items[i] = new Item(A[i], i);
-		}
+    private static void mergeSort(Item[] items, int low, int high, int[] count) {
 
-		int[] count = new int[len];
-		mergeSort(items, 0, len - 1, count);
-		ArrayList<Integer> res = new ArrayList<>();
+        if (low >= high) {
+            return;
+        }
 
-		for (int i : count) {
-			res.add(i);
-		}
-		return res;
-	}
+        int mid = low + (high - low) / 2;
+        mergeSort(items, low, mid, count);
+        mergeSort(items, mid + 1, high, count);
+        merge(items, low, mid, mid + 1, high, count);
+    }
 
-	private static void mergeSort(Item[] items, int low, int high, int[] count) {
+    private static void merge(Item[] items, int low, int lowEnd, int high, int highEnd, int[] count) {
+        int m = highEnd - low + 1;
+        Item[] sorted = new Item[m];
+        int rightCounter = 0;
+        int lowPtr = low, highPtr = high;
+        int index = 0;
 
-		if (low >= high) {
-			return;
-		}
+        while (lowPtr <= lowEnd && highPtr <= highEnd) {
+            if (items[lowPtr].val > items[highPtr].val) {
+                rightCounter++;
+                sorted[index++] = items[highPtr++];
+            } else {
+                count[items[lowPtr].index] += rightCounter;
+                sorted[index++] = items[lowPtr++];
+            }
+        }
 
-		int mid = low + (high - low) / 2;
-		mergeSort(items, low, mid, count);
-		mergeSort(items, mid + 1, high, count);
-		merge(items, low, mid, mid + 1, high, count);
-	}
+        while (lowPtr <= lowEnd) {
+            count[items[lowPtr].index] += rightCounter;
+            sorted[index++] = items[lowPtr++];
+        }
 
-	private static void merge(Item[] items, int low, int lowEnd, int high, int highEnd, int[] count) {
-		int m = highEnd - low + 1;
-		Item[] sorted = new Item[m];
-		int rightCounter = 0;
-		int lowPtr = low, highPtr = high;
-		int index = 0;
+        while (highPtr <= highEnd) {
+            sorted[index++] = items[highPtr++];
+        }
 
-		while (lowPtr <= lowEnd && highPtr <= highEnd) {
-			if (items[lowPtr].val > items[highPtr].val) {
-				rightCounter++;
-				sorted[index++] = items[highPtr++];
-			} else {
-				count[items[lowPtr].index] += rightCounter;
-				sorted[index++] = items[lowPtr++];
-			}
-		}
+        System.arraycopy(sorted, 0, items, low, m);
+    }
 
-		while (lowPtr <= lowEnd) {
-			count[items[lowPtr].index] += rightCounter;
-			sorted[index++] = items[lowPtr++];
-		}
+    public static void main(String[] args) {
+        int[] arr = {9, 3, 7, 4};
+        ArrayList<Integer> countList = countSmall(arr);
+        printArray(countList);
+    }
 
-		while (highPtr <= highEnd) {
-			sorted[index++] = items[highPtr++];
-		}
+    static void printArray(ArrayList<Integer> countList) {
 
-		System.arraycopy(sorted, 0, items, low, m);
-	}
+        for (Integer i : countList)
+            System.out.print(i + " ");
 
-	public static void main(String[] args) {
-		int arr[] = { 9, 3, 7, 4 };
-		ArrayList<Integer> countList = countSmall(arr);
-		printArray(countList);
-	}
+        System.out.println();
+    }
 
-	static void printArray(ArrayList<Integer> countList) {
+    static class Item {
 
-		for (Integer i : countList)
-			System.out.print(i + " ");
+        int val;
+        int index;
 
-		System.out.println("");
-	}
+        public Item(int val, int index) {
+            this.val = val;
+            this.index = index;
+        }
+    }
 }
