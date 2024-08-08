@@ -1,4 +1,4 @@
-package pratice.hackerearth.pratice.paypal;
+package companyOA.hackerearth.paypal;
 
 import java.util.Scanner;
 import java.util.Stack;
